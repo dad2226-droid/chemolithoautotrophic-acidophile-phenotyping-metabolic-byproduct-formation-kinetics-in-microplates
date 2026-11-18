@@ -1,0 +1,980 @@
+# Concentrations and OD600 use the 200 uL preparation basis.
+# Each column condition applies to biotic rows E/F/G and abiotic rows B/C/D.
+# Plate IDs identify the same physical wells across acquisitions.
+document_type: biological_experiments
+definitions_id: biological_definitions
+acquisition_registry: ../chronology/acquisitions.csv
+species_id: LF
+title: Leptospirillum ferriphilum microplate experiments
+experiments:
+  - experiment_id: LF_HH_potassium_sulfate_OD0p001
+    name: Potassium sulfate concentration series
+    medium_id: HH
+    initial_OD600_200_uL: 0.001
+    preparation_id: iron_no_dye
+    readout_id: iron
+    compounds:
+      potassium_sulfate:
+        name: potassium sulfate
+        reagent_id: potassium_sulfate
+    additive_stock_pH: 1.8
+    plate_groups:
+      - group_id: LF_HH_potassium_sulfate_OD0p001_G01
+        plate_ids: [HT2-77-A, HT3-77-A, HT4-77-A]
+        concentration_unit: uM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            potassium_sulfate: 0
+          3:
+            potassium_sulfate: 30.0
+          4:
+            potassium_sulfate: 100
+          5:
+            potassium_sulfate: 300
+          6:
+            potassium_sulfate: 1000
+          7:
+            potassium_sulfate: 3000
+          8:
+            potassium_sulfate: 10000
+          9:
+            potassium_sulfate: 30000
+          10:
+            potassium_sulfate: 100000
+          11:
+            potassium_sulfate: 300000
+  - experiment_id: LF_HH_zinc_sulfate_OD0p001
+    name: Zinc sulfate concentration series
+    medium_id: HH
+    initial_OD600_200_uL: 0.001
+    preparation_id: iron_no_dye
+    readout_id: iron
+    compounds:
+      zinc_sulfate:
+        name: zinc sulfate
+        reagent_id: zinc_sulfate
+    additive_stock_pH: 1.8
+    plate_groups:
+      - group_id: LF_HH_zinc_sulfate_OD0p001_G01
+        plate_ids: [HT2-78-A, HT3-78-A, HT4-78-A]
+        concentration_unit: uM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            zinc_sulfate: 0
+          3:
+            zinc_sulfate: 102
+          4:
+            zinc_sulfate: 305
+          5:
+            zinc_sulfate: 1020
+          6:
+            zinc_sulfate: 3050
+          7:
+            zinc_sulfate: 10200
+          8:
+            zinc_sulfate: 30500
+          9:
+            zinc_sulfate: 102000
+          10:
+            zinc_sulfate: 305000
+          11:
+            zinc_sulfate: 1020000
+  - experiment_id: LF_HH_iron_ii_sulfate_OD0p001
+    name: Iron(ii) sulfate concentration series
+    medium_id: HH
+    initial_OD600_200_uL: 0.001
+    preparation_id: iron_no_dye
+    readout_id: iron
+    compounds:
+      iron_ii_sulfate:
+        name: iron(II) sulfate
+        reagent_id: iron_ii_sulfate
+    additive_stock_pH: 1.8
+    dose_definition: Added compound above the iron already present in the medium.
+    plate_groups:
+      - group_id: LF_HH_iron_ii_sulfate_OD0p001_G01
+        plate_ids: [HT2-79-A, HT3-79-A, HT4-79-A]
+        concentration_unit: uM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            iron_ii_sulfate: 0
+          3:
+            iron_ii_sulfate: 600
+          4:
+            iron_ii_sulfate: 1800
+          5:
+            iron_ii_sulfate: 6000
+          6:
+            iron_ii_sulfate: 18000
+          7:
+            iron_ii_sulfate: 60000
+          8:
+            iron_ii_sulfate: 150000
+          9:
+            iron_ii_sulfate: 180000
+          10:
+            iron_ii_sulfate: 250000
+          11:
+            iron_ii_sulfate: 300000
+  - experiment_id: LF_HH_iron_iii_sulfate_OD0p001
+    name: Iron(iii) sulfate concentration series
+    medium_id: HH
+    initial_OD600_200_uL: 0.001
+    preparation_id: iron_no_dye
+    readout_id: iron
+    compounds:
+      iron_iii_sulfate:
+        name: iron(III) sulfate
+        reagent_id: iron_iii_sulfate
+    additive_stock_pH: 1.8
+    dose_definition: Added compound above the iron already present in the medium.
+    plate_groups:
+      - group_id: LF_HH_iron_iii_sulfate_OD0p001_G01
+        plate_ids: [HT2-80-A, HT3-80-A, HT4-80-A]
+        concentration_unit: uM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            iron_iii_sulfate: 0
+          3:
+            iron_iii_sulfate: 298
+          4:
+            iron_iii_sulfate: 994
+          5:
+            iron_iii_sulfate: 2980
+          6:
+            iron_iii_sulfate: 4970
+          7:
+            iron_iii_sulfate: 9940
+          8:
+            iron_iii_sulfate: 14900
+          9:
+            iron_iii_sulfate: 29800
+          10:
+            iron_iii_sulfate: 99400
+          11:
+            iron_iii_sulfate: 298000
+  - experiment_id: LF_HH_gallium_sulfate_OD0p001
+    name: Gallium sulfate concentration series
+    medium_id: HH
+    initial_OD600_200_uL: 0.001
+    preparation_id: iron_no_dye
+    readout_id: iron
+    compounds:
+      gallium_sulfate:
+        name: gallium sulfate
+        reagent_id: gallium_sulfate
+    additive_stock_pH: 1.8
+    plate_groups:
+      - group_id: LF_HH_gallium_sulfate_OD0p001_G01
+        plate_ids: [HT2-81-A, HT3-81-A, HT4-81-A]
+        concentration_unit: uM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            gallium_sulfate: 0
+          3:
+            gallium_sulfate: 713
+          4:
+            gallium_sulfate: 2140
+          5:
+            gallium_sulfate: 7140
+          6:
+            gallium_sulfate: 21400
+          7:
+            gallium_sulfate: 71400
+          8:
+            gallium_sulfate: 75000
+          9:
+            gallium_sulfate: 100000
+          10:
+            gallium_sulfate: 125000
+          11:
+            gallium_sulfate: 214000
+  - experiment_id: LF_HH_indium_sulfate_OD0p001
+    name: Indium sulfate concentration series
+    medium_id: HH
+    initial_OD600_200_uL: 0.001
+    preparation_id: iron_no_dye
+    readout_id: iron
+    compounds:
+      indium_sulfate:
+        name: indium sulfate
+        reagent_id: indium_sulfate
+    additive_stock_pH: 1.8
+    plate_groups:
+      - group_id: LF_HH_indium_sulfate_OD0p001_G01
+        plate_ids: [HT2-82-A, HT3-82-A, HT4-82-A]
+        concentration_unit: uM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            indium_sulfate: 0
+          3:
+            indium_sulfate: 311
+          4:
+            indium_sulfate: 1040
+          5:
+            indium_sulfate: 3110
+          6:
+            indium_sulfate: 10400
+          7:
+            indium_sulfate: 31100
+          8:
+            indium_sulfate: 69400
+          9:
+            indium_sulfate: 104000
+          10:
+            indium_sulfate: 125000
+          11:
+            indium_sulfate: 311000
+  - experiment_id: LF_HH_aluminum_sulfate_OD0p001
+    name: Aluminum sulfate concentration series
+    medium_id: HH
+    initial_OD600_200_uL: 0.001
+    preparation_id: iron_no_dye
+    readout_id: iron
+    compounds:
+      aluminum_sulfate:
+        name: aluminum sulfate
+        reagent_id: aluminum_sulfate
+    additive_stock_pH: 1.8
+    plate_groups:
+      - group_id: LF_HH_aluminum_sulfate_OD0p001_G01
+        plate_ids: [HT2-83-A, HT3-83-A, HT4-83-A]
+        concentration_unit: uM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            aluminum_sulfate: 0
+          3:
+            aluminum_sulfate: 1430
+          4:
+            aluminum_sulfate: 4760
+          5:
+            aluminum_sulfate: 14300
+          6:
+            aluminum_sulfate: 47600
+          7:
+            aluminum_sulfate: 75000
+          8:
+            aluminum_sulfate: 143000
+          9:
+            aluminum_sulfate: 100000
+          10:
+            aluminum_sulfate: 250000
+          11:
+            aluminum_sulfate: 476000
+  - experiment_id: LF_HH_cobalt_ii_sulfate_OD0p001
+    name: Cobalt(ii) sulfate concentration series
+    medium_id: HH
+    initial_OD600_200_uL: 0.001
+    preparation_id: iron_no_dye
+    readout_id: iron
+    compounds:
+      cobalt_ii_sulfate:
+        name: cobalt(II) sulfate
+        reagent_id: cobalt_ii_sulfate
+    additive_stock_pH: 1.8
+    plate_groups:
+      - group_id: LF_HH_cobalt_ii_sulfate_OD0p001_G01
+        plate_ids: [HT2-84-A, HT3-84-A, HT4-84-A]
+        concentration_unit: uM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            cobalt_ii_sulfate: 0
+          3:
+            cobalt_ii_sulfate: 1000
+          4:
+            cobalt_ii_sulfate: 3010
+          5:
+            cobalt_ii_sulfate: 10000
+          6:
+            cobalt_ii_sulfate: 30100
+          7:
+            cobalt_ii_sulfate: 50000
+          8:
+            cobalt_ii_sulfate: 100000
+          9:
+            cobalt_ii_sulfate: 200000
+          10:
+            cobalt_ii_sulfate: 301000
+          11:
+            cobalt_ii_sulfate: 1000000
+  - experiment_id: LF_HH_vanadyl_sulfate_OD0p001
+    name: Vanadyl sulfate concentration series
+    medium_id: HH
+    initial_OD600_200_uL: 0.001
+    preparation_id: iron_no_dye
+    readout_id: iron
+    compounds:
+      vanadyl_sulfate:
+        name: vanadyl sulfate
+        reagent_id: vanadyl_sulfate
+    additive_stock_pH: 1.8
+    plate_groups:
+      - group_id: LF_HH_vanadyl_sulfate_OD0p001_G01
+        plate_ids: [HT2-85-A, HT3-85-A, HT4-85-A]
+        concentration_unit: uM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            vanadyl_sulfate: 0
+          3:
+            vanadyl_sulfate: 301
+          4:
+            vanadyl_sulfate: 1000
+          5:
+            vanadyl_sulfate: 3010
+          6:
+            vanadyl_sulfate: 10000
+          7:
+            vanadyl_sulfate: 30100
+          8:
+            vanadyl_sulfate: 100000
+          9:
+            vanadyl_sulfate: 200000
+          10:
+            vanadyl_sulfate: 301000
+          11:
+            vanadyl_sulfate: 501000
+  - experiment_id: LF_HH_cerium_iii_sulfate_OD0p001
+    name: Cerium(iii) sulfate concentration series
+    medium_id: HH
+    initial_OD600_200_uL: 0.001
+    preparation_id: iron_no_dye
+    readout_id: iron
+    compounds:
+      cerium_iii_sulfate:
+        name: cerium(III) sulfate
+        reagent_id: cerium_iii_sulfate
+    additive_stock_pH: 1.8
+    plate_groups:
+      - group_id: LF_HH_cerium_iii_sulfate_OD0p001_G01
+        plate_ids: [HT2-86-A, HT3-86-A, HT4-86-A]
+        concentration_unit: uM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            cerium_iii_sulfate: 0
+          3:
+            cerium_iii_sulfate: 9.82
+          4:
+            cerium_iii_sulfate: 29.5
+          5:
+            cerium_iii_sulfate: 98.2
+          6:
+            cerium_iii_sulfate: 295
+          7:
+            cerium_iii_sulfate: 982
+          8:
+            cerium_iii_sulfate: 2950
+          9:
+            cerium_iii_sulfate: 9820
+          10:
+            cerium_iii_sulfate: 29500
+          11:
+            cerium_iii_sulfate: 68800
+  - experiment_id: LF_HH_cerium_iv_sulfate_OD0p001
+    name: Cerium(iv) sulfate concentration series
+    medium_id: HH
+    initial_OD600_200_uL: 0.001
+    preparation_id: iron_no_dye
+    readout_id: iron
+    compounds:
+      cerium_iv_sulfate:
+        name: cerium(IV) sulfate
+        reagent_id: cerium_iv_sulfate
+    additive_stock_pH: 1.8
+    plate_groups:
+      - group_id: LF_HH_cerium_iv_sulfate_OD0p001_G01
+        plate_ids: [HT2-87-A, HT3-87-A, HT4-87-A]
+        concentration_unit: uM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            cerium_iv_sulfate: 0
+          3:
+            cerium_iv_sulfate: 0.5
+          4:
+            cerium_iv_sulfate: 1.5
+          5:
+            cerium_iv_sulfate: 5.0
+          6:
+            cerium_iv_sulfate: 15.0
+          7:
+            cerium_iv_sulfate: 50.0
+          8:
+            cerium_iv_sulfate: 150
+          9:
+            cerium_iv_sulfate: 500
+          10:
+            cerium_iv_sulfate: 1500
+          11:
+            cerium_iv_sulfate: 5000
+plates:
+  HT2-77-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_ec5d01146e7a0bf3e7ba5059
+    - ACQ_2ef345d0ad3a9e41c1d6aac4
+    - ACQ_ccbaa7f9610ca208f4aace36
+    - ACQ_4f6cd705feccf5944ada53d5
+    - ACQ_0b2e829468c5902ba344b97f
+    - ACQ_6f5b848c51d2539cdddb0acb
+    - ACQ_e79dcd6b9bb7c21a4e26f1e2
+    - ACQ_405736e3da5476e88ca9da38
+    - ACQ_2278643e6188ca964221b4da
+    - ACQ_2fb47a8351494b73528aae93
+    - ACQ_7a4004ec2ccaf9dc77a8c4c2
+    - ACQ_8f492be2b3098cbe457cb373
+    - ACQ_c9c21f68d13ff8f8717ecc6f
+    - ACQ_5068c5898520d99b0abed657
+  HT2-78-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_0a35db8888c1ca6f4452afe8
+    - ACQ_031a6472c2ce1e19b8c397d7
+    - ACQ_18b4ca322b49294cf1a2e884
+    - ACQ_edca6a51f899ded1235b3eed
+    - ACQ_9cbc9c720fc8d62b0d2d8e15
+    - ACQ_94a9dba07c3ee9a40744ca01
+    - ACQ_ccf2ecb2240462aef6cdb04d
+    - ACQ_c99aafc4445f6e2dc5939643
+    - ACQ_0a8c72d4537965f73609bf7e
+    - ACQ_ffd9c20774d92960d7e925df
+    - ACQ_0b2294906df9ea96ce58c455
+    - ACQ_ef17abb50ff5358913e97d24
+    - ACQ_2c3c74311d78101c68ddfb59
+    - ACQ_d6ec490aefcd99740d15c54f
+  HT2-79-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_b20e966c70f306bf0c52b59d
+    - ACQ_4bbf672b995e2336c1ada990
+    - ACQ_dfbbeabb12c4f21a77548849
+    - ACQ_1273550897a46c7feabadbe8
+    - ACQ_2458a9b9d96903c5dcc341db
+    - ACQ_7e3ba1390132147836af97a1
+    - ACQ_a55d61ef3896d43c10b0d2e4
+    - ACQ_ec5859c74bcc0c6aa4c70dc1
+    - ACQ_a938821134770f138ef03cfc
+    - ACQ_6bf41d933d82592d022bb516
+    - ACQ_1e05878eb0f635b5f86d6b59
+    - ACQ_b22e4c9204dcaad687c53c4b
+    - ACQ_15caec2b64448b8fe0693e46
+    - ACQ_b8b2d8668fcb775a766fc549
+  HT2-80-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_cc447fcb159da6f7510c8a9b
+    - ACQ_35c89b3c8dc7326bc0826402
+    - ACQ_f6b4fd1d7901264ae037fbc4
+    - ACQ_c20fc3808ad948b448e0bc5e
+    - ACQ_c0b4e58030a6ddbb21dcac91
+    - ACQ_877f03a307cac2390d0fc26f
+    - ACQ_11aa1391bbcfacc170d4ff92
+    - ACQ_8a3102efdbd3a97f4401fde6
+    - ACQ_0217b92a5d0e15bfe717216e
+    - ACQ_8c9f88758ca0c0f948947e91
+    - ACQ_9ade6c8d7de28dbb571f68ee
+    - ACQ_80c0eb760a569fea47a5db7d
+    - ACQ_880d4e5b13927f71b9c42824
+    - ACQ_a7ca69ad6b2b754c37952899
+  HT2-81-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_aba8b82e587ecbbc856e3a49
+    - ACQ_c80815c7e1c3c3e170cfaa63
+    - ACQ_ba422c091035040f06972d8d
+    - ACQ_2611194ec5700753ebf4c183
+    - ACQ_738ab4586000e025e92b8903
+    - ACQ_530d9b0bfe98fe781f3717c0
+    - ACQ_48433acc5422eacc1fd285a1
+    - ACQ_9533bce7e375177a64bcfa42
+    - ACQ_50830d3dd86baec9c689438c
+    - ACQ_6adf5b3078a8f9ea31a2940c
+    - ACQ_7671f763a5d6e20eff7ba219
+    - ACQ_54cdb00e457d7b40c62fb7b4
+    - ACQ_206c052c8e4728a71f461da6
+    - ACQ_04b307b4b89f55841bd7cb20
+  HT2-82-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_3ed4b11fe637416282f96e83
+    - ACQ_e659abb60bbccecc9ae62bcd
+    - ACQ_78c8ec8ee8fd289e7c0fac2f
+    - ACQ_45195f243304a8e02d7615f8
+    - ACQ_d725654bc4c6c79ae4474d74
+    - ACQ_f41b25a6653247bb441410eb
+    - ACQ_956de45631f2b275c56da020
+    - ACQ_3981698eeb8051f50b06521b
+    - ACQ_0f9af2743b28033b11c998ec
+    - ACQ_5bcaf4cd680ba45ba030651c
+    - ACQ_410b9f28c5e7415e081a65de
+    - ACQ_adc04da61add288780c67813
+    - ACQ_2e52670f81fc69a497f7b0a4
+    - ACQ_817f2f12d3ec828f7c8c111e
+  HT2-83-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_9c662e8db9a2146d8133bdbe
+    - ACQ_4bd763c33dc6c38f60a6e9e9
+    - ACQ_4a82e80e37ad09a9c3d80af9
+    - ACQ_ad88fb9c0f7c3bd44aa1f454
+    - ACQ_b97ed0e585df15ababda0c65
+    - ACQ_1b904f01348e50668ae0c054
+    - ACQ_9b28a7a1ebe1503a656f0ad5
+    - ACQ_3114ad5e4cb2ac7ceb07d455
+    - ACQ_8f6df08aeed97680bd145bb7
+    - ACQ_158dd0b70bcfc0193759cb8b
+    - ACQ_fe607294fb8f5a67ad8bfb7c
+    - ACQ_1b76ad5d3db3421033b807ad
+    - ACQ_b3d56f23dba746fd4ce74f6b
+    - ACQ_dc68d72f5567799e2bb21b6e
+  HT2-84-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_1665c08471432a7ada54184b
+    - ACQ_353133bbaeee6b650a726b78
+    - ACQ_e6047b7f9c39de9e5790a178
+    - ACQ_a0f1bf10fa758a217cfda2e3
+    - ACQ_54caa5407c502385147381de
+    - ACQ_0a21b3791e65efe49259faf9
+    - ACQ_79097797a63c3101847aa082
+    - ACQ_1f82b8dff7322d9e3f98eaee
+    - ACQ_21b1748fa76f619127c4e96e
+    - ACQ_ae812f15dce0199cd6dd2a78
+    - ACQ_6adf86b9e15b2b6410928d75
+    - ACQ_f79cffd1ffe7a871042727db
+    - ACQ_42bf78a3d36cd7a1de2f89c9
+    - ACQ_5209079e0f5e427a957e6878
+  HT2-85-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_8dfaddc58912a5267d554039
+    - ACQ_431fca64d043f9e4cd34ca4f
+    - ACQ_d9eb0111c2017f8c33803f31
+    - ACQ_e1e0829cd56117e5c064848d
+    - ACQ_ca4c8bc24cb254a23e43eabd
+    - ACQ_5957eeae4695aab74ae028ac
+    - ACQ_25e8bfc1370ae5bab7a7ffb5
+    - ACQ_8806a846187164dfb19c4d38
+    - ACQ_35361a02134fe1430767d90e
+    - ACQ_e5735bd295b628c1d9219a97
+    - ACQ_117d98b667d1531e1ad2442f
+    - ACQ_186db7f6029e3f96ed7c4381
+    - ACQ_6330f4c72d51276e926c9168
+    - ACQ_ed4d0d0ba502ae33e04e6176
+  HT2-86-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_8aa3eb2362c8ef01ca81caf5
+    - ACQ_938d2feab0066e556d5a800a
+    - ACQ_439af4d3e0d0771fbf6d84d1
+    - ACQ_2d54fdd3981a7b643c2be775
+    - ACQ_a4ed5ea2a0c264f6b35725e4
+    - ACQ_bbf46bd6701139a2404ef157
+    - ACQ_a39534d59e58c9e69d0926e1
+    - ACQ_eb26afe5024696cb70b18696
+    - ACQ_834565f1f0d0800d8414475b
+    - ACQ_1e732649b5d5f9dd55afabf9
+    - ACQ_45c855b2bfd28325436e3e76
+    - ACQ_2cbeaa77e2419e17f6c56187
+    - ACQ_282447ad5b72cb1b9a67e458
+    - ACQ_741cb21ba19b68cab561b7a9
+  HT2-87-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_ae87277586e8b1d5fd4cdc61
+    - ACQ_d7d023faaa048747a2111e50
+    - ACQ_d45b8e6ef6ba1e917a23a36a
+    - ACQ_17761f6aca37725e1639d7a3
+    - ACQ_177e4ee49f63e248b288e7fa
+    - ACQ_1d18ee395106ce8eae59d089
+    - ACQ_6e1c2b74a60af8beaa79e0ca
+    - ACQ_58bb73add96cbb21a2c44d09
+    - ACQ_a2e6a46ff9ebcf9c7dc78cb8
+    - ACQ_70b932bcb210eab22ebb04f5
+    - ACQ_9a35b62426c049612d406643
+    - ACQ_fb420b04ca00b3ce895bf02d
+    - ACQ_83c7e1d33362d5cde06c6a12
+    - ACQ_63e76af3ce6eb3913f223914
+  HT3-77-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_ea93fb8c5146aedbac803cb1
+    - ACQ_1dc030b1c6ce065714846046
+    - ACQ_f34426490c881ca4f6419e62
+    - ACQ_575a8cbe1dbd05168e1b81e2
+    - ACQ_eed6064a49f864a3a2a43452
+    - ACQ_44d524944cc384d16e0a7186
+    - ACQ_14177eeefb6b230ac6ae957f
+    - ACQ_782c4de09b25814be507fc72
+    - ACQ_b08de33bea411aedaf52401b
+    - ACQ_9167ddf146413eeace1931f6
+    - ACQ_08e2369b71e91a7223b02608
+    - ACQ_94224cbf6f7669f55e47eec3
+    - ACQ_d3328a78cbb64ba5bb703296
+    - ACQ_77e0727aa67cc6b740b334c0
+  HT3-78-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_e269071dff8676875cf89ef0
+    - ACQ_11af682dcc8973f5ba0230c9
+    - ACQ_94ab57bbb8d12924952fa03e
+    - ACQ_2f4da1b96cbbb3db5c244e66
+    - ACQ_1d68f85cde18631069ed5bf9
+    - ACQ_89adb636dfd6eb89bfcee33b
+    - ACQ_1eee1baf7227ccd84e460938
+    - ACQ_72027012ab10f755d79e5468
+    - ACQ_3ad2afe49d5b8d75472f5ea9
+    - ACQ_99f09487c16412115d47b0c8
+    - ACQ_3a669ab4d7cd71194498af36
+    - ACQ_ee62cec59d97dc0efb294b04
+    - ACQ_e40de4ee6926453b9ba4dea4
+    - ACQ_ae159ce85f7b811bea911c46
+  HT3-79-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_8e85b786f905f9bebe58e3a3
+    - ACQ_93b122eff2bcb22ae1434945
+    - ACQ_37c6a93a5ba4e950fa9b147f
+    - ACQ_3baa6d748b48fa83bccfcef4
+    - ACQ_a2e6662c51917ee82fb6aa27
+    - ACQ_f8f8566212f703e9f8f1d51a
+    - ACQ_515a600bd889bbd33b1c1ef6
+    - ACQ_efccd8830d98267fb939b4d0
+    - ACQ_991b1b96c4d0bdb5d56b3abe
+    - ACQ_401865acfe32692caa1b0850
+    - ACQ_c946b5967756b5bb010e758e
+    - ACQ_015976ea5c5b44ffb80b3470
+    - ACQ_ef53e6bb7f7e15e05747dfbb
+    - ACQ_9412ab03056c6ddc93ec4dae
+  HT3-80-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_9dd08e674445696b8b268d97
+    - ACQ_bafdb3c9378ad70c57bc0c0d
+    - ACQ_c669f72574c7407203fb650f
+    - ACQ_c4fae4d34f9732dbab3f9a55
+    - ACQ_506508f730aed17c142fd3fc
+    - ACQ_68e2c0a261b6c1d611fc6243
+    - ACQ_535fd047a9e5dd9dd65a861b
+    - ACQ_1ba7b515872139953339e881
+    - ACQ_d504520647edf53991106291
+    - ACQ_c9eb442e0d3e3418b130f330
+    - ACQ_5845b2f2f338ea64db1753b2
+    - ACQ_6dc9030913dd0009428d2539
+    - ACQ_2c090079db23b4a7a99c40c2
+    - ACQ_87520071dc63e5050edb49b4
+  HT3-81-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_f84142a30e6bd04dad78869f
+    - ACQ_34b9fe9927762abb48f3785e
+    - ACQ_da7658ace4006de2b6d80be9
+    - ACQ_c5cc9ad6e5ec2569fe13f215
+    - ACQ_f2e7f746c4e98c735069044a
+    - ACQ_abb7df33210a5a24c8d933cb
+    - ACQ_7d4051e0af3836b25fca7eec
+    - ACQ_9b3af7ae95867f6283422a24
+    - ACQ_49e8164f6c792879d8d06619
+    - ACQ_9175aed2f66a4968a146583d
+    - ACQ_3f092a054fd290f0bd99eae5
+    - ACQ_e6d252c48547855c5b078f91
+    - ACQ_c80dfa94f5f8a1083a1654a0
+    - ACQ_53259f33bdb7e1253f2fd1be
+  HT3-82-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_a7f6440aa7f8dd456f3c0c48
+    - ACQ_dfd5902c838133393efeab0d
+    - ACQ_fa0e60a186b6ce20287c83d4
+    - ACQ_b2b565de10637b566343b73a
+    - ACQ_f212ecb2a1b2e8ba51fd8068
+    - ACQ_9bc45e934146e70b4689a83a
+    - ACQ_8df36b38b7c0992ea5109899
+    - ACQ_ca4cc293e6e8299db1fb7ebd
+    - ACQ_a3b6ba13c0f24b4599be4408
+    - ACQ_c591eb3f5eb5a7a50c7ac8c9
+    - ACQ_91e16be92dfc32b496e5227b
+    - ACQ_4c6505fd15c21d388765aef9
+    - ACQ_6b767a7995d55b0713fc801c
+    - ACQ_913b1ca5afda3c01d2ff0a9c
+  HT3-83-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_4343f3cec2f24500df86605c
+    - ACQ_6c8940a0282ca93f24cb5dd4
+    - ACQ_677d8788cb0d532cc1448c0e
+    - ACQ_8038bed00614af9f9d7c313d
+    - ACQ_6efea37b8346db492caf4161
+    - ACQ_fc2a00dc124561791c195674
+    - ACQ_bbdfaccacb305f9a5a87d67d
+    - ACQ_dfe8bc6c94f8ac28d968be9c
+    - ACQ_8f177c604a41f3bbef01e717
+    - ACQ_2f3b3cf87bd28d14e722e01a
+    - ACQ_98b4947c05e9c5aecf9cb2f4
+    - ACQ_c0cbbf0a24a753457fabb1bd
+    - ACQ_9329780a8607c3def1f97e92
+    - ACQ_186eb846196d0e9af16250e0
+  HT3-84-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_5d67b8b823e5b828762eda69
+    - ACQ_ac47f48662f7fb7a6173f78a
+    - ACQ_a0285ce18b72feb80169880d
+    - ACQ_dd054ba082f3c4a8cec70cf7
+    - ACQ_c9011d089a4044649ff0ac6f
+    - ACQ_081670264a0ae04b969b1826
+    - ACQ_acde2dfe44561ced3e87cd09
+    - ACQ_d7ed0d2ac260445c0818925d
+    - ACQ_bb3d1d5cab4295644152bd51
+    - ACQ_51616fc01f3d37477617cf20
+    - ACQ_33c5372c5ea70954a49f439e
+    - ACQ_03a6b008c9c117ac4d727b3f
+    - ACQ_2e1a75e259eeafb99edce5e8
+    - ACQ_c795d5e28fc899cfcfdacf98
+  HT3-85-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_2b54aeb516c47ff8354ce6e9
+    - ACQ_1d5afbb8ee287fcec2a41a9c
+    - ACQ_e7bf158bfb740726a9a04621
+    - ACQ_2cebe4eb9b2ac9f896474363
+    - ACQ_44edf68bb480ae5eecff58fd
+    - ACQ_f4f8523f64b7a2683a38a417
+    - ACQ_c96dd715b485f50f2b009b81
+    - ACQ_53c9571655b60491920dbfdd
+    - ACQ_84c53f1726b0243d834c3958
+    - ACQ_88b8a7d7002f48db831eb12e
+    - ACQ_ca286f9b0668f761bb52dd9c
+    - ACQ_d56cb72e0626a3bb0b5fc4af
+    - ACQ_b41f696c627fcc0deb63c963
+    - ACQ_aea5746de455b3bd9cd1dc63
+  HT3-86-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_695a642bca86e274e34b22d1
+    - ACQ_e6b417cd662a12bc46b9794e
+    - ACQ_a4f2c006670d31fc72873990
+    - ACQ_218ea2772a14976b5d8d3e58
+    - ACQ_c3c213b253fc22f336212373
+    - ACQ_275e083886b4e370f76610f7
+    - ACQ_574c37a878ee84c546121f8a
+    - ACQ_b6b8495044976fa092a6b284
+    - ACQ_d593bb024afcaba806aa81e0
+    - ACQ_31d4c70cc1765a98fd81c60d
+    - ACQ_1a2d0f76581ac33687f0e521
+    - ACQ_cbd34f479a2fa71dd2e29478
+    - ACQ_afda68d9e160709e85cc4d3e
+    - ACQ_26a5c73a75b8bd715de0d927
+  HT3-87-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_e591de9404c76b4fdc9d9ff9
+    - ACQ_88c560f3effe52d80d643d78
+    - ACQ_2068fac7de6318bc0b199952
+    - ACQ_9f9c711525ee3e2a39ef9a7e
+    - ACQ_eb03751a62ec34fca6eb525e
+    - ACQ_add3f8e08a37caeec6d37ba2
+    - ACQ_7950411c12a4f2bc884ca9d1
+    - ACQ_a7990b3e6b8b245edc1e0790
+    - ACQ_7e441549dbacd7624a33938a
+    - ACQ_8d2fe3d4d30eb557871b2b39
+    - ACQ_86cf13bfdc8032673afa0fcd
+    - ACQ_1c0d704aa9b32cceae0df075
+    - ACQ_11488003895421e644479a64
+    - ACQ_6e3b8c26e8cc90d85a7a7435
+  HT4-77-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_a9d5bb84e5309c102f332c77
+    - ACQ_dc4a916b7c35f0086d6b6846
+    - ACQ_4b2b68f116b275c88dc0fb4e
+    - ACQ_78ab5d251265a6b2a515636c
+    - ACQ_85da26c4a5ff8f23075473e8
+    - ACQ_b893260a59869a4e61873028
+    - ACQ_828c88f10b67757a0efc1247
+    - ACQ_53c7d222d3def628f3f94447
+    - ACQ_0375c96790d263c4ad53f285
+    - ACQ_4402ba24417bba6ada61a087
+    - ACQ_497437d360dfcbd9c5168ff7
+    - ACQ_1cb8446aa8a77191a2a01270
+    - ACQ_d2165badfbf09bc401c71d2d
+    - ACQ_d48d47649cd17d027ead60f2
+  HT4-78-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_4f4f86c43e934fcf08fa38ea
+    - ACQ_6e16cb7aa6d886ff3ec00529
+    - ACQ_feed04a3bcc19c216c4e31e3
+    - ACQ_db2847580524b88fa9a50aa9
+    - ACQ_3c0aa738ad0d6b7ff781f91c
+    - ACQ_c5546e2ec84b30e323b95ce3
+    - ACQ_f35fae73e71f6784c3c82c81
+    - ACQ_007f68b8615648ed8a68f1c8
+    - ACQ_7f04e2a3d6eecca4b66d6099
+    - ACQ_9236cb8d1d90b1a4c275f72b
+    - ACQ_da4535cf29775d598041801f
+    - ACQ_0c62670b68ffee96f8da2e67
+    - ACQ_63d8812aef6e00632b97229a
+    - ACQ_9de66df6a28b1164aba4dfc2
+  HT4-79-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_7528137b582ae9890f7335ec
+    - ACQ_84435d74bae45cc81af87121
+    - ACQ_f875eea2e077c5e6443bdc4a
+    - ACQ_2a891d9b6d6970545328d82a
+    - ACQ_6fef7d25c297313c6727abe7
+    - ACQ_a0eb5e784ec9ef205def3e34
+    - ACQ_89c95b6a2a4ee16f213fdb5b
+    - ACQ_535609c604375d3f03fbd6b6
+    - ACQ_b6802effbc58017c34966a40
+    - ACQ_5f4e63f1f414940105040c23
+    - ACQ_c56ab769a32b57f556aec5e6
+    - ACQ_a5b6b0cfdc44808ac360d6c7
+    - ACQ_562c48b7dc90bf9f3b21dbc0
+    - ACQ_50d630753a584dcd10413396
+  HT4-80-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_709a86210289bbaf3a371375
+    - ACQ_644dfad00cfd7b29bc87d296
+    - ACQ_31df29038e765658d92a62b2
+    - ACQ_dcd91d60750d166f38f2ef74
+    - ACQ_c81649a232d39cf3a540a070
+    - ACQ_79808746e40b045bafff5ade
+    - ACQ_1c8bb1ec40ecb30a7935a459
+    - ACQ_51c91619f8839933cde9a53a
+    - ACQ_8706f878ebc3ab04ac732f38
+    - ACQ_c5eb246a1a4567b666171247
+    - ACQ_bfd5695a0984eebd1a9bfe77
+    - ACQ_8f545951ab961cd474f3e610
+    - ACQ_f456537ded086eb608d938b2
+    - ACQ_512cec89a60cbb590f2db534
+  HT4-81-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_b531fd7139d37efdf761442e
+    - ACQ_5cd02a8d12cca6160e265113
+    - ACQ_71045fc55b33dc1d13a5ed30
+    - ACQ_661450495954226ed27bd157
+    - ACQ_7975407ba54a5bbe44946c96
+    - ACQ_78e245b64435c43215052241
+    - ACQ_a128b9a147a543d03a48f6a9
+    - ACQ_7f18523e24ec5db33d85bce8
+    - ACQ_f803f71ede9e3c5c246fce76
+    - ACQ_75c2ca5f72ac7aa4f46c64e9
+    - ACQ_973db5520aa06fdac74c76a9
+    - ACQ_f5a366f72a8645c4de6b0dce
+    - ACQ_98c2d792da38e20611c514a1
+    - ACQ_4d23075c6214fd5ef60c8f56
+  HT4-82-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_9ffc178fa2f67a4c6f2a5a80
+    - ACQ_99fee8904bad9640f937cb2f
+    - ACQ_d18eed72c5b2cd1675d1f356
+    - ACQ_646adf6dd7912db7826ce125
+    - ACQ_bf13ec2ac4e8fa8a94c5bbcb
+    - ACQ_d2a926dc5138757de31a1464
+    - ACQ_a65749fa7b75ff1b4d6ba4d5
+    - ACQ_b967bf489ee89fda85b7190c
+    - ACQ_1b5119ef3d9b791df5e9030a
+    - ACQ_d13f0c95ca974261b5fb4219
+    - ACQ_2cc23c5c89ad1a90e5f27c76
+    - ACQ_887edcba7797974528b5a579
+    - ACQ_86b65876ff8de60884dcd6e6
+    - ACQ_8d9a758965ec40fdc53fa637
+  HT4-83-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_c1712af2e38d782263e65d42
+    - ACQ_3125ffe4e61d113a302214de
+    - ACQ_07311efbbd4e7c0c2f409dcd
+    - ACQ_318c311979821df3d30ab68e
+    - ACQ_1850f4d8fdce5d9e8fb4b83d
+    - ACQ_d40074d9c83714f4dc3015d7
+    - ACQ_40226da0eb2fbf690312ab4b
+    - ACQ_cb7770c78ef81d6206bf9b09
+    - ACQ_b7db0c14e7d1b4f10c7c0c5c
+    - ACQ_11bd6077e06910c380e0e926
+    - ACQ_238e9cb11466b2a4deb5d160
+    - ACQ_87e96dfb500ccde94657095f
+    - ACQ_1533885692beca70dbb53c7b
+    - ACQ_54291ced9dcd208e65297775
+  HT4-84-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_3c48d6be6cdd641b02ef0363
+    - ACQ_e6d487cd767a89f97bdba2d6
+    - ACQ_3dddc823299c94ea9dfcfe9d
+    - ACQ_f00030ea9210e46e8570185e
+    - ACQ_0a9fa70fa0ad9e73808210df
+    - ACQ_f811ff0d83014a2555cb6c86
+    - ACQ_d9562f40dc9483a3cf64d1b5
+    - ACQ_2357d1258f7a872d0c9117b8
+    - ACQ_f83730af603a92d98e2b8395
+    - ACQ_c2cb55ae38b35ca64d79375b
+    - ACQ_6e34cc8e30ecdeb75449e04a
+    - ACQ_d7390edfe2215a59affaaceb
+    - ACQ_efbf94f5cb12bfcca22ec564
+    - ACQ_bcd86074ff472d64a3a2d340
+  HT4-85-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_9c55bb2816073d25bada9ac9
+    - ACQ_c77073bb0737010008a43f99
+    - ACQ_cf02641a84216e202c3590bc
+    - ACQ_2eb577ce99ae195e5846c6ca
+    - ACQ_5547b52de6b1c1aea08f6207
+    - ACQ_544150db087375a61904407c
+    - ACQ_bcfd63da9577086fc5b724e5
+    - ACQ_733c6afc4121a474889182f4
+    - ACQ_513c151e41348b257ee27d48
+    - ACQ_9b188ec637e18938c991c47a
+    - ACQ_18a7b4d38257eb80bd8f7958
+    - ACQ_ed9275f0bb2e281bcea0b3e6
+    - ACQ_da27df06a099a8143cef6526
+    - ACQ_51fe16961d77186b3a831362
+  HT4-86-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_4dcc7b7fff4cf9944da9cb9a
+    - ACQ_4f2063235d7d4e89fd249805
+    - ACQ_0c91e6b2fc4524e83007baa7
+    - ACQ_d90d85fe4cfbe98ea50ad123
+    - ACQ_654973e5780a85dcf9635e25
+    - ACQ_c6f950525566be9d10e91166
+    - ACQ_9e641a6aa1948f9e42466414
+    - ACQ_260bc5c84703a0c98dea5713
+    - ACQ_952614e079fe172eb1e33cfc
+    - ACQ_82e50cd3fe750b685496f909
+    - ACQ_2d9f4d17be25dbbb05308cec
+    - ACQ_246435345d0a12a536b5c837
+    - ACQ_cbf0cf9eba9de62bb37464bd
+    - ACQ_90887d2c23756067408fe32f
+  HT4-87-A:
+    batch_id: LF_2026-05-29
+    acquisition_ids:
+    - ACQ_0d2bfd06dfe87b62eb5ef4e8
+    - ACQ_054e3945f841262667228dbd
+    - ACQ_4ba6689efcdfd373b9a1ead4
+    - ACQ_25258b909daf3b6d67f08ba0
+    - ACQ_5ad930d30424b125d7e86a51
+    - ACQ_d9ac12bf98cfd6695f7fb579
+    - ACQ_9e1ee37fdc83d7c295109042
+    - ACQ_5ce804b0e57fbd4b0b287f76
+    - ACQ_0542768ea6a1cf0ae764bbef
+    - ACQ_c05a51e08f76b964059c6f4d
+    - ACQ_5cf965bfe846244001ec6300
+    - ACQ_e4035f812090ab9e717cc020
+    - ACQ_46db8384dc2bfffa2ffe4b76
+    - ACQ_7aca781619d7fb5e02572459

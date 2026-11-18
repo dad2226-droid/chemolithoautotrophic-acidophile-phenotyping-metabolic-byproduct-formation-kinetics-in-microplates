@@ -1,0 +1,58 @@
+# Supplementary Table S29. Agreement with flask chemistry over common observation windows
+
+Scatter correction does not consistently reduce the error between the plate and chemical trajectories scaled to their changes over the shared interval. Differences give corrected minus measured error.
+
+**Figure panels** 7b, 7e–f · [All Supplementary tables](README.md)
+
+**Column definitions**
+
+- `plate_dose` — Microplate formulation, listing each added component and its concentration in mM. Metal salts are expressed on a cation basis.
+- `flask_dose` — Shake-flask formulation, listing each added component and its nominal concentration in mM on the same chemical basis as the plate.
+- `dose_match` — Whether the reported concentrations are equal or the microplate dose is the closest available dose below or above the flask dose. Multicomponent formulations require equality for every component.
+- `candidate_context_n` — Number of distinct comparisons between a flask condition and a set of physical plates in a plate batch at this dose pair, before checking trajectory support.
+- `paired_context_n` — Number of candidate comparisons with calculable errors for both plate readouts over the same overlap with the flask trajectory.
+- `unavailable_context_n` — Number of candidate comparisons lacking a valid trajectory error for one or both plate readouts.
+- `cohort_pair_n` — Number of distinct flask-condition and plate-batch combinations contributing to the mean errors. Multiple eligible comparisons within a combination are averaged first.
+- `plate_batch_n` — Number of distinct microplate batches represented among all candidate comparisons for this dose pair.
+- `flask_batch_n` — Number of distinct shake-flask batches represented among all candidate comparisons for this dose pair.
+- `raw_error` — Time-weighted mean absolute difference between the net measured A380 trajectory and the flask Fe(II)-depletion trajectory. Each curve is centered at the overlap start and divided by its own positive change over the overlap. The dimensionless errors are averaged equally across cohort pairs.
+- `corrected_error` — The same dimensionless, time-weighted mean absolute difference using net scatter-corrected A380 (A380 − A750) and the same flask trajectory, averaged equally across the same cohort pairs.
+- `paired_error_difference` — Mean corrected error minus measured error across matched cohort pairs. A negative value means closer agreement in trajectory shape after correction.
+- `error_improved_context_percent` — Percentage of eligible paired comparisons in which corrected error is strictly lower than measured error, counting each comparison once.
+- `window_min_d` — Earliest ending day of the shared plate–flask observation window among candidate comparisons, measured from incubation start.
+- `window_max_d` — Latest ending day of the shared plate–flask observation window among candidate comparisons, measured from incubation start.
+- `status` — Identifies a descriptive trajectory comparison using reused cohorts, for which no equivalence test was performed.
+
+Blank numeric cells indicate quantities that were unavailable or inapplicable for that row.
+
+| plate&#95;<wbr>dose | flask&#95;<wbr>dose | dose&#95;<wbr>match | candidate&#95;<wbr>context&#95;<wbr>n | paired&#95;<wbr>context&#95;<wbr>n | unavailable&#95;<wbr>context&#95;<wbr>n | cohort&#95;<wbr>pair&#95;<wbr>n | plate&#95;<wbr>batch&#95;<wbr>n | flask&#95;<wbr>batch&#95;<wbr>n | raw&#95;<wbr>error | corrected&#95;<wbr>error | paired&#95;<wbr>error&#95;<wbr>difference | error&#95;<wbr>improved&#95;<wbr>context&#95;<wbr>percent | window&#95;<wbr>min&#95;<wbr>d | window&#95;<wbr>max&#95;<wbr>d | status |
+| --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Al 150 | Al 100 | nearest upper dose context | 1 | 1 | 0 | 1 | 1 | 1 | 0.05205010735011565 | 0.17439984511765613 | 0.12234973776754049 | 0.0 | 5.4666 | 5.4666 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Al 95.2 | Al 100 | nearest lower dose context | 3 | 3 | 0 | 3 | 3 | 1 | 0.1066925238044466 | 0.20036843747947822 | 0.09367591367503163 | 0.0 | 5.4666 | 5.4666 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Cu 155 | Cu 100 | nearest upper dose context | 3 | 3 | 0 | 3 | 3 | 1 | 0.09227042601215153 | 0.12240074346590694 | 0.0301303174537554 | 33.33333333333333 | 5.4899 | 5.4899 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Cu 51.5 | Cu 100 | nearest lower dose context | 3 | 3 | 0 | 3 | 3 | 1 | 0.255814643846733 | 0.3561439833799236 | 0.10032933953319056 | 0.0 | 5.4899 | 5.4899 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 0.000428 | Ga 0.001 | nearest lower dose context | 3 | 3 | 0 | 3 | 3 | 1 | 0.06690327262142982 | 0.09340746344274091 | 0.026504190821311096 | 0.0 | 3.5328 | 3.5328 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 0.001428 | Ga 0.001 | nearest upper dose context | 3 | 3 | 0 | 3 | 3 | 1 | 0.05546564857158499 | 0.07327239358657513 | 0.01780674501499014 | 33.33333333333333 | 3.5328 | 3.5328 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 0.00428 | Ga 0.01 | nearest lower dose context | 3 | 3 | 0 | 3 | 3 | 1 | 0.05968096365808684 | 0.07198102499291455 | 0.012300061334827722 | 33.33333333333333 | 3.5328 | 3.5328 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 0.01428 | Ga 0.01 | nearest upper dose context | 3 | 3 | 0 | 3 | 3 | 1 | 0.054418924461524 | 0.0628734781411408 | 0.008454553679616799 | 33.33333333333333 | 3.5328 | 3.5328 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 0.0428 | Ga 0.1 | nearest lower dose context | 3 | 3 | 0 | 3 | 3 | 1 | 0.054618383988474205 | 0.05854408972736064 | 0.003925705738886426 | 33.33333333333333 | 3.5328 | 3.5328 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 0.1428 | Ga 0.1 | nearest upper dose context | 3 | 3 | 0 | 3 | 3 | 1 | 0.05722457472706776 | 0.07384740682771763 | 0.01662283210064988 | 33.33333333333333 | 3.5328 | 3.5328 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 1 | Ga 1 | equal reported dose | 18 | 18 | 0 | 12 | 4 | 3 | 0.05541097093031309 | 0.08172934228854511 | 0.026318371358232017 | 16.666666666666664 | 3.5328 | 6.998194444444445 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 12.02 | Ga 10 | nearest upper dose context | 1 | 1 | 0 | 1 | 1 | 1 | 0.07026760942214069 | 0.1383934857204413 | 0.06812587629830061 | 0.0 | 3.5328 | 3.5328 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 120.12 | Ga 100 | nearest upper dose context | 3 | 3 | 0 | 3 | 1 | 3 | 0.0635396717201543 | 0.061453770911301116 | -0.0020859008088531827 | 100.0 | 3.5328 | 5.4899 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 1; citric acid 1 | Ga 1; citric acid 1 | equal reported dose | 3 | 3 | 0 | 3 | 3 | 1 | 0.04485896500715055 | 0.07126589661425498 | 0.026406931607104434 | 0.0 | 6.841712962962963 | 6.878344907407407 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 1; citric acid 12 | Ga 1; citric acid 12 | equal reported dose | 3 | 3 | 0 | 3 | 3 | 1 | 0.3120290778248658 | 0.3132814143732687 | 0.0012523365484028253 | 0.0 | 6.841712962962963 | 6.878344907407407 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 1; citric acid 18 | Ga 1; citric acid 18 | equal reported dose | 3 | 0 | 3 | 0 | 3 | 1 |  |  |  |  | 6.841712962962963 | 6.878344907407407 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 1; citric acid 6 | Ga 1; citric acid 6 | equal reported dose | 3 | 3 | 0 | 3 | 3 | 1 | 0.14228680320761392 | 0.1455730378958512 | 0.003286234688237281 | 0.0 | 6.841712962962963 | 6.878344907407407 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 6.04 | Ga 10 | nearest lower dose context | 1 | 1 | 0 | 1 | 1 | 1 | 0.08166167052859814 | 0.14886873331367462 | 0.06720706278507647 | 0.0 | 3.5328 | 3.5328 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| Ga 60.4 | Ga 100 | nearest lower dose context | 3 | 3 | 0 | 3 | 1 | 3 | 0.0766713336752507 | 0.13899333866183475 | 0.06232200498658408 | 0.0 | 3.5328 | 5.4899 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| NaCl 104 | NaCl 50 | nearest upper dose context | 3 | 3 | 0 | 3 | 3 | 1 | 0.36020891376256553 | 0.3605239534479004 | 0.0003150396853348984 | 33.33333333333333 | 3.7417 | 3.7417 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| NaCl 31.1 | NaCl 50 | nearest lower dose context | 3 | 3 | 0 | 3 | 3 | 1 | 0.4505207356006918 | 0.43926403646199486 | -0.011256699138696943 | 100.0 | 3.7417 | 3.7417 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| VO 100 | VO 100 | equal reported dose | 3 | 0 | 3 | 0 | 3 | 1 |  |  |  |  | 5.4666 | 5.4666 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| citric acid 1 | citric acid 1 | equal reported dose | 3 | 3 | 0 | 3 | 3 | 1 | 0.04621055647500857 | 0.06893784384405717 | 0.0227272873690486 | 33.33333333333333 | 6.841712962962963 | 6.878344907407407 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| citric acid 12 | citric acid 12 | equal reported dose | 3 | 3 | 0 | 3 | 3 | 1 | 0.34451310965172466 | 0.3462134926962983 | 0.00170038304457365 | 0.0 | 6.841712962962963 | 6.878344907407407 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| citric acid 18 | citric acid 18 | equal reported dose | 3 | 3 | 0 | 3 | 3 | 1 | 0.43396100738012927 | 0.4350002639635863 | 0.001039256583456975 | 0.0 | 6.841712962962963 | 6.878344907407407 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| citric acid 36 | citric acid 50 | nearest lower dose context | 3 | 3 | 0 | 3 | 3 | 1 | 0.7448993497881554 | 0.747962194442653 | 0.0030628446544975763 | 0.0 | 6.866412037037037 | 6.998194444444445 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| citric acid 6 | citric acid 6 | equal reported dose | 3 | 3 | 0 | 3 | 3 | 1 | 0.1609303194568499 | 0.17678995081179116 | 0.01585963135494127 | 0.0 | 6.841712962962963 | 6.878344907407407 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| citric acid 98.8 | citric acid 50 | nearest upper dose context | 3 | 3 | 0 | 3 | 3 | 1 | 1.215289924866184 | 1.2298491846766424 | 0.01455925981045847 | 33.33333333333333 | 6.864039351851852 | 6.987546296296297 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |
+| no additive | no additive | equal reported dose | 230 | 230 | 0 | 30 | 6 | 5 | 0.11654960336805947 | 0.1756813875736705 | 0.059131784205611056 | 5.6521739130434785 | 3.5328 | 7.0164583333333335 | descriptive&#95;<wbr>reused&#95;<wbr>cohorts&#95;<wbr>no&#95;<wbr>equivalence&#95;<wbr>test |

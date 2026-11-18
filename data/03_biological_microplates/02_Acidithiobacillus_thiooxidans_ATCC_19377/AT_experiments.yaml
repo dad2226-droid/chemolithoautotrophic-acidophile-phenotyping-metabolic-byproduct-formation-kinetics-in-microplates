@@ -1,0 +1,230 @@
+# Concentrations and OD600 use the 200 uL preparation basis.
+# Each column condition applies to biotic rows E/F/G and abiotic rows B/C/D.
+# Plate IDs identify the same physical wells across acquisitions.
+document_type: biological_experiments
+definitions_id: biological_definitions
+acquisition_registry: ../chronology/acquisitions.csv
+species_id: AT
+title: Acidithiobacillus thiooxidans microplate experiments
+experiments:
+  - experiment_id: AT_SM4_BS_sulfuric_acid_OD0p001_tetrathionate
+    name: Sulfuric acid series with 20 mM potassium tetrathionate
+    medium_id: SM4_BS
+    initial_OD600_200_uL: 0.001
+    preparation_id: ph_standard_dye
+    readout_id: ph
+    compounds:
+      sulfuric_acid:
+        name: sulfuric acid
+        reagent_id: sulfuric_acid
+        concentration_determination: nominal
+      potassium_tetrathionate:
+        name: potassium tetrathionate
+        reagent_id: potassium_tetrathionate
+        concentration_determination: nominal
+    additive_stock_pH: 1.8
+    initial_pH:
+      value: 3.95
+      reported_plus_minus: 0.03
+      uncertainty_type: standard_deviation
+      measurement_count: 3
+      scope: Initial pH was measured within the ranges stated in the methods.
+
+    fixed_components:
+      - compound_id: potassium_tetrathionate
+        name: potassium tetrathionate
+        concentration: 20
+        unit: mM
+        volume_basis_uL: 200
+        concentration_determination: nominal
+    plate_groups:
+      - group_id: AT_SM4_BS_sulfuric_acid_OD0p001_tetrathionate_G01
+        plate_ids: [L1-10, L1-11, L1-12]
+        concentration_unit: mM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            sulfuric_acid: 100
+          3:
+            sulfuric_acid: 37.2
+          4:
+            sulfuric_acid: 14.4
+          5:
+            sulfuric_acid: 5.62
+          6:
+            sulfuric_acid: 2.04
+          7:
+            sulfuric_acid: 0.724
+          8:
+            sulfuric_acid: 0.245
+          9:
+            sulfuric_acid: 0.0813
+          10:
+            sulfuric_acid: 0.0275
+          11:
+            sulfuric_acid: 0.01
+  - experiment_id: AT_SM4_BS_sulfuric_acid_OD0p001_thiosulfate
+    name: Sulfuric acid series with 20 mM sodium thiosulfate
+    medium_id: SM4_BS
+    initial_OD600_200_uL: 0.001
+    preparation_id: ph_standard_dye
+    readout_id: ph
+    compounds:
+      sulfuric_acid:
+        name: sulfuric acid
+        reagent_id: sulfuric_acid
+        concentration_determination: nominal
+      sodium_thiosulfate:
+        name: sodium thiosulfate
+        reagent_id: sodium_thiosulfate
+        concentration_determination: nominal
+    additive_stock_pH: 1.8
+    initial_pH:
+      value: 3.95
+      reported_plus_minus: 0.03
+      uncertainty_type: standard_deviation
+      measurement_count: 3
+      scope: Initial pH was measured within the ranges stated in the methods.
+
+    fixed_components:
+      - compound_id: sodium_thiosulfate
+        name: sodium thiosulfate
+        concentration: 20
+        unit: mM
+        volume_basis_uL: 200
+        concentration_determination: nominal
+    plate_groups:
+      - group_id: AT_SM4_BS_sulfuric_acid_OD0p001_thiosulfate_G01
+        plate_ids: [L1-7, L1-8, L1-9]
+        concentration_unit: mM
+        volume_basis_uL: 200
+        column_conditions:
+          2:
+            sulfuric_acid: 100
+          3:
+            sulfuric_acid: 37.2
+          4:
+            sulfuric_acid: 14.4
+          5:
+            sulfuric_acid: 5.62
+          6:
+            sulfuric_acid: 2.04
+          7:
+            sulfuric_acid: 0.724
+          8:
+            sulfuric_acid: 0.245
+          9:
+            sulfuric_acid: 0.0813
+          10:
+            sulfuric_acid: 0.0275
+          11:
+            sulfuric_acid: 0.01
+plates:
+  L1-10:
+    batch_id: AT_2026-06-12
+    acquisition_ids:
+    - ACQ_1de7c173a5563aa93545703a
+    - ACQ_91963eebb01af59cd0020a62
+    - ACQ_660caa171d3f4b67ef414aeb
+    - ACQ_d084d70918a1d20417115c57
+    - ACQ_0a27b384d01555c25b70096c
+    - ACQ_67066b416a580c12a7be63dc
+    - ACQ_a52bce1d8b47746fafe47985
+    - ACQ_4f3a3952cedb18cea3c58aa4
+    - ACQ_e4a34db38611fac7b9c7396d
+    - ACQ_8b0e083f18828dbd474b8e9d
+    - ACQ_b7d76709fdab6358b229f4cc
+    - ACQ_d02b533979c9c027d256b773
+    - ACQ_59387050e495594854f14cf2
+    - ACQ_4141ff431af84982782eea2a
+    - ACQ_c117964ffaff1f82192aa5e6
+  L1-11:
+    batch_id: AT_2026-06-12
+    acquisition_ids:
+    - ACQ_d417e43ab4a9bfb9fb3213df
+    - ACQ_db6a6607402782ad68f067cb
+    - ACQ_a29ec6e02eec8e9daaeeed00
+    - ACQ_819b356eda275e772003b91c
+    - ACQ_336badb261ec34f032cfbc21
+    - ACQ_1decd11993c216f71ad94c90
+    - ACQ_756df6ea16382bffdc263364
+    - ACQ_e33a5c0da3c03fdea92725d3
+    - ACQ_aeb060a0b7d71cdd3394cbfd
+    - ACQ_e26308c80fa42e6eb21c0fe7
+    - ACQ_8db1678e893df1a0e36c188e
+    - ACQ_ef15cf06d7701729309b6550
+    - ACQ_b7bc64fa7778e858a5267c51
+    - ACQ_837f08f96626f3acca8b5b7f
+    - ACQ_7acd99d674fd258a405502a0
+  L1-12:
+    batch_id: AT_2026-06-12
+    acquisition_ids:
+    - ACQ_a38025a78cd8c93e3fd17df3
+    - ACQ_7aef257507fe549c63cb52f2
+    - ACQ_f891eb89a1b04684d2b501d7
+    - ACQ_5b09f3bc8cc9c33c737ba7b2
+    - ACQ_acdfe0e4ae4559f4b1c1428b
+    - ACQ_bdb60b14a24001833121ae45
+    - ACQ_de5b69d3d38613c52d0fe992
+    - ACQ_fce441d20d0fa49fa07a9054
+    - ACQ_26388a8dac531f3f4968470b
+    - ACQ_7948c3ba736748f54bca585d
+    - ACQ_5d7f7f6fd6eb19a8f6fd8870
+    - ACQ_60ec465c38a0679092086a9f
+    - ACQ_41f250651b04283164fe183c
+    - ACQ_bd980b6b6851375ff893896a
+    - ACQ_9bf5d6c4de85cb0d415a2ea1
+  L1-7:
+    batch_id: AT_2026-06-12
+    acquisition_ids:
+    - ACQ_b18a4d638dfcc491d588101f
+    - ACQ_7db3253c5ac7f64bed62d3e0
+    - ACQ_57a6fc5728a54bed708427ad
+    - ACQ_ba05a7a06db10f5dbec32543
+    - ACQ_fb7ae49e287696518668ba9f
+    - ACQ_0cc7c8b73a13590d181b83c7
+    - ACQ_8886c0860ea30a4c76ea11a0
+    - ACQ_e2bf2161b98f64827b99294a
+    - ACQ_fd2b0af50400d90b8df847b0
+    - ACQ_dee50975460250afbf45355d
+    - ACQ_c501d36db07a3d5e084e8930
+    - ACQ_370a765d2869a3fe99a0df6f
+    - ACQ_278979720004c2a6d8ed13b3
+    - ACQ_14662d50b919aa0b508519d6
+    - ACQ_a3e238497c40692906923e76
+  L1-8:
+    batch_id: AT_2026-06-12
+    acquisition_ids:
+    - ACQ_98c69ca3c2f8aba26ae83227
+    - ACQ_534fb793a68cff6358586055
+    - ACQ_28d3b8c88d362d026518fd83
+    - ACQ_ead1e20d8c3d30d5fd3b635a
+    - ACQ_d2d62a624f1be2c0185f733b
+    - ACQ_2740d144c28eeffa42b1acaa
+    - ACQ_acd4e68fb36f436519366536
+    - ACQ_78be3ac96e6bcdbfb7c54930
+    - ACQ_135600c8372dbc0cb84944c6
+    - ACQ_160aab4e169f880517d49516
+    - ACQ_4a1556465250b891cbd522f3
+    - ACQ_488d224cb1992efa5687c0e5
+    - ACQ_f0685920298f5a2852471c15
+    - ACQ_b02ae8a3ec90334f3fcd31e5
+    - ACQ_0a2936071619ca55862039c8
+  L1-9:
+    batch_id: AT_2026-06-12
+    acquisition_ids:
+    - ACQ_d4a11d4adc52e9e8681202b1
+    - ACQ_2861a0a5f3d8ea6450022ef6
+    - ACQ_81847ca5b8b3ef1a6aa10aeb
+    - ACQ_865180c88e1879abe21e39b6
+    - ACQ_7be3e61ffa8c6944ae2bcece
+    - ACQ_74ba0f8e20d8b9d1a103f687
+    - ACQ_4a6bc7a120f71e5f9fc54da3
+    - ACQ_4ad13e1520d22118c5fe63fa
+    - ACQ_b374a97acd082249e876c0a6
+    - ACQ_6bbdb5a58dfa7e6930483943
+    - ACQ_ff0eff5f9c5ba59f65aab6f9
+    - ACQ_c13827bbd98b9d074629623e
+    - ACQ_4b8e8604bacb59f6fa254b50
+    - ACQ_bb5d53f65343e83ad4f52732
+    - ACQ_118f7fd225549e783dd819cc

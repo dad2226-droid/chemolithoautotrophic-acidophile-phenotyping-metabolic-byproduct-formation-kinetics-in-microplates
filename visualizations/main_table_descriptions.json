@@ -1,0 +1,275 @@
+{
+  "1": {
+    "title": "Feasibility and extendability tests of the thymol blue ratiometric pH indicator.",
+    "note": "Spectral measurements are denoted Aλ, where λ spans 200–700 nm for the first preparation of each initial calibration series and 200–750 nm for the remaining scans, in 10 nm increments.",
+    "rows": {
+      "pH-01": [
+        "pH-01",
+        "Feasibility: indicator detection",
+        "Initial H₂SO₄ standard series: sulfuric acid (H₂SO₄) solutions spanning approximately pH 0.3–7 across the three preparations (measured range 0.32–6.94), with 10⁻⁶ or 10⁻⁵ M thymol blue (24 [H₂SO₄] × 2 [dye])\n12-concentration H₂SO₄ standard series: H₂SO₄ standards from pH 0.6–4.8, with and without 10⁻⁵ M thymol blue (12 [H₂SO₄] × 2 [dye])",
+        "Six wavelengths\nAλ",
+        "Initial standard series: UV\n12-concentration standard series: non-UV",
+        "Initial and 12-concentration standard series were prepared separately; each used n_prep=3 and N_well=4, with one plate per preparation for each initial dye series or for the paired 12-concentration dye conditions\nInitial acquisition"
+      ],
+      "pH-02": [
+        "pH-02",
+        "Extendability: lid comparison",
+        "H₂SO₄ solutions from pH 0.6–4.8, with and without 10⁻⁵ M thymol blue and non-UV-transparent lid (12 [H₂SO₄] × 2 [dye] × 2 lid states)",
+        "Six wavelengths",
+        "UV; ± non-UV lid",
+        "Separate plates containing the same nominal standards and using the replication of the pH-01 12-concentration standard series\nPaired measurements with and without lids using alternate microplate reader"
+      ],
+      "pH-03": [
+        "pH-03",
+        "Extendability: storage stability",
+        "H₂SO₄ solutions from pH 0.6–4.8, with and without 10⁻⁵ M thymol blue (12 [H₂SO₄] × 2 [dye])",
+        "Six wavelengths",
+        "non-UV; lid removed for measurement",
+        "Same plates and replication as the pH-01 12-concentration standard series\nMeasured across 15 d with benchtop storage"
+      ],
+      "pH-04": [
+        "pH-04",
+        "Extendability: temperature and plate type",
+        "H₂SO₄ solutions spanning approximately pH 0.3–7 across the three preparations (measured range 0.32–6.94), with 10⁻⁵ M thymol blue, tested through the common temperature sequence (24 [H₂SO₄] × 2 plate types; 4 temperatures)",
+        "Six wavelengths\nAλ, at the initial 23 °C measurement only",
+        "UV and non-UV",
+        "Nominal 10⁻⁵ M initial pH-01 UV plates and one matched non-UV plate per preparation, with the same well replication\nInitial UV measurements are shared with pH-01"
+      ],
+      "pH-05": [
+        "pH-05",
+        "Extendability: membrane comparison",
+        "H₂SO₄ standards spanning approximately pH 0.3–7 across the three preparations (measured range 0.32–6.94), with 10⁻⁵ M thymol blue at 23 °C (24 [H₂SO₄] × 2 plate types × 2 membrane states)",
+        "Six wavelengths",
+        "UV and non-UV; each ± membrane",
+        "Same standard series, plates, and replication as pH-04\nPaired membrane measurements after the common handling sequence"
+      ]
+    }
+  },
+  "2": {
+    "title": "Feasibility and extendability tests of the Fe³⁺ absorbance indicator.",
+    "note": "Concentration ranges describe the supplying compound; Fe₂(SO₄)₃ concentrations were calculated from measured total Fe using the stated stoichiometry. Both salt and acid concentrations refer to the standards before dye addition. Spectral measurements are denoted Aλ, where λ spans 200–750 nm in 10 nm increments.",
+    "rows": {
+      "FeIII-01": [
+        "FeIII-01",
+        "Feasibility: indicator detection and Fe²⁺ controls",
+        "Fe₂(SO₄)₃ standards spanning approximately 0–5×10⁻² M in 10⁰ M H₂SO₄, with and without 10⁻⁵ M thymol blue (12 [Fe₂(SO₄)₃] × 2 [dye])\nFeSO₄ standards spanning approximately 0–10⁻¹ M total Fe in 10⁻³ and 10⁰ M H₂SO₄, with and without 10⁻⁵ M thymol blue (12 [FeSO₄] × 2 [dye] × 2 [H₂SO₄])",
+        "Six wavelengths\nAλ, for Fe₂(SO₄)₃ and FeSO₄ standards in 10⁰ M H₂SO₄ only",
+        "UV",
+        "(n_prep=1, N_well=4, and N_microplate=3 per standard series)\nInitial acquisition"
+      ],
+      "FeIII-02": [
+        "FeIII-02",
+        "Feasibility: acid-background comparison",
+        "Fe₂(SO₄)₃ standards spanning approximately 0–5×10⁻¹ M across preparations in 10⁻³, 10⁻², 10⁻¹, and 10⁰ M H₂SO₄, with and without 10⁻⁵ M thymol blue (12 [Fe₂(SO₄)₃] × 2 [dye] × 4 [H₂SO₄])",
+        "Six wavelengths",
+        "UV",
+        "n_prep=3 and N_well=4, with one plate per preparation at each [H₂SO₄]\nInitial acquisition"
+      ],
+      "FeIII-03": [
+        "FeIII-03",
+        "Extendability: lid comparison",
+        "Fe₂(SO₄)₃ subset of FeIII-01 measured with and without lids (12 [Fe₂(SO₄)₃] × 2 [dye] × 2 lid states)",
+        "Six wavelengths",
+        "UV; ± non-UV lid",
+        "Separate plates from FeIII-01 and FeIII-04, using the same standard preparation and replication as FeIII-01\nPaired measurements with and without lids on the same day using alternate microplate reader"
+      ],
+      "FeIII-04": [
+        "FeIII-04",
+        "Extendability: storage stability",
+        "Fe₂(SO₄)₃ standards from FeIII-01, measured without lids (12 [Fe₂(SO₄)₃] × 2 [dye])",
+        "Six wavelengths",
+        "UV; lid removed for measurement",
+        "Same Fe₂(SO₄)₃ standard series and replication as FeIII-01\nMeasured across 16 d with benchtop storage"
+      ],
+      "FeIII-05": [
+        "FeIII-05",
+        "Extendability: temperature and plate type",
+        "FeIII-02 standard series tested through the common temperature sequence (12 [Fe₂(SO₄)₃] × 2 [dye] × 2 plate types × 4 [H₂SO₄]; 4 temperatures)",
+        "Six wavelengths",
+        "UV and non-UV",
+        "Same standard series, UV plates, and initial UV acquisition as FeIII-02; one matched non-UV plate per preparation, with the same well replication"
+      ],
+      "FeIII-06": [
+        "FeIII-06",
+        "Extendability: membrane comparison",
+        "FeIII-05 conditions measured with and without membranes (12 [Fe₂(SO₄)₃] × 2 [dye] × 2 plate types × 4 [H₂SO₄] × 2 membrane states)",
+        "Six wavelengths",
+        "UV and non-UV; each ± membrane",
+        "Same standard series, plates, and replication as FeIII-05\nPaired membrane measurements after the common handling sequence"
+      ]
+    }
+  },
+  "3": {
+    "title": "Compatibility tests of absorbance indicators in chemolithoautotrophic acidophile media.",
+    "note": "Added Fe₂(SO₄)₃ concentrations exclude the Fe already present in the medium. Measured pH values describe medium–standard mixtures before dye addition. Medium-component concentrations refer to the standard medium before dye addition. All measurements were abiotic six-wavelength absorbance measurements in non-UV-transparent microplates without lids.",
+    "rows": {
+      "AFM-01": [
+        "AFM-01",
+        "Compatibility: Fe³⁺ indicator",
+        "AFM1 and AFM3 with 0–5.2×10⁻² M added Fe₂(SO₄)₃, without dye (8 [Fe₂(SO₄)₃] × 2 media)",
+        "AFM1 and AFM3 occupy separate well groups on the same plates"
+      ],
+      "F2S-01": [
+        "F2S-01",
+        "Compatibility: ratiometric pH and Fe³⁺ indicators",
+        "F2S with 0–5.2×10⁻² M added Fe₂(SO₄)₃, without dye (8 [Fe₂(SO₄)₃])\nF2S supplemented with H₂SO₄, spanning measured pH 0.7–2.1, with and without 10⁻⁵ M thymol blue (8 [H₂SO₄] × 2 [dye])",
+        "Fe₂(SO₄)₃ and H₂SO₄ standard series occupy separate well groups on the same plates"
+      ],
+      "Starkey-01": [
+        "Starkey-01",
+        "Compatibility: ratiometric pH indicator",
+        "Starkey (St) medium with brown or yellow S⁰, supplemented with H₂SO₄, spanning measured pH 0.7–2.8 for each medium, with and without 10⁻⁵ M thymol blue (8 [H₂SO₄] × 2 S⁰ types × 2 [dye])",
+        "Both S⁰ types occupy separate well groups on the same plates"
+      ],
+      "9K-01": [
+        "9K-01",
+        "Compatibility: ratiometric pH indicator",
+        "AFM4 or AFM5 supplemented with H₂SO₄, spanning measured pH 0.7–3.8 for each medium, with and without 10⁻⁵ M thymol blue (8 [H₂SO₄] × 2 media × 2 [dye])",
+        "AFM4 and AFM5 occupy separate well groups on the same plates"
+      ]
+    }
+  },
+  "4": {
+    "title": "Demonstration tests in acidophile microplate cultures.",
+    "note": "The six experiment groups comprise independently inoculated microplates (n_microplate=438 in total). A₃₈₀ indicates apparent formation of the metabolic byproduct Fe³⁺ in cultures supplied with Fe²⁺. Measured R and scatter-corrected R* indicate acidification associated with metabolic H+ release in soluble-S cultures, as defined in Data processing. Additive concentrations use the deposited compound basis, except explicitly specified elemental-Ga concentrations in citric-acid/Ga₂(SO₄)₃ combinations.",
+    "rows": {
+      "AF-01": [
+        "AF-01",
+        "A. ferrooxidans",
+        "AFM1",
+        "30",
+        "Fe²⁺-based additive screening (56 additives across 1,072 concentrations)\nPotassium chloride (KCl) initial-pH comparisons (10 [KCl] × 3 nominal initial pH values)\nCitric acid–gallium sulfate (Ga₂(SO₄)₃) combinations (18 concentration combinations)",
+        "(n_microplate=354)\nA₃₈₀; A₇₅₀ for scatter correction\nA₄₂₈ and A₆₀₀ comparisons"
+      ],
+      "LF-01": [
+        "LF-01",
+        "L. ferriphilum",
+        "HH",
+        "37",
+        "Fe²⁺-based sulfate-additive screening (11 additives across 110 concentrations)",
+        "(n_microplate=33)\nA₃₈₀; A₇₅₀ for scatter correction"
+      ],
+      "AF-02": [
+        "AF-02",
+        "A. ferrooxidans",
+        "AFM4",
+        "30",
+        "S₂O₃²⁻-based additive screening (6 additives across 60 concentrations)\nInitial inoculum-density comparisons (10 [K₂SO₄] × 3 initial OD₆₀₀ values)",
+        "(n_microplate=24)\nR and R*"
+      ],
+      "AF-03": [
+        "AF-03",
+        "A. ferrooxidans",
+        "AFM1 BS",
+        "30",
+        "K₂S₄O₆ concentration treatments (10 [K₂S₄O₆])",
+        "(n_microplate=3)\nR and R*"
+      ],
+      "AF-04": [
+        "AF-04",
+        "A. ferrooxidans",
+        "SM4 BS",
+        "30",
+        "Na₂S₂O₃ and K₂S₄O₆ concentration treatments, 0–3×10⁻¹ M (10 [substrate] × 2 substrates)\nH₂SO₄ additions spanning 10⁻⁵–10⁻¹ M with 2×10⁻² M of Na₂S₂O₃ or K₂S₄O₆ (10 [H₂SO₄] × 2 substrates)\nEquimolar substrate mixtures, 0–1.5×10⁻¹ M each (10 [substrate])\nNa₂S₂O₃ dye comparisons (10 [substrate] × 2 [dye])",
+        "(n_microplate=18)\nR and R*"
+      ],
+      "AT-01": [
+        "AT-01",
+        "A. thiooxidans",
+        "SM4 BS",
+        "30",
+        "H₂SO₄ additions, 10⁻⁵–10⁻¹ M with 2×10⁻² M Na₂S₂O₃ or K₂S₄O₆ (10 [H₂SO₄] × 2 substrates)",
+        "(n_microplate=6)\nR and R*"
+      ]
+    }
+  },
+  "5": {
+    "title": "Validation tests in acidophile shake-flask cultures using AFM1 medium.",
+    "note": "All conditions include pH, ORP, and cerimetry measurements. Fluorescence denotes SYBR Green I measurements. Nominal final metal-salt treatment concentrations are expressed on a cation basis; labels identify the supplying compound.",
+    "rows": {
+      "FL-01": [
+        "FL-01",
+        "A. ferrooxidans",
+        "30",
+        "Biotic: 0–10⁻¹ M Ga₂(SO₄)₃ (7 [Ga₂(SO₄)₃])\nAbiotic: 0–10⁻¹ M Ga₂(SO₄)₃ (3 [Ga₂(SO₄)₃])",
+        "Soluble Fe and Ga at four sample-collection times\n(Non-)planktonic fluorescence"
+      ],
+      "FL-02": [
+        "FL-02",
+        "A. ferrooxidans",
+        "30",
+        "Biotic: no-additive control; 10⁻¹ M Ga₂(SO₄)₃; 10⁻¹ M CuSO₄; or 5×10⁻² M NaCl (4 conditions)",
+        "Planktonic fluorescence\nInitial soluble Fe: all conditions; Ga and Cu: corresponding metal-addition conditions"
+      ],
+      "FL-03": [
+        "FL-03",
+        "A. ferrooxidans",
+        "30",
+        "Biotic: no-additive control; 5×10⁻² M citric acid; 10⁻¹ M Ga₂(SO₄)₃; 10⁻¹ M VOSO₄; or 10⁻¹ M Al₂(SO₄)₃ (5 conditions)",
+        "Planktonic fluorescence\nFinal non-planktonic fluorescence in the no-additive, Ga₂(SO₄)₃, VOSO₄, and Al₂(SO₄)₃ conditions\nInitial soluble Fe: the same four conditions; Ga, V, and Al: corresponding metal-addition conditions"
+      ],
+      "FL-04": [
+        "FL-04",
+        "A. ferrooxidans",
+        "30",
+        "Biotic: 0 or 10⁻³ M Ga₂(SO₄)₃, each with 0, 10⁻³ or 6×10⁻³ M citric acid (2 [Ga₂(SO₄)₃] × 3 [citric acid])\nAbiotic: 10⁻³ M Ga₂(SO₄)₃ (1 condition)",
+        "(Non-)planktonic fluorescence\nInitial soluble Ga"
+      ],
+      "FL-05": [
+        "FL-05",
+        "A. ferrooxidans",
+        "30",
+        "Biotic: 0 or 10⁻³ M Ga₂(SO₄)₃, each with 0, 1.2×10⁻² or 1.8×10⁻² M citric acid (2 [Ga₂(SO₄)₃] × 3 [citric acid])\nAbiotic: no-additive control (1 condition)",
+        "Planktonic fluorescence\nNon-planktonic fluorescence in the biotic no-additive control condition\nInitial soluble Ga"
+      ]
+    }
+  },
+  "6": {
+    "title": "Validation tests in acidophile culture tubes.",
+    "note": "TB-02 includes ORP time courses, and TB-03–TB-04 include pH time courses; all include planktonic SYBR Green I fluorescence at the final acquisition. TB-01 used the original microplate inocula for visual assessment. Treatment concentrations are nominal values before inoculation; metal-salt concentrations are expressed on a cation basis, and energy-substrate concentrations refer to the supplying compounds.",
+    "rows": {
+      "TB-01": [
+        "TB-01",
+        "Abiotic\nL. ferriphilum",
+        "HH",
+        "37",
+        "No-additive control condition"
+      ],
+      "TB-02": [
+        "TB-02",
+        "Abiotic\nA. ferrooxidans\nA. ferridurans\nL. ferriphilum",
+        "HH",
+        "37",
+        "No-additive control; 10⁻¹ M Ga₂(SO₄)₃; or 10⁻² M In₂(SO₄)₃ (4 organism/control groups × 3 conditions)"
+      ],
+      "TB-03:30": [
+        "TB-03",
+        "Abiotic\nA. ferrooxidans\nA. thiooxidans",
+        "SM4 BS",
+        "30",
+        "Brown S⁰ (1 g/L) with 0 or 10⁻¹ M Ga₂(SO₄)₃ (3 organism/control groups × 2 [Ga₂(SO₄)₃])"
+      ],
+      "TB-03:37": [
+        "TB-03",
+        "Abiotic\nA. caldus",
+        "SM4 BS",
+        "37",
+        "Brown S⁰ (1 g/L) with 0 or 10⁻¹ M Ga₂(SO₄)₃ (2 organism/control groups × 2 [Ga₂(SO₄)₃])"
+      ],
+      "TB-04:30": [
+        "TB-04",
+        "Abiotic\nA. ferrooxidans\nA. thiooxidans",
+        "SM4 BS",
+        "30",
+        "K₂S₄O₆ (5 mM) with 0 or 10⁻¹ M Ga₂(SO₄)₃ (3 organism/control groups × 2 [Ga₂(SO₄)₃])"
+      ],
+      "TB-04:37": [
+        "TB-04",
+        "Abiotic\nA. caldus",
+        "SM4 BS",
+        "37",
+        "K₂S₄O₆ (5 mM) with 0 or 10⁻¹ M Ga₂(SO₄)₃ (2 organism/control groups × 2 [Ga₂(SO₄)₃])"
+      ]
+    }
+  }
+}

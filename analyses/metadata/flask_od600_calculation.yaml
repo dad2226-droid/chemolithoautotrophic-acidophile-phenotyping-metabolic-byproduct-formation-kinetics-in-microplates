@@ -1,0 +1,25 @@
+# Shake-flask fluorescence conversion to apparent OD600.
+input_column: measured_planktonic_fluorescence_RFU
+output_column: calculated_planktonic_OD600_equivalent
+status_column: planktonic_OD600_status
+expression: (measured_planktonic_fluorescence_RFU / coefficient) ** (1 / exponent) - baseline_OD600
+coefficient: 74930
+exponent: 1.386
+baseline_OD600: 0.001
+baseline_basis: Author-specified constant based on the average across the abiotic tests; applied after
+  conversion on the OD600 scale.
+coefficient_reference: https://doi.org/10.64898/2026.08.27.747594
+coefficient_reference_id: Dailey2026
+reference_location: Figure S1
+reference_interpretation: The publication fitted background-corrected RFU. This dataset uses its coefficient
+  and exponent with planktonic RFU after TE Buffer blank subtraction, followed by the separately
+  specified OD600-scale baseline subtraction.
+nonnegative_input_rule: Apply the expression for RFU >= 0. Preserve negative baseline-adjusted results
+  and identify them as below_baseline.
+negative_input_rule: Preserve negative RFU; report NA for the calculated value and set status to negative_rfu
+  because the fractional-power expression is not real-valued.
+missing_input_rule: Report NA for the calculated value and status when the input RFU is NA.
+rounding: Compute at floating-point precision without rounding or zero truncation.
+interpretation: Calculated OD600-equivalent proxy, not directly measured OD600. A negative baseline-adjusted
+  result denotes signal below the assumed common baseline, not negative biomass.
+

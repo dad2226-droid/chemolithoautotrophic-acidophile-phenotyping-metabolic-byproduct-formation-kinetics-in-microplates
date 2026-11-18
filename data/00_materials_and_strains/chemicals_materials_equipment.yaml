@@ -1,0 +1,3989 @@
+document_type: study_materials_inventory
+title: Chemicals, materials, and equipment used in this study
+reading_guide:
+  scope: "58 tested additives, 4 additional attempted preparations excluded from additive tests, 21 medium/assay reagents or preparations, and 32 materials/equipment entries. Experimental batch assignments remain in family metadata."
+  equipment_information: "Product identities, lots, applications, closures and device assignments are listed in the inventory. Supplier specifications and experimental settings have separate fields."
+  sources: "Source paths are relative to the directory containing data/. The node field selects the source field or table entry."
+  table_fields: "Display fields correspond to the 8-column Markdown chemical inventory. The source_number field contains the source/catalog identifier."
+  supplement_scope: "MD-TMS is a purchased commercial supplement. TE Buffer was prepared as described in method_references.Dailey2026."
+  reference_numbers: "Chemical reference numbers resolve in chemicals_materials_equipment.md#references."
+  stock_basis: "Maximum 2x additive concentration by additive_stock_pH across AF/AT/LF records; 2 times the concentration on the 200 uL basis, in salt formula units. Elemental Ga in the mixed experiment is divided by 2. Starred entries are nominal preparation targets for compounds excluded from additive tests, stored in attempted_stock_preparations."
+  concentration_determination: "N marks nominal concentrations in the Markdown stock column. Assignments follow biological_definitions.yaml concentration_conventions.nominal_reagents. Sodium thiosulfate and potassium tetrathionate are nominal in all uses. The other 47 additives use an ICP-based concentration determination, including Ti and Zr stocks."
+  preparation_asterisk: "Not visibly soluble at the indicated preparation concentration or after a further 4-fold dilution in sulfuric acid at the target pH; excluded from additive tests."
+  reagent_information: "CAS number grouping and zero-padding are normalized. Concentration values and their determination methods are specified for each record."
+  stock_preparation_inputs:
+    scope: "14 mass-and-final-volume pairs: 10 nominal additive stocks, the thymol blue stock, and 3 excluded preparations."
+    location: preparation_record within each matching maximum_additive_stocks or attempted_stock_preparations
+      entry; the thymol blue record is in experimental_definitions.yaml under reagent_preparations.thymol_blue.
+    calculation: mass_g / formula_mass_for_nominal_calculation_g_per_mol / (final_volume_mL / 1000)
+    formula_mass_reference: https://www.ciaaw.org/abridged-atomic-weights.htm
+    nominal_basis: "Calculations use a purity factor of 1."
+    volume_basis: "The calculation uses final solution volume."
+    concentration_scope: "Preparation calculations describe nominal compound concentrations. Excluded-preparation targets describe the quantities prepared for dissolution attempts."
+    record_scope: "A preparation entry is associated with its reagent and stock pH."
+chemicals:
+  aluminum_sulfate:
+    table_fields:
+      reagent: "Aluminum sulfate octadecahydrate<sup>1,2</sup>"
+      chemical_formula: Al₂(SO₄)₃·18H₂O
+      cas_number: 7784-31-8
+      supplier: Sigma-Aldrich
+      lot_number: MKCQ1795
+      source_number: '227617'
+      purity: ≥97%
+      stock_M: 0.952; 1.00, pH 3.0
+    identity_reference_numbers:
+    - 1
+    - 2
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.952
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_aluminum_sulfate_OD0p001
+      group_id: AF_AFM1_aluminum_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 476000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    - pH: 3.0
+      concentration_M: 1.0
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM4_aluminum_sulfate_OD0p1
+      group_id: AF_AFM4_aluminum_sulfate_OD0p1_G01
+      column: 11
+      reported_concentration: 500
+      reported_unit: mM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Aluminum sulfate"
+      experiment_labels:
+      - aluminum sulfate
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: '1003497396'
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: MKCQ1795
+        grade_and_assay_as_recorded: =>97%
+        bottle_information_as_recorded: 'Sigma Aldrich, lot#: 1003497396, Source#: MKCQ1795, =>97%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: aluminum sulfate octadecahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.aluminum_sulfate.reported_record
+  ammonium_sulfate:
+    table_fields:
+      reagent: Ammonium Sulfate
+      chemical_formula: (NH₄)₂SO₄
+      cas_number: 7783-20-2
+      supplier: Sigma-Aldrich
+      lot_number: '0000418448'
+      source_number: '399014'
+      purity: ≥99.0% for molecular biology
+      stock_M: 0.942<sup>N</sup>
+    concentration_determination: nominal
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: nominal
+      concentration_M: 0.942
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_ammonium_sulfate_OD0p001
+      group_id: AF_AFM1_ammonium_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 471000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+      preparation_record:
+        record_id: ammonium_sulfate:pH1.8
+        mass_g: 3.2489
+        final_volume_mL: 26.1
+        formula_mass_for_nominal_calculation_g_per_mol: 132.134
+        formula_for_nominal_calculation: (NH₄)₂SO₄
+        nominal_concentration_from_preparation_M: 0.9420658362197855
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    reported_record:
+      chemical_name: Ammonium Sulfate
+      experiment_labels:
+      - ammonium sulfate
+      waters_of_hydration: null
+      cas_number: 7783-20-2
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '0000418448'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '399014'
+        grade_and_assay_as_recorded: ≥99.0% for molecular biology
+        chemical_name_as_recorded: Ammonium Sulfate
+        cas_as_recorded: 7783-20-2
+      chemical_formula: (NH₄)₂SO₄
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Ammonium Sulfate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.ammonium_sulfate.reported_record
+  cadmium_sulfate:
+    table_fields:
+      reagent: "Cadmium sulfate<sup>4,5</sup>"
+      chemical_formula: CdSO₄
+      cas_number: 10124-36-4
+      supplier: Sigma-Aldrich
+      lot_number: MKCG2625
+      source_number: '383082'
+      purity: ACS reagent ≥99.0%
+      stock_M: '1.91'
+    identity_reference_numbers:
+    - 4
+    - 5
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 1.914
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_cadmium_sulfate_OD0p001
+      group_id: AF_AFM1_cadmium_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 957000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Cadmium sulfate"
+      experiment_labels:
+      - cadmium sulfate
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: MKCG2625
+        additional_identifier:
+          label_as_recorded: Parent#
+          value_as_recorded: '1002955035'
+        grade_and_assay_as_recorded: ACS reagent =>99.0%
+        bottle_information_as_recorded: 'Sigma Aldrich, lot#: MKCG2625, Parent#: 1002955035, ACS reagent
+          =>99.0%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: cadmium sulfate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.cadmium_sulfate.reported_record
+  cerium_iii_sulfate:
+    table_fields:
+      reagent: "Cerium(III) sulfate<sup>6</sup>"
+      chemical_formula: Ce₂(SO₄)₃
+      cas_number: 13454-94-9
+      supplier: Thermo Scientific
+      lot_number: A0434313
+      source_number: '378660500'
+      purity: 99.9%
+      stock_M: '0.138'
+    identity_reference_numbers:
+    - 6
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.1376
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_cerium_iii_sulfate_OD0p001
+      group_id: AF_AFM1_cerium_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 68800
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Cerium(III) sulfate"
+      experiment_labels:
+      - cerium(III) sulfate
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Thermo Scientific
+        lot_as_recorded: A0434313
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: '378660500'
+        grade_and_assay_as_recorded: 99.9%
+        bottle_information_as_recorded: 'Thermo Scientific, lot#: A0434313, Source#: 378660500, 99.9%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: cerium(III) sulfate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.cerium_iii_sulfate.reported_record
+  cerium_iv_sulfate:
+    table_fields:
+      reagent: "Cerium(IV) sulfate tetrahydrate<sup>7,8</sup>"
+      chemical_formula: Ce(SO₄)₂·4H₂O
+      cas_number: 10294-42-5
+      supplier: GFS Chemicals
+      lot_number: C691223
+      source_number: '2258'
+      purity: '>85%'
+      stock_M: '0.100'
+    identity_reference_numbers:
+    - 7
+    - 8
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.09999999999999999
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_cerium_iv_sulfate_OD0p001
+      group_id: AF_AFM1_cerium_iv_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 50000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Cerium(IV) sulfate tetrahydrate"
+      experiment_labels:
+      - cerium(IV) sulfate
+      waters_of_hydration: 4
+      reported_bottles:
+      - supplier_as_recorded: GFS Chemicals
+        lot_as_recorded: C691223
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: '2258'
+        grade_and_assay_as_recorded: '>85%'
+        bottle_information_as_recorded: 'GFS Chemicals, lot#: C691223, Source#: 2258, >85%, West lab'
+        bottle_source: West lab
+      information_notes:
+      - The manufacturer identifies GFS product 2258 as cerium(IV) sulfate tetrahydrate.
+      identity_sources:
+      - url: https://www.gfschemicals.com/ceric-sulfate-tetrahydrat-2258
+        supports: GFS product 2258 is ceric sulfate tetrahydrate.
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: cerium(IV) sulfate tetrahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.cerium_iv_sulfate.reported_record
+  chromium_iii_sulfate:
+    table_fields:
+      reagent: Chromium(III) sulfate hydrate
+      chemical_formula: Cr₂(SO₄)₃·xH₂O
+      cas_number: 15244-38-9
+      supplier: Aldrich Chemistry
+      lot_number: MKBJ8402V
+      source_number: '342432'
+      purity: 22% Cr by weight
+      stock_M: '0.500'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.5
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_chromium_iii_sulfate_OD0p001
+      group_id: AF_AFM1_chromium_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 250000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Chromium(III) sulfate hydrate
+      experiment_labels:
+      - chromium(III) sulfate
+      waters_of_hydration: null
+      cas_number: 15244-38-9
+      reported_bottles:
+      - supplier_as_recorded: Aldrich Chemistry
+        lot_as_recorded: MKBJ8402V
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '342432'
+        grade_and_assay_as_recorded: 22% Cr by weight
+        chemical_name_as_recorded: Chromium(III) sulfate hydrate
+        cas_as_recorded: 15244-38-9
+        label_note_as_recorded: The purity was handwritten into the label
+      chemical_formula: Cr₂(SO₄)₃·xH₂O
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Chromium(III) sulfate hydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.chromium_iii_sulfate.reported_record
+  citric_acid:
+    table_fields:
+      reagent: "Citric acid"
+      chemical_formula: C₆H₈O₇
+      cas_number: 77-92-9
+      supplier: Sigma-Aldrich
+      lot_number: '1003178896'
+      source_number: MKCL2222
+      purity: ACS reagent ≥99.5%
+      stock_M: 0.592<sup>N</sup>
+    concentration_determination: nominal
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: nominal
+      concentration_M: 0.592
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_citric_acid_OD0p001
+      group_id: AF_AFM1_citric_acid_OD0p001_G01
+      column: 11
+      reported_concentration: 296000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+      preparation_record:
+        record_id: citric_acid:pH1.8
+        mass_g: 2.9049
+        final_volume_mL: 25.5
+        formula_mass_for_nominal_calculation_g_per_mol: 192.123
+        formula_for_nominal_calculation: C₆H₈O₇
+        nominal_concentration_from_preparation_M: 0.592941225458813
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    reported_record:
+      chemical_name: "Citric acid"
+      experiment_labels:
+      - citric acid
+      waters_of_hydration: null
+      cas_number: 77-92-9
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '1003178896'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: MKCL2222
+        grade_and_assay_as_recorded: ACS reagent ≥99.5%
+        chemical_name_as_recorded: citric acid
+        cas_as_recorded: 77-92-9
+      chemical_formula: C₆H₈O₇
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: citric acid'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.citric_acid.reported_record
+  cobalt_ii_sulfate:
+    table_fields:
+      reagent: Cobalt(II) sulfate heptahydrate
+      chemical_formula: CoSO₄·7H₂O
+      cas_number: 10026-24-1
+      supplier: Sigma-Aldrich
+      lot_number: SLBQ9230V
+      source_number: '1002793232'
+      purity: ReagentPlus, ≥99%
+      stock_M: 2.00; 2.00, pH 3.0
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 2.0
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_cobalt_ii_sulfate_OD0p001
+      group_id: AF_AFM1_cobalt_ii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 1000000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    - pH: 3.0
+      concentration_M: 2.0
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM4_cobalt_ii_sulfate_OD0p1
+      group_id: AF_AFM4_cobalt_ii_sulfate_OD0p1_G01
+      column: 11
+      reported_concentration: 1000
+      reported_unit: mM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Cobalt(II) sulfate heptahydrate
+      experiment_labels:
+      - cobalt(II) sulfate
+      waters_of_hydration: 7
+      cas_number: 10026-24-1
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: SLBQ9230V
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1002793232'
+        grade_and_assay_as_recorded: ReagentPlus, ≥99%
+        chemical_name_as_recorded: Cobalt(II) sulfate hepthydrate
+        cas_as_recorded: 10026-24-1
+      chemical_formula: CoSO₄·7H₂O
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Cobalt(II) sulfate heptahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.cobalt_ii_sulfate.reported_record
+  copper_ii_sulfate:
+    table_fields:
+      reagent: "Copper(II) sulfate pentahydrate<sup>10,14</sup>"
+      chemical_formula: CuSO₄·5H₂O
+      cas_number: 7758-99-8
+      supplier: Sigma-Aldrich
+      lot_number: MKBJ8979V
+      source_number: '209198'
+      purity: ACS reagent ≥98.0%
+      stock_M: 1.03; 0.612, pH 3.0
+    identity_reference_numbers:
+    - 10
+    - 14
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 1.03
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_copper_ii_sulfate_OD0p001
+      group_id: AF_AFM1_copper_ii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 515000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    - pH: 3.0
+      concentration_M: 0.612
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM4_copper_ii_sulfate_OD0p1
+      group_id: AF_AFM4_copper_ii_sulfate_OD0p1_G01
+      column: 11
+      reported_concentration: 306
+      reported_unit: mM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Copper(II) sulfate"
+      experiment_labels:
+      - copper(II) sulfate
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: '1001591582'
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: MKBJ8979V
+        grade_and_assay_as_recorded: ACS reagent =>98.0%
+        bottle_information_as_recorded: 'Sigma Aldrich, lot#: 1001591582, Source#: MKBJ8979V,ACS reagent
+          =>98.0%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: copper(II) sulfate pentahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.copper_ii_sulfate.reported_record
+  dysprosium_iii_sulfate:
+    table_fields:
+      reagent: Dysprosium(III) sulfate octahydrate
+      chemical_formula: Dy₂(SO₄)₃·8H₂O
+      cas_number: 10031-50-2
+      supplier: ChemCruz
+      lot_number: C2723
+      source_number: sc-223955
+      purity: null
+      stock_M: '0.0466'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.046599999999999996
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_dysprosium_iii_sulfate_OD0p001
+      group_id: AF_AFM1_dysprosium_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 23300
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Dysprosium(III) sulfate octahydrate
+      experiment_labels:
+      - dysprosium(III) sulfate
+      waters_of_hydration: 8
+      cas_number: 10031-50-2
+      reported_bottles:
+      - supplier_as_recorded: ChemCruz
+        lot_as_recorded: C2723
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: sc-223955
+        grade_and_assay_as_recorded: null
+        chemical_name_as_recorded: Dysprosium(III) sulfate octahydrate
+        cas_as_recorded: 10031-50-2
+      chemical_formula: Dy₂(SO₄)₃·8H₂O
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Dysprosium(III) sulfate octahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.dysprosium_iii_sulfate.reported_record
+  erbium_iii_sulfate:
+    table_fields:
+      reagent: Erbium sulfate
+      chemical_formula: Er₂(SO₄)₃·8H₂O
+      cas_number: 10031-52-4
+      supplier: GFS chemicals
+      lot_number: '22070024'
+      source_number: '2212'
+      purity: 'assay (metals basis): 99.9% min'
+      stock_M: '0.120'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.1202
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_erbium_iii_sulfate_OD0p001
+      group_id: AF_AFM1_erbium_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 60100
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Erbium sulfate
+      experiment_labels:
+      - erbium(III) sulfate
+      waters_of_hydration: 8
+      cas_number: 10031-52-4
+      reported_bottles:
+      - supplier_as_recorded: GFS chemicals
+        lot_as_recorded: '22070024'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '2212'
+        grade_and_assay_as_recorded: 'assay (metals basis): 99.9% min'
+        chemical_name_as_recorded: Erbium sulfate
+        cas_as_recorded: 10031-52-4
+      chemical_formula: Er₂(SO₄)₃·8H₂O
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Erbium sulfate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.erbium_iii_sulfate.reported_record
+  europium_iii_sulfate:
+    table_fields:
+      reagent: "Europium(III) sulfate octahydrate<sup>18</sup>"
+      chemical_formula: Eu₂(SO₄)₃·8H₂O
+      cas_number: 10031-55-7
+      supplier: Thermo Scientific
+      lot_number: M28G022
+      source_number: '029106.09'
+      purity: Reacton 99.9%
+      stock_M: '0.0294'
+    identity_reference_numbers:
+    - 18
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.0294
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_europium_iii_sulfate_OD0p001
+      group_id: AF_AFM1_europium_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 14700
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Europium(III) sulfate octahydrate"
+      experiment_labels:
+      - europium(III) sulfate
+      waters_of_hydration: 8
+      reported_bottles:
+      - supplier_as_recorded: Thermo Scientific
+        lot_as_recorded: M28G022
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: '029106.09'
+        grade_and_assay_as_recorded: Reacton 99.9%
+        bottle_information_as_recorded: 'Thermo Scientific, lot#: M28G022, Source#: 029106.09, Reacton
+          99.9%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: europium(III) sulfate octahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.europium_iii_sulfate.reported_record
+  gadolinium_iii_sulfate:
+    table_fields:
+      reagent: "Gadolinium(III) sulfate<sup>19,20</sup>"
+      chemical_formula: Gd₂(SO₄)₃
+      cas_number: 155788-75-3
+      supplier: Sigma-Aldrich
+      lot_number: MKCQ5722
+      source_number: '575143'
+      purity: ≥99.99% trace metals basis
+      stock_M: '0.0346'
+    identity_reference_numbers:
+    - 19
+    - 20
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.0346
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_gadolinium_iii_sulfate_OD0p001
+      group_id: AF_AFM1_gadolinium_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 17300
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Gadolinium(III) sulfate"
+      experiment_labels:
+      - gadolinium(III) sulfate
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: '1003458234'
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: MKCQ5722
+        grade_and_assay_as_recorded: =>99.99% tmb
+        bottle_information_as_recorded: 'Sigma Aldrich, lot#: 1003458234, Source#: MKCQ5722, =>99.99%
+          tmb'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: gadolinium(III) sulfate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.gadolinium_iii_sulfate.reported_record
+  gallium_sulfate:
+    table_fields:
+      reagent: "Gallium(III) sulfate hydrate<sup>21,22</sup>"
+      chemical_formula: Ga₂(SO₄)₃·xH₂O
+      cas_number: 13780-42-2
+      supplier: BeanTown Chemical (BTC)
+      lot_number: '50019021'
+      source_number: 215105-50G
+      purity: 99.999% trace metals basis
+      stock_M: 0.606; 0.600, pH 3.0
+    identity_reference_numbers:
+    - 21
+    - 22
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.606
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_gallium_sulfate_OD0p001
+      group_id: AF_AFM1_gallium_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 303000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    - pH: 3.0
+      concentration_M: 0.6
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM4_gallium_sulfate_OD0p1
+      group_id: AF_AFM4_gallium_sulfate_OD0p1_G01
+      column: 11
+      reported_concentration: 300
+      reported_unit: mM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Gallium(III) sulfate hydrate"
+      experiment_labels:
+      - gallium sulfate
+      - gallium
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: BTC
+        lot_as_recorded: '50019021'
+        additional_identifier:
+          label_as_recorded: Cat#
+          value_as_recorded: 215105-50G
+        grade_and_assay_as_recorded: 99.999% tmb
+        bottle_information_as_recorded: 'BTC, Lot#: 50019021, Cat#: 215105-50G, 99.999% tmb'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: gallium(III) sulfate hydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.gallium_sulfate.reported_record
+  indium_sulfate:
+    table_fields:
+      reagent: Indium(III) sulfate
+      chemical_formula: "In₂(SO₄)₃"
+      cas_number: 13464-82-9
+      supplier: aablocks
+      lot_number: '1554335'
+      source_number: AA003QX6
+      purity: 99%
+      stock_M: '0.622'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.622
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_indium_sulfate_OD0p001
+      group_id: AF_AFM1_indium_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 311000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Indium(III) sulfate
+      experiment_labels:
+      - indium sulfate
+      waters_of_hydration: null
+      cas_number: 13464-82-9
+      reported_bottles:
+      - supplier_as_recorded: aablocks
+        lot_as_recorded: '1554335'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: AA003QX6
+        grade_and_assay_as_recorded: 99%
+        chemical_name_as_recorded: Indium(III) sulfate
+        cas_as_recorded: 13464-82-9
+      chemical_formula: "In₂(SO₄)₃"
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Indium(III) sulfate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.indium_sulfate.reported_record
+  iron_ii_sulfate:
+    table_fields:
+      reagent: Iron(II) sulfate heptahydrate
+      chemical_formula: FeSO₄·7H₂O
+      cas_number: 7782-63-0
+      supplier: Sigma-Aldrich
+      lot_number: '0000446398'
+      source_number: '0000436301'
+      purity: ReagentPlus, ≥99%
+      stock_M: '0.600'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.6
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/03_Leptospirillum_ferriphilum_DSM_14647/LF_experiments.yaml
+      experiment_id: LF_HH_iron_ii_sulfate_OD0p001
+      group_id: LF_HH_iron_ii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 300000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Iron(II) sulfate heptahydrate
+      experiment_labels:
+      - iron(II) sulfate
+      waters_of_hydration: 7
+      cas_number: 7782-63-0
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '0000446398'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '0000436301'
+        grade_and_assay_as_recorded: ReagentPlus, ≥99%
+        chemical_name_as_recorded: Iron(II) sulfate heptahydrate
+        cas_as_recorded: 7782-63-0
+      chemical_formula: FeSO₄·7H₂O
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Iron(II) sulfate heptahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.iron_ii_sulfate.reported_record
+  iron_iii_chloride:
+    table_fields:
+      reagent: "Iron(III) chloride (anhydrous)<sup>26,27</sup>"
+      chemical_formula: FeCl₃
+      cas_number: 7705-08-0
+      supplier: Sigma-Aldrich
+      lot_number: SZBE1900V
+      source_number: '157740'
+      purity: reagent grade 97%
+      stock_M: '1.89'
+    identity_reference_numbers:
+    - 26
+    - 27
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 1.888
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_iron_iii_chloride_OD0p001
+      group_id: AF_AFM1_iron_iii_chloride_OD0p001_G01
+      column: 11
+      reported_concentration: 944000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Iron(III) chloride"
+      experiment_labels:
+      - iron(III) chloride
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: SZBE1900V
+        additional_identifier:
+          label_as_recorded: Parent#
+          value_as_recorded: '1002126343'
+        grade_and_assay_as_recorded: reagent grade 97%
+        bottle_information_as_recorded: 'Sigma Aldrich, lot#: SZBE1900V, Parent#: 1002126343, reagent
+          grade 97%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: iron(III) chloride (anhydrous)'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.iron_iii_chloride.reported_record
+  iron_iii_sulfate:
+    table_fields:
+      reagent: Iron(III) sulfate hydrate
+      chemical_formula: Fe₂(SO₄)₃·xH₂O
+      cas_number: 15244-10-7
+      supplier: Honeywell
+      lot_number: K314A
+      source_number: '10094524'
+      purity: 21-23% Fe basis
+      stock_M: '0.596'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.596
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_iron_iii_sulfate_OD0p001
+      group_id: AF_AFM1_iron_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 298000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Iron(III) sulfate hydrate
+      experiment_labels:
+      - iron(III) sulfate
+      waters_of_hydration: null
+      cas_number: 15244-10-7
+      reported_bottles:
+      - supplier_as_recorded: Honeywell
+        lot_as_recorded: K314A
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '10094524'
+        grade_and_assay_as_recorded: 21-23% Fe basis
+        chemical_name_as_recorded: Iron(III) sulfate hydrate
+        cas_as_recorded: 15244-10-7
+      chemical_formula: Fe₂(SO₄)₃·xH₂O
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Iron(III) sulfate hydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.iron_iii_sulfate.reported_record
+  lanthanum_iii_sulfate:
+    table_fields:
+      reagent: "Lanthanum(III) sulfate (anhydrous)<sup>10,29</sup>"
+      chemical_formula: La₂(SO₄)₃
+      cas_number: 10099-60-2
+      supplier: Sigma-Aldrich
+      lot_number: MKCF7729
+      source_number: '575208'
+      purity: ≥99.99% trace metals basis
+      stock_M: '0.0298'
+    identity_reference_numbers:
+    - 10
+    - 29
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.0298
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_lanthanum_iii_sulfate_OD0p001
+      group_id: AF_AFM1_lanthanum_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 14900
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Lanthanum(III) sulfate"
+      experiment_labels:
+      - lanthanum(III) sulfate
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: '1002762545'
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: MKCF7729
+        grade_and_assay_as_recorded: =>99.99% tmb
+        bottle_information_as_recorded: 'Sigma Aldrich, lot#: 1002762545, Source#: MKCF7729, =>99.99%
+          tmb'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: lanthanum(III) sulfate (anhydrous)'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.lanthanum_iii_sulfate.reported_record
+  lithium_sulfate:
+    table_fields:
+      reagent: Lithium sulfate anhydrous
+      chemical_formula: Li₂SO₄
+      cas_number: 10377-48-7
+      supplier: Sigma-Aldrich
+      lot_number: '1003784329'
+      source_number: MKCW8587
+      purity: 99.5% trace metals basis
+      stock_M: '2.50'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 2.5
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_lithium_sulfate_OD0p001
+      group_id: AF_AFM1_lithium_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 1250000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Lithium sulfate anhydrous
+      experiment_labels:
+      - lithium sulfate
+      waters_of_hydration: 0
+      cas_number: 10377-48-7
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '1003784329'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: MKCW8587
+        grade_and_assay_as_recorded: 99.5% trace metals basis
+        chemical_name_as_recorded: Lithium sulfate anhydrous
+        cas_as_recorded: 10377-48-7
+      chemical_formula: Li₂SO₄
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Lithium sulfate anhydrous'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.lithium_sulfate.reported_record
+  magnesium_sulfate:
+    table_fields:
+      reagent: Magnesium sulfate heptahydrate
+      chemical_formula: MgSO₄·7H₂O
+      cas_number: 10034-99-8
+      supplier: Sigma-Aldrich
+      lot_number: '102819884'
+      source_number: BCCM5848
+      purity: BioUltra, ≥99.5% (KT)
+      stock_M: '2.00'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 2.0
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_magnesium_sulfate_OD0p001
+      group_id: AF_AFM1_magnesium_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 1000000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Magnesium sulfate heptahydrate
+      experiment_labels:
+      - magnesium sulfate
+      waters_of_hydration: 7
+      cas_number: 10034-99-8
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '102819884'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: BCCM5848
+        grade_and_assay_as_recorded: BioUltra, ≥99.5% (KT)
+        chemical_name_as_recorded: Magnesium sulfate heptahydrate
+        cas_as_recorded: 10034-99-8
+      chemical_formula: MgSO₄·7H₂O
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Magnesium sulfate heptahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.magnesium_sulfate.reported_record
+  manganese_ii_sulfate:
+    table_fields:
+      reagent: Manganese(II) sulfate monohydrate
+      chemical_formula: MnSO₄·H₂O
+      cas_number: 10034-96-5
+      supplier: Sigma Life Science
+      lot_number: 091M0172V
+      source_number: '1001256756'
+      purity: BioReagent, plant cell culture tested, cell culture tested
+      stock_M: '2.00'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 2.0
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_manganese_ii_sulfate_OD0p001
+      group_id: AF_AFM1_manganese_ii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 1000000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Manganese(II) sulfate monohydrate
+      experiment_labels:
+      - manganese(II) sulfate
+      waters_of_hydration: 1
+      cas_number: 10034-96-5
+      reported_bottles:
+      - supplier_as_recorded: Sigma Life Science
+        lot_as_recorded: 091M0172V
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1001256756'
+        grade_and_assay_as_recorded: BioReagent, plant cell culture tested, cell culture tested
+        chemical_name_as_recorded: Manganese(II) sulfate monohydrate
+        cas_as_recorded: 10034-96-5
+      chemical_formula: MnSO₄·H₂O
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Manganese(II) sulfate monohydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.manganese_ii_sulfate.reported_record
+  monopotassium_phosphate:
+    table_fields:
+      reagent: Potassium phosphate monobasic
+      chemical_formula: KH₂PO₄
+      cas_number: 7778-77-0
+      supplier: Sigma Life Science
+      lot_number: SLBQ1072V
+      source_number: '1002316423'
+      purity: ≥99.0%, powder, suitable for cell culture, suitable for insect cell culture, suitable for
+        plant cell culture
+      stock_M: '0.600'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.6
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_monopotassium_phosphate_OD0p001
+      group_id: AF_AFM1_monopotassium_phosphate_OD0p001_G02
+      column: 11
+      reported_concentration: 300000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Potassium phosphate monobasic
+      experiment_labels:
+      - monopotassium phosphate
+      waters_of_hydration: null
+      cas_number: 7778-77-0
+      reported_bottles:
+      - supplier_as_recorded: Sigma Life Science
+        lot_as_recorded: SLBQ1072V
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1002316423'
+        grade_and_assay_as_recorded: ≥99.0%, powder, suitable for cell culture, suitable for insect cell
+          culture, suitable for plant cell culture
+        chemical_name_as_recorded: Potassium phosphate monobasic
+        cas_as_recorded: 7778-77-0
+      chemical_formula: KH₂PO₄
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Potassium phosphate monobasic'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.monopotassium_phosphate.reported_record
+  neodymium_iii_sulfate:
+    table_fields:
+      reagent: "Neodymium(III) sulfate octahydrate<sup>34</sup>"
+      chemical_formula: Nd₂(SO₄)₃·8H₂O
+      cas_number: 13477-91-3
+      supplier: Thermo Scientific
+      lot_number: T24J010
+      source_number: '040253.14'
+      purity: Reacton 99.9%
+      stock_M: '0.0408'
+    identity_reference_numbers:
+    - 34
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.040799999999999996
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_neodymium_iii_sulfate_OD0p001
+      group_id: AF_AFM1_neodymium_iii_sulfate_OD0p001_G02
+      column: 11
+      reported_concentration: 20400
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Neodymium(III) sulfate octahydrate"
+      experiment_labels:
+      - neodymium(III) sulfate
+      waters_of_hydration: 8
+      reported_bottles:
+      - supplier_as_recorded: Thermo Scientific
+        lot_as_recorded: T24J010
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: '040253.14'
+        grade_and_assay_as_recorded: Reacton 99.9%
+        bottle_information_as_recorded: 'Thermo Scientific, lot#: T24J010, Source#: 040253.14, Reacton
+          99.9%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: neodymium(III) sulfate octahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.neodymium_iii_sulfate.reported_record
+  nickel_ii_sulfate:
+    table_fields:
+      reagent: Nickel(II) sulfate heptahydrate
+      chemical_formula: NiSO₄·7H₂O
+      cas_number: 10101-98-1
+      supplier: Chem-Impex Int’l Inc.
+      lot_number: 002154-2020-109
+      source_number: '30629'
+      purity: 100.33% (titration)
+      stock_M: '1.92'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 1.922
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_nickel_ii_sulfate_OD0p001
+      group_id: AF_AFM1_nickel_ii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 961000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Nickel(II) sulfate heptahydrate
+      experiment_labels:
+      - nickel(II) sulfate
+      waters_of_hydration: 7
+      cas_number: 10101-98-1
+      reported_bottles:
+      - supplier_as_recorded: Chem-Impex Int’l Inc.
+        lot_as_recorded: 002154-2020-109
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '30629'
+        grade_and_assay_as_recorded: 100.33% (titration)
+        chemical_name_as_recorded: Nickel(II) sulfate heptahydrate
+        cas_as_recorded: 10101-98-1
+      chemical_formula: NiSO₄·7H₂O
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Nickel(II) sulfate heptahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.nickel_ii_sulfate.reported_record
+  potassium_bromide:
+    table_fields:
+      reagent: Potassium bromide
+      chemical_formula: KBr
+      cas_number: 7758-02-3
+      supplier: Sigma-Aldrich
+      lot_number: '1003301444'
+      source_number: MKCP6136
+      purity: ACS Reagent, ≥99.0%
+      stock_M: '0.614'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.614
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_potassium_bromide_OD0p001
+      group_id: AF_AFM1_potassium_bromide_OD0p001_G04
+      column: 11
+      reported_concentration: 307
+      reported_unit: mM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Potassium bromide
+      experiment_labels:
+      - potassium bromide
+      waters_of_hydration: null
+      cas_number: 7758-02-3
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '1003301444'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: MKCP6136
+        grade_and_assay_as_recorded: ACS Reagent, ≥99.0%
+        chemical_name_as_recorded: Potassium bromide
+        cas_as_recorded: 7758-2-3
+      chemical_formula: KBr
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Potassium bromide'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.potassium_bromide.reported_record
+  potassium_chloride:
+    table_fields:
+      reagent: Potassium chloride
+      chemical_formula: KCl
+      cas_number: 7447-40-7
+      supplier: Sigma-Aldrich
+      lot_number: '0000416330'
+      source_number: '0000410768'
+      purity: ACS Reagent, 99.0-100.5%
+      stock_M: '2.04'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 2.04
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_potassium_chloride_OD0p001
+      group_id: AF_AFM1_potassium_chloride_OD0p001_G03
+      column: 11
+      reported_concentration: 1020000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Potassium chloride
+      experiment_labels:
+      - potassium chloride
+      waters_of_hydration: null
+      cas_number: 7447-40-7
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '0000416330'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '0000410768'
+        grade_and_assay_as_recorded: ACS Reagent, 99.0-100.5%
+        chemical_name_as_recorded: Potassium chloride
+        cas_as_recorded: 7447-40-7
+      chemical_formula: KCl
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Potassium chloride'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.potassium_chloride.reported_record
+  potassium_dichromate:
+    table_fields:
+      reagent: Potassium dichromate
+      chemical_formula: K₂Cr₂O₇
+      cas_number: 7778-50-9
+      supplier: Sigma-Aldrich
+      lot_number: MKBV0900V
+      source_number: '1002223324'
+      purity: ACS Reagent, ≥99.0%
+      stock_M: 0.00292<sup>N</sup>
+    concentration_determination: nominal
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: nominal
+      concentration_M: 0.00292
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_potassium_dichromate_OD0p001
+      group_id: AF_AFM1_potassium_dichromate_OD0p001_G01
+      column: 11
+      reported_concentration: 1460
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+      preparation_record:
+        record_id: potassium_dichromate:pH1.8
+        mass_g: 0.0434
+        final_volume_mL: 50.4
+        formula_mass_for_nominal_calculation_g_per_mol: 294.181
+        formula_for_nominal_calculation: K₂Cr₂O₇
+        nominal_concentration_from_preparation_M: 0.0029271472702557646
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    reported_record:
+      chemical_name: Potassium dichromate
+      experiment_labels:
+      - potassium dichromate
+      waters_of_hydration: null
+      cas_number: 7778-50-9
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: MKBV0900V
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1002223324'
+        grade_and_assay_as_recorded: ACS Reagent, ≥99.0%
+        chemical_name_as_recorded: Potassium dichromate
+        cas_as_recorded: 7778-50-9
+      chemical_formula: K₂Cr₂O₇
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Potassium dichromate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.potassium_dichromate.reported_record
+  potassium_fluoride:
+    table_fields:
+      reagent: "Potassium fluoride dihydrate<sup>10,41</sup>"
+      chemical_formula: KF·2H₂O
+      cas_number: 13455-21-5
+      supplier: Sigma-Aldrich
+      lot_number: MKCP7519
+      source_number: '221872'
+      purity: reagent grade 98%
+      stock_M: 0.0568<sup>N</sup>
+    identity_reference_numbers:
+    - 10
+    - 41
+    concentration_determination: nominal
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: nominal
+      concentration_M: 0.056799999999999996
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_potassium_fluoride_OD0p001
+      group_id: AF_AFM1_potassium_fluoride_OD0p001_G01
+      column: 11
+      reported_concentration: 28400
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+      preparation_record:
+        record_id: potassium_fluoride:pH1.8
+        mass_g: 0.2662
+        final_volume_mL: 49.8
+        formula_mass_for_nominal_calculation_g_per_mol: 94.126
+        formula_for_nominal_calculation: KF·2H₂O
+        nominal_concentration_from_preparation_M: 0.05678963863443063
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    reported_record:
+      chemical_name: "Potassium fluoride"
+      experiment_labels:
+      - potassium fluoride
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: MKCP7519
+        additional_identifier:
+          label_as_recorded: Parent#
+          value_as_recorded: '1003415979'
+        grade_and_assay_as_recorded: reagent grade 98%
+        bottle_information_as_recorded: 'Sigma Aldrich, lot#: MKCP7519, Parent#: 1003415979, reagent grade
+          98%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: potassium fluoride dihydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.potassium_fluoride.reported_record
+  sodium_gluconate:
+    table_fields:
+      reagent: Sodium gluconate (D-gluconic acid sodium salt)
+      chemical_formula: C₆H₁₁NaO₇
+      cas_number: 527-07-1
+      supplier: Sigma Life Science
+      lot_number: SLBC1472V
+      source_number: '1001673832'
+      purity: ≥99%
+      stock_M: '0.438'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.438
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_sodium_gluconate_OD0p001
+      group_id: AF_AFM1_sodium_gluconate_OD0p001_G02
+      column: 11
+      reported_concentration: 219000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Sodium gluconate (D-gluconic acid sodium salt)
+      experiment_labels:
+      - Sodium gluconate (D-gluconic acid sodium salt)
+      waters_of_hydration: null
+      cas_number: 527-07-1
+      reported_bottles:
+      - supplier_as_recorded: Sigma Life Science
+        lot_as_recorded: SLBC1472V
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1001673832'
+        grade_and_assay_as_recorded: ≥99%
+        chemical_name_as_recorded: D-gluconic acid sodium salt
+        cas_as_recorded: 0527-7-1
+      experiment_id_token: sodium_gluconate
+      information_notes: ["Concentrations, stock maxima and dilution values use a compound molar basis."]
+      chemical_formula: C₆H₁₁NaO₇
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Sodium gluconate (D-gluconic acid sodium salt)'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.sodium_gluconate.reported_record
+  potassium_iodate:
+    table_fields:
+      reagent: Potassium iodate
+      chemical_formula: KIO₃
+      cas_number: 7758-05-6
+      supplier: Sigma-Aldrich
+      lot_number: MKCF34??
+      source_number: '1002655071'
+      purity: ACS Reagent, 99.5%
+      stock_M: '0.0666'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.06659999999999999
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_potassium_iodate_OD0p001
+      group_id: AF_AFM1_potassium_iodate_OD0p001_G01
+      column: 11
+      reported_concentration: 33300
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Potassium iodate
+      experiment_labels:
+      - potassium iodate
+      waters_of_hydration: null
+      cas_number: 7758-05-6
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: MKCF34??
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1002655071'
+        grade_and_assay_as_recorded: ACS Reagent, 99.5%
+        chemical_name_as_recorded: Potassium iodate
+        cas_as_recorded: 7758-05-6
+      chemical_formula: KIO₃
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Potassium iodate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.potassium_iodate.reported_record
+  potassium_iodide:
+    table_fields:
+      reagent: Potassium iodide
+      chemical_formula: KI
+      cas_number: 7681-11-0
+      supplier: Sigma-Aldrich
+      lot_number: '102887815'
+      source_number: BCCN5153
+      purity: ReagentPlus, 99%
+      stock_M: '0.592'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.592
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_potassium_iodide_OD0p001
+      group_id: AF_AFM1_potassium_iodide_OD0p001_G01
+      column: 11
+      reported_concentration: 296000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Potassium iodide
+      experiment_labels:
+      - potassium iodide
+      waters_of_hydration: null
+      cas_number: 7681-11-0
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '102887815'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: BCCN5153
+        grade_and_assay_as_recorded: ReagentPlus, 99%
+        chemical_name_as_recorded: Potassium iodide
+        cas_as_recorded: 7681-11-0
+      chemical_formula: KI
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Potassium iodide'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.potassium_iodide.reported_record
+  potassium_nitrate:
+    table_fields:
+      reagent: Potassium nitrate
+      chemical_formula: KNO₃
+      cas_number: 7757-79-1
+      supplier: Sigma-Aldrich
+      lot_number: '1003458844'
+      source_number: MKCR3008
+      purity: ACS Reagent, ≥99.0%
+      stock_M: '1.96'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 1.964
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_potassium_nitrate_OD0p001
+      group_id: AF_AFM1_potassium_nitrate_OD0p001_G01
+      column: 11
+      reported_concentration: 982000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Potassium nitrate
+      experiment_labels:
+      - potassium nitrate
+      waters_of_hydration: null
+      cas_number: 7757-79-1
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '1003458844'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: MKCR3008
+        grade_and_assay_as_recorded: ACS Reagent, ≥99.0%
+        chemical_name_as_recorded: Potassium nitrate
+        cas_as_recorded: 7757-79-1
+      chemical_formula: KNO₃
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Potassium nitrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.potassium_nitrate.reported_record
+  potassium_perrhenate:
+    table_fields:
+      reagent: "Potassium perrhenate<sup>46</sup>"
+      chemical_formula: KReO₄
+      cas_number: 10466-65-6
+      supplier: Sigma-Aldrich
+      lot_number: MKCN6384
+      source_number: '243590'
+      purity: 99%
+      stock_M: '0.0394'
+    identity_reference_numbers:
+    - 46
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.0394
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_potassium_perrhenate_OD0p001
+      group_id: AF_AFM1_potassium_perrhenate_OD0p001_G01
+      column: 11
+      reported_concentration: 19700
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Potassium perrhenate"
+      experiment_labels:
+      - potassium perrhenate
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: MKCN6384
+        additional_identifier:
+          label_as_recorded: Parent#
+          value_as_recorded: '1003284475'
+        grade_and_assay_as_recorded: 99%
+        bottle_information_as_recorded: 'Sigma Aldrich, lot#: MKCN6384, Parent#: 1003284475, 99%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: potassium perrhenate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.potassium_perrhenate.reported_record
+  potassium_sulfate:
+    table_fields:
+      reagent: Potassium sulfate
+      chemical_formula: K₂SO₄
+      cas_number: 7778-80-5
+      supplier: Sigma-Aldrich
+      lot_number: '0000461956'
+      source_number: '0000382469'
+      purity: ReagentPlus, ≥99.0%
+      stock_M: 0.612; 1.00, pH 3.0
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.612
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_potassium_sulfate_OD0p001
+      group_id: AF_AFM1_potassium_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 306000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    - pH: 3.0
+      concentration_M: 1.0
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM4_potassium_sulfate_OD0p1
+      group_id: AF_AFM4_potassium_sulfate_OD0p1_G01
+      column: 11
+      reported_concentration: 500
+      reported_unit: mM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Potassium sulfate
+      experiment_labels:
+      - potassium sulfate
+      waters_of_hydration: null
+      cas_number: 7778-80-5
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '0000461956'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '0000382469'
+        grade_and_assay_as_recorded: ReagentPlus, ≥99.0%
+        chemical_name_as_recorded: Potassium sulfate
+        cas_as_recorded: 7778-80-5
+      chemical_formula: K₂SO₄
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Potassium sulfate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.potassium_sulfate.reported_record
+  potassium_tetrathionate:
+    table_fields:
+      reagent: "Potassium tetrathionate<sup>48</sup>"
+      chemical_formula: K₂S₄O₆
+      cas_number: 13932-13-3
+      supplier: Sigma-Aldrich
+      lot_number: '0000446606'
+      source_number: '0000401579'
+      purity: null
+      stock_M: 0.612<sup>N</sup>
+    identity_reference_numbers:
+    - 48
+    concentration_determination: nominal
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: nominal
+      concentration_M: 0.612
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_potassium_tetrathionate_OD0p001
+      group_id: AF_AFM1_potassium_tetrathionate_OD0p001_G01
+      column: 11
+      reported_concentration: 306000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+      preparation_record:
+        record_id: potassium_tetrathionate:pH1.8
+        mass_g: 4.557
+        final_volume_mL: 24.6
+        formula_mass_for_nominal_calculation_g_per_mol: 302.43
+        formula_for_nominal_calculation: K₂S₄O₆
+        nominal_concentration_from_preparation_M: 0.6125182767550322
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    reported_record:
+      chemical_name: "Potassium tetrathionate"
+      experiment_labels:
+      - potassium tetrathionate
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '0000446606'
+        additional_identifier:
+          label_as_recorded: Source number
+          value_as_recorded: '0000401579'
+        grade_and_assay_as_recorded: null
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: potassium tetrathionate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.potassium_tetrathionate.reported_record
+  potassium_thiocyanate:
+    table_fields:
+      reagent: Potassium thiocyanate
+      chemical_formula: KSCN
+      cas_number: 333-20-0
+      supplier: Sigma-Aldrich
+      lot_number: '1003508787'
+      source_number: MKCQ7476
+      purity: ReagentPlus, ≥99.0%
+      stock_M: 0.0324<sup>N</sup>
+    concentration_determination: nominal
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: nominal
+      concentration_M: 0.0324
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_potassium_thiocyanate_OD0p001
+      group_id: AF_AFM1_potassium_thiocyanate_OD0p001_G01
+      column: 11
+      reported_concentration: 16200
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+      preparation_record:
+        record_id: potassium_thiocyanate:pH1.8
+        mass_g: 0.0776
+        final_volume_mL: 24.6
+        formula_mass_for_nominal_calculation_g_per_mol: 97.176
+        formula_for_nominal_calculation: KSCN
+        nominal_concentration_from_preparation_M: 0.03246142612080603
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    reported_record:
+      chemical_name: Potassium thiocyanate
+      experiment_labels:
+      - potassium thiocyanate
+      waters_of_hydration: null
+      cas_number: 333-20-0
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '1003508787'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: MKCQ7476
+        grade_and_assay_as_recorded: ReagentPlus, ≥99.0%
+        chemical_name_as_recorded: Potassium thiocyanate
+        cas_as_recorded: 333-20-0
+      independently_documented_catalog_number: P3011
+      catalog_reference_numbers:
+      - 49
+      - 50
+      chemical_formula: KSCN
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Potassium thiocyanate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.potassium_thiocyanate.reported_record
+  praseodymium_iii_sulfate:
+    table_fields:
+      reagent: "Praseodymium(III) sulfate octahydrate<sup>51</sup>"
+      chemical_formula: Pr₂(SO₄)₃·8H₂O
+      cas_number: 13510-41-3
+      supplier: AA Blocks
+      lot_number: '1305733'
+      source_number: AA003TVJ
+      purity: 99%
+      stock_M: '0.0980'
+    identity_reference_numbers:
+    - 51
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.09799999999999999
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_praseodymium_iii_sulfate_OD0p001
+      group_id: AF_AFM1_praseodymium_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 49000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Praseodymium(III) sulfate octahydrate"
+      experiment_labels:
+      - praseodymium(III) sulfate
+      waters_of_hydration: 8
+      reported_bottles:
+      - supplier_as_recorded: aablocks
+        lot_as_recorded: '1305733'
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: AA003TVJ
+        grade_and_assay_as_recorded: 99%
+        bottle_information_as_recorded: 'aablocks, lot#: 1305733, Source#: AA003TVJ, 99%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: praseodymium(III) sulfate octahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.praseodymium_iii_sulfate.reported_record
+  samarium_iii_sulfate:
+    table_fields:
+      reagent: "Samarium(III) sulfate octahydrate<sup>10,52</sup>"
+      chemical_formula: Sm₂(SO₄)₃·8H₂O
+      cas_number: 13465-58-2
+      supplier: Sigma-Aldrich
+      lot_number: MKCQ4221
+      source_number: '325880'
+      purity: 99.9% trace metals basis
+      stock_M: '0.0294'
+    identity_reference_numbers:
+    - 10
+    - 52
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.0294
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_samarium_iii_sulfate_OD0p001
+      group_id: AF_AFM1_samarium_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 14700
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Samarium(III) sulfate octahydrate"
+      experiment_labels:
+      - samarium(III) sulfate
+      waters_of_hydration: 8
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: '1003336346'
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: MKCQ4221
+        grade_and_assay_as_recorded: 99.9% tmb
+        bottle_information_as_recorded: 'Sigma Aldrich, lot#: 1003336346, Source#: MKCQ4221, 99.9% tmb'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: samarium(III) sulfate octahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.samarium_iii_sulfate.reported_record
+  silver_sulfate:
+    table_fields:
+      reagent: "Silver sulfate<sup>53</sup>"
+      chemical_formula: Ag₂SO₄
+      cas_number: 10294-26-5
+      supplier: Sigma-Aldrich
+      lot_number: MKCX8069
+      source_number: '497266'
+      purity: '>99.99%'
+      stock_M: '0.0108'
+    identity_reference_numbers:
+    - 53
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.01082
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_silver_sulfate_OD0p001
+      group_id: AF_AFM1_silver_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 5410
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Silver sulfate"
+      experiment_labels:
+      - silver sulfate
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: '1003827538'
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: MKCX8069
+        grade_and_assay_as_recorded: '>99.99%'
+        bottle_information_as_recorded: 'Sigma Aldrich, lot#: 1003827538, Source#: MKCX8069, >99.99%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: silver sulfate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.silver_sulfate.reported_record
+  sodium_chloride:
+    table_fields:
+      reagent: Sodium chloride
+      chemical_formula: NaCl
+      cas_number: 7647-14-5
+      supplier: Sigma
+      lot_number: SLCJ2677
+      source_number: '1003281350'
+      purity: ≥99% (titration), for molecular biology, DNase, RNase, and protease, none detected
+      stock_M: '2.08'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 2.08
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_sodium_chloride_OD0p001
+      group_id: AF_AFM1_sodium_chloride_OD0p001_G01
+      column: 11
+      reported_concentration: 1040000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Sodium chloride
+      experiment_labels:
+      - sodium chloride
+      waters_of_hydration: null
+      cas_number: 7647-14-5
+      reported_bottles:
+      - supplier_as_recorded: Sigma
+        lot_as_recorded: SLCJ2677
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1003281350'
+        grade_and_assay_as_recorded: ≥99% (titration), for molecular biology, DNase, RNase, and protease,
+          none detected
+        chemical_name_as_recorded: Sodium chloride
+        cas_as_recorded: 7647-14-5
+      chemical_formula: NaCl
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Sodium chloride'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.sodium_chloride.reported_record
+  sodium_chromate:
+    table_fields:
+      reagent: "Sodium chromate tetrahydrate<sup>10,55</sup>"
+      chemical_formula: Na₂CrO₄·4H₂O
+      cas_number: 10034-82-9
+      supplier: Sigma-Aldrich
+      lot_number: MKCQ9900
+      source_number: '216623'
+      purity: 99%
+      stock_M: 0.00218<sup>N</sup>
+    identity_reference_numbers:
+    - 10
+    - 55
+    concentration_determination: nominal
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: nominal
+      concentration_M: 0.00218
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_sodium_chromate_OD0p001
+      group_id: AF_AFM1_sodium_chromate_OD0p001_G01
+      column: 11
+      reported_concentration: 1090
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+      preparation_record:
+        record_id: sodium_chromate:pH1.8
+        mass_g: 0.0258
+        final_volume_mL: 50.5
+        formula_mass_for_nominal_calculation_g_per_mol: 234.032
+        formula_for_nominal_calculation: Na₂CrO₄·4H₂O
+        nominal_concentration_from_preparation_M: 0.0021829967231357717
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    reported_record:
+      chemical_name: "Sodium chromate tetrahydrate"
+      experiment_labels:
+      - sodium chromate
+      waters_of_hydration: 4
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: MKCQ9900
+        additional_identifier:
+          label_as_recorded: Parent#
+          value_as_recorded: '1003402434'
+        grade_and_assay_as_recorded: 99%
+        bottle_information_as_recorded: 'Sigma-Aldrich, lot#: MKCQ9900, Parent#: 1003402434, 99%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: sodium chromate tetrahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.sodium_chromate.reported_record
+  sodium_formate:
+    table_fields:
+      reagent: "Sodium formate<sup>56,57</sup>"
+      chemical_formula: HCOONa
+      cas_number: 141-53-7
+      supplier: Sigma
+      lot_number: BCBZ1955
+      source_number: '71539'
+      purity: BioUltra ≥99.0%
+      stock_M: '0.202'
+    identity_reference_numbers:
+    - 56
+    - 57
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.20199999999999999
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_sodium_formate_OD0p001
+      group_id: AF_AFM1_sodium_formate_OD0p001_G01
+      column: 11
+      reported_concentration: 101000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Sodium formate"
+      experiment_labels:
+      - sodium formate
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Sigma
+        lot_as_recorded: BCBZ1955
+        additional_identifier:
+          label_as_recorded: Parent#
+          value_as_recorded: '102084838'
+        grade_and_assay_as_recorded: BioUltra =>99.0%
+        bottle_information_as_recorded: 'Sigma, lot#: BCBZ1955, Parent#: 102084838, BioUltra =>99.0%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: sodium formate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.sodium_formate.reported_record
+  sodium_molybdate:
+    table_fields:
+      reagent: Sodium molybdate dihydrate
+      chemical_formula: Na₂MoO₄·2H₂O
+      cas_number: 10102-40-6
+      supplier: Sigma-Aldrich
+      lot_number: MKBJ8200V
+      source_number: '1001481540'
+      purity: ACS Reagent, ≥99% (99.5-103.0% ACS specification)
+      stock_M: '0.00664'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.00664
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_sodium_molybdate_OD0p001
+      group_id: AF_AFM1_sodium_molybdate_OD0p001_G01
+      column: 11
+      reported_concentration: 3320
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Sodium molybdate dihydrate
+      experiment_labels:
+      - sodium molybdate
+      waters_of_hydration: 2
+      cas_number: 10102-40-6
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: MKBJ8200V
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1001481540'
+        grade_and_assay_as_recorded: ACS Reagent, ≥99% (99.5-103.0% ACS specification)
+        chemical_name_as_recorded: Sodium molybdate dihydrate
+        cas_as_recorded: 10102-40-6
+      chemical_formula: Na₂MoO₄·2H₂O
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Sodium molybdate dihydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.sodium_molybdate.reported_record
+  sodium_selenite:
+    table_fields:
+      reagent: Sodium selenite
+      chemical_formula: Na₂SeO₃
+      cas_number: 10102-18-8
+      supplier: Sigma Life Science
+      lot_number: 071M0044V
+      source_number: '1001266320'
+      purity: BioReagent, suitable for cell culture ≥98%
+      stock_M: 0.0202<sup>N</sup>
+    concentration_determination: nominal
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: nominal
+      concentration_M: 0.0202
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_sodium_selenite_OD0p001
+      group_id: AF_AFM1_sodium_selenite_OD0p001_G01
+      column: 11
+      reported_concentration: 10100
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+      preparation_record:
+        record_id: sodium_selenite:pH1.8
+        mass_g: 0.0876
+        final_volume_mL: 25.0
+        formula_mass_for_nominal_calculation_g_per_mol: 172.948
+        formula_for_nominal_calculation: Na₂SeO₃
+        nominal_concentration_from_preparation_M: 0.02026042509887365
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    reported_record:
+      chemical_name: Sodium selenite
+      experiment_labels:
+      - sodium selenite
+      waters_of_hydration: null
+      cas_number: 10102-18-8
+      reported_bottles:
+      - supplier_as_recorded: Sigma Life Science
+        lot_as_recorded: 071M0044V
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1001266320'
+        grade_and_assay_as_recorded: BioReagent, suitable for cell culture ≥98%
+        chemical_name_as_recorded: Sodium selenite
+        cas_as_recorded: 10102-18-8
+      independently_documented_catalog_number: S5261
+      catalog_reference_numbers:
+      - 10
+      - 59
+      chemical_formula: Na₂SeO₃
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Sodium selenite'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.sodium_selenite.reported_record
+  sodium_sulfate:
+    table_fields:
+      reagent: Sodium sulfate anhydrous
+      chemical_formula: Na₂SO₄
+      cas_number: 7757-82-6
+      supplier: EMD
+      lot_number: 16C090007
+      source_number: SX0760-3
+      purity: ACS reagent
+      stock_M: '1.49'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 1.494
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_sodium_sulfate_OD0p001
+      group_id: AF_AFM1_sodium_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 747000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Sodium sulfate anhydrous
+      experiment_labels:
+      - sodium sulfate
+      waters_of_hydration: 0
+      cas_number: 7757-82-6
+      reported_bottles:
+      - supplier_as_recorded: EMD
+        lot_as_recorded: 16C090007
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: SX0760-3
+        grade_and_assay_as_recorded: ACS reagent
+        chemical_name_as_recorded: Sodium sulfate anhydrous
+        cas_as_recorded: 7757-82-6
+      chemical_formula: Na₂SO₄
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Sodium sulfate anhydrous'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.sodium_sulfate.reported_record
+  sodium_sulfite:
+    table_fields:
+      reagent: "Sodium sulfite, anhydrous<sup>62</sup>"
+      chemical_formula: Na₂SO₃
+      cas_number: 7757-83-7
+      supplier: Acros Organics
+      lot_number: A0370440
+      source_number: '219272500'
+      purity: 98.5%
+      stock_M: '2.02'
+    identity_reference_numbers:
+    - 62
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 2.02
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_sodium_sulfite_OD0p001
+      group_id: AF_AFM1_sodium_sulfite_OD0p001_G01
+      column: 11
+      reported_concentration: 1010000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Sodium sulfite"
+      experiment_labels:
+      - sodium sulfite
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Acros Organics
+        lot_as_recorded: A0370440
+        additional_identifier:
+          label_as_recorded: Parent#
+          value_as_recorded: '219272500'
+        grade_and_assay_as_recorded: 98.5%
+        bottle_information_as_recorded: 'Acros Organics, lot#: A0370440, Parent#: 219272500, 98.5%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: sodium sulfite, anhydrous'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.sodium_sulfite.reported_record
+  sodium_thiosulfate:
+    table_fields:
+      reagent: Sodium thiosulfate
+      chemical_formula: Na₂S₂O₃
+      cas_number: 7772-98-7
+      supplier: Sigma-Aldrich
+      lot_number: '1003351008'
+      source_number: MKCP9731
+      purity: ReagentPlus, 99%
+      stock_M: 0.600<sup>N</sup>
+    concentration_determination: nominal
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: nominal
+      concentration_M: 0.6
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_SM4_BS_sodium_thiosulfate_OD0p001_threefold_dye
+      group_id: AF_SM4_BS_sodium_thiosulfate_OD0p001_threefold_dye_G01
+      column: 11
+      reported_concentration: 300
+      reported_unit: mM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+      preparation_record:
+        record_id: sodium_thiosulfate:pH1.8
+        mass_g: 4.7487
+        final_volume_mL: 50.1
+        formula_mass_for_nominal_calculation_g_per_mol: 158.097
+        formula_for_nominal_calculation: Na₂S₂O₃
+        nominal_concentration_from_preparation_M: 0.5995333949266878
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    reported_record:
+      chemical_name: Sodium thiosulfate
+      experiment_labels:
+      - sodium thiosulfate
+      waters_of_hydration: 0
+      cas_number: 7772-98-7
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '1003351008'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: MKCP9731
+        grade_and_assay_as_recorded: ReagentPlus, 99%
+        chemical_name_as_recorded: Sodium thiosulfate
+        cas_as_recorded: 7772-98-7
+      chemical_formula: Na₂S₂O₃
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Sodium thiosulfate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.sodium_thiosulfate.reported_record
+  sodium_tungstate:
+    table_fields:
+      reagent: "Sodium tungstate dihydrate<sup>65</sup>"
+      chemical_formula: Na₂WO₄·2H₂O
+      cas_number: 10213-10-2
+      supplier: Sigma
+      lot_number: BCBF6100V
+      source_number: '72069'
+      purity: BioUltra ≥99.0%
+      stock_M: '0.00660'
+    identity_reference_numbers:
+    - 65
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.0066
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_sodium_tungstate_OD0p001
+      group_id: AF_AFM1_sodium_tungstate_OD0p001_G01
+      column: 11
+      reported_concentration: 3300
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Sodium tungstate dihydrate"
+      experiment_labels:
+      - sodium tungstate
+      waters_of_hydration: 2
+      reported_bottles:
+      - supplier_as_recorded: Sigma
+        lot_as_recorded: BCBF6100V
+        additional_identifier:
+          label_as_recorded: Parent#
+          value_as_recorded: '101091366'
+        grade_and_assay_as_recorded: BioUltra =>99.0%
+        bottle_information_as_recorded: 'Sigma, lot#: BCBF6100V, Parent#: 101091366, BioUltra =>99.0%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: sodium tungstate dihydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.sodium_tungstate.reported_record
+  sucrose:
+    table_fields:
+      reagent: Sucrose
+      chemical_formula: C₁₂H₂₂O₁₁
+      cas_number: 57-50-1
+      supplier: Sigma-Aldrich
+      lot_number: '1003495902'
+      source_number: SLCN7655
+      purity: ≥99.5% (GC), for molecular biology
+      stock_M: 2.00<sup>N</sup>
+    concentration_determination: nominal
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: nominal
+      concentration_M: 1.998
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_sucrose_OD0p001
+      group_id: AF_AFM1_sucrose_OD0p001_G01
+      column: 11
+      reported_concentration: 999000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+      preparation_record:
+        record_id: sucrose:pH1.8
+        mass_g: 17.0949
+        final_volume_mL: 25.0
+        formula_mass_for_nominal_calculation_g_per_mol: 342.297
+        formula_for_nominal_calculation: C₁₂H₂₂O₁₁
+        nominal_concentration_from_preparation_M: 1.9976686912242876
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    reported_record:
+      chemical_name: Sucrose
+      experiment_labels:
+      - sucrose
+      waters_of_hydration: null
+      cas_number: 57-50-1
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '1003495902'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: SLCN7655
+        grade_and_assay_as_recorded: ≥99.5% (GC), for molecular biology
+        chemical_name_as_recorded: Sucrose
+        cas_as_recorded: 57-50-1
+      chemical_formula: C₁₂H₂₂O₁₁
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Sucrose'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.sucrose.reported_record
+  sulfuric_acid:
+    table_fields:
+      reagent: Sulfuric acid
+      chemical_formula: H₂SO₄
+      cas_number: 7664-93-9
+      supplier: Sigma-Aldrich
+      lot_number: '4103761605'
+      source_number: MKCW4970
+      purity: ACS reagent 95.0-98.0%
+      stock_M: 0.200<sup>N</sup>
+    concentration_determination: nominal
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: nominal
+      concentration_M: 0.2
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_SM4_BS_sulfuric_acid_OD0p001_thiosulfate
+      group_id: AF_SM4_BS_sulfuric_acid_OD0p001_thiosulfate_G01
+      column: 2
+      reported_concentration: 100
+      reported_unit: mM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Sulfuric acid
+      experiment_labels:
+      - sulfuric acid
+      waters_of_hydration: null
+      cas_number: 7664-93-9
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '4103761605'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: MKCW4970
+        grade_and_assay_as_recorded: ACS reagent 95.0-98.0%
+        chemical_name_as_recorded: Sulfuric acid
+        cas_as_recorded: 7664-93-9
+      chemical_formula: H₂SO₄
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Sulfuric acid'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.sulfuric_acid.reported_record
+  terbium_iii_sulfate:
+    table_fields:
+      reagent: "Terbium(III) sulfate octahydrate<sup>68</sup>"
+      chemical_formula: Tb₂(SO₄)₃·8H₂O
+      cas_number: 13842-67-6
+      supplier: Sigma-Aldrich
+      lot_number: 19416KI
+      source_number: '325953'
+      purity: 99.9% trace metals basis
+      stock_M: '0.0330'
+    identity_reference_numbers:
+    - 68
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.033
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_terbium_iii_sulfate_OD0p001
+      group_id: AF_AFM1_terbium_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 16500
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Terbium(III) sulfate octahydrate"
+      experiment_labels:
+      - terbium(III) sulfate
+      waters_of_hydration: 8
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: '1003446134'
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: 19416KI
+        grade_and_assay_as_recorded: 99.9% tmb
+        bottle_information_as_recorded: 'Sigma Aldrich, lot#: 1003446134, Source#: 19416KI, 99.9% tmb'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: terbium(III) sulfate octahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.terbium_iii_sulfate.reported_record
+  titanyl_sulfate:
+    table_fields:
+      reagent: "Titanyl sulfate hydrate<sup>69,70</sup>"
+      chemical_formula: TiOSO₄·xH₂O
+      cas_number: 13825-74-6
+      supplier: GFS Chemicals
+      lot_number: '19380194'
+      source_number: '1050'
+      purity: '>65.0%'
+      stock_M: 2.16
+    identity_reference_numbers:
+    - 69
+    - 70
+    concentration_determination: measured_elemental
+    assayed_element: Ti
+    elemental_analysis_method: {$ref: "experimental_definitions.yaml#/reference_methods/ICP_OES_elemental_analysis"}
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: measured_elemental
+      concentration_M: 2.1599999999999997
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_titanyl_sulfate_OD0p001
+      group_id: AF_AFM1_titanyl_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 1080000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Titanyl sulfate hydrate"
+      experiment_labels:
+      - titanyl sulfate
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: GFS Chemicals
+        lot_as_recorded: '19380194'
+        additional_identifier:
+          label_as_recorded: Parent#
+          value_as_recorded: '1050'
+        grade_and_assay_as_recorded: '>65.0%'
+        bottle_information_as_recorded: 'GFS Chemicals, lot#: 19380194, Parent#: 1050, >65.0%'
+      information_notes:
+      - "GFS product 1050 is titanyl sulfate."
+      identity_sources:
+      - url: https://www.gfschemicals.com/titanium-sulfate-purified-1050
+        supports: GFS product 1050 is titanyl sulfate; no hydration/acid content inferred.
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: titanyl sulfate hydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.titanyl_sulfate.reported_record
+  vanadyl_sulfate:
+    table_fields:
+      reagent: Vanadium(IV) oxide sulfate hydrate
+      chemical_formula: VOSO₄·xH₂O
+      cas_number: 123334-20-3
+      supplier: Sigma-Aldrich
+      lot_number: '1003523404'
+      source_number: MKCS5691
+      purity: 97%
+      stock_M: '2.00'
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 2.0
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_vanadyl_sulfate_OD0p001
+      group_id: AF_AFM1_vanadyl_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 1000000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Vanadium(IV) oxide sulfate hydrate
+      experiment_labels:
+      - vanadyl sulfate
+      waters_of_hydration: null
+      cas_number: 123334-20-3
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '1003523404'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: MKCS5691
+        grade_and_assay_as_recorded: 97%
+        chemical_name_as_recorded: Vanadium(IV) oxide sulfate hydrate
+        cas_as_recorded: 123334-20-3
+      chemical_formula: VOSO₄·xH₂O
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Vanadium(IV) oxide sulfate hydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.vanadyl_sulfate.reported_record
+  ytterbium_iii_sulfate:
+    table_fields:
+      reagent: "Ytterbium(III) sulfate octahydrate<sup>72,73</sup>"
+      chemical_formula: Yb₂(SO₄)₃·8H₂O
+      cas_number: 10034-98-7
+      supplier: AA Blocks
+      lot_number: '8431745'
+      source_number: AA0001L4
+      purity: 95%
+      stock_M: '0.300'
+    identity_reference_numbers:
+    - 72
+    - 73
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.3
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_ytterbium_iii_sulfate_OD0p001
+      group_id: AF_AFM1_ytterbium_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 150000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Ytterbium(III) sulfate octahydrate"
+      experiment_labels:
+      - ytterbium(III) sulfate
+      waters_of_hydration: 8
+      reported_bottles:
+      - supplier_as_recorded: aablocks
+        lot_as_recorded: '8431745'
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: AA0001L4
+        grade_and_assay_as_recorded: 95%
+        bottle_information_as_recorded: 'aablocks, lot#: 8431745, Source#: AA0001L4, 95%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: ytterbium(III) sulfate octahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.ytterbium_iii_sulfate.reported_record
+  yttrium_iii_sulfate:
+    table_fields:
+      reagent: "Yttrium(III) sulfate hydrate<sup>74,75,76</sup>"
+      chemical_formula: Y₂(SO₄)₃·xH₂O
+      cas_number: null
+      supplier: Thermo Scientific
+      lot_number: W22I014
+      source_number: '013155.14'
+      purity: Reacton 99.99%
+      stock_M: '0.0978'
+    identity_reference_numbers:
+    - 74
+    - 75
+    - 76
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 0.0978
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_yttrium_iii_sulfate_OD0p001
+      group_id: AF_AFM1_yttrium_iii_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 48900
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Yttrium(III) sulfate hydrate"
+      experiment_labels:
+      - yttrium(III) sulfate
+      waters_of_hydration: null
+      reported_bottles:
+      - supplier_as_recorded: Thermo Scientific
+        lot_as_recorded: W22I014
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: '013155.14'
+        grade_and_assay_as_recorded: Reacton 99.99%
+        bottle_information_as_recorded: 'Thermo Scientific, lot#: W22I014, Source#: 013155.14, Reacton
+          99.99%'
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: yttrium(III) sulfate hydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.yttrium_iii_sulfate.reported_record
+  zinc_sulfate:
+    table_fields:
+      reagent: "Zinc sulfate heptahydrate<sup>77,78</sup>"
+      chemical_formula: ZnSO₄·7H₂O
+      cas_number: 7446-20-0
+      supplier: Sigma-Aldrich
+      lot_number: MKCT9832
+      source_number: '221376'
+      purity: ACS reagent 99%
+      stock_M: 2.04; 2.00, pH 3.0
+    identity_reference_numbers:
+    - 77
+    - 78
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_M: 2.04
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_zinc_sulfate_OD0p001
+      group_id: AF_AFM1_zinc_sulfate_OD0p001_G01
+      column: 11
+      reported_concentration: 1020000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    - pH: 3.0
+      concentration_M: 2.0
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM4_zinc_sulfate_OD0p1
+      group_id: AF_AFM4_zinc_sulfate_OD0p1_G01
+      column: 11
+      reported_concentration: 1000
+      reported_unit: mM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: "Zinc sulfate heptahydrate"
+      experiment_labels:
+      - zinc sulfate
+      waters_of_hydration: 7
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: '1003715222'
+        additional_identifier:
+          label_as_recorded: Source#
+          value_as_recorded: MKCT9832
+        grade_and_assay_as_recorded: ACS reagent 99%
+        bottle_information_as_recorded: 'Sigma Aldrich, lot#: 1003715222, Source#: MKCT9832, ACS reagent
+          99%, West lab'
+        bottle_source: West lab
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: zinc sulfate heptahydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.zinc_sulfate.reported_record
+  zirconium_iv_sulfate:
+    table_fields:
+      reagent: Zirconium(IV) sulfate hydrate
+      chemical_formula: Zr(SO₄)₂·xH₂O
+      cas_number: 34806-73-0
+      supplier: Sigma-Aldrich
+      lot_number: '1003822319'
+      source_number: MKCX6038
+      purity: 99.99% trace metals basis
+      stock_M: 0.576
+    concentration_determination: measured_elemental
+    assayed_element: Zr
+    elemental_analysis_method: {$ref: "experimental_definitions.yaml#/reference_methods/ICP_OES_elemental_analysis"}
+    maximum_additive_stocks:
+    - pH: 1.8
+      concentration_determination: measured_elemental
+      concentration_M: 0.576
+      basis: compound_formula_units
+      source_path: data/03_biological_microplates/01_Acidithiobacillus_ferrooxidans_ATCC_23270/AF_experiments.yaml
+      experiment_id: AF_AFM1_zirconium_iv_sulfate_OD0p001
+      group_id: AF_AFM1_zirconium_iv_sulfate_OD0p001_G02
+      column: 11
+      reported_concentration: 288000
+      reported_unit: uM
+      volume_basis_uL: 200
+      mixing_multiplier: 2
+    reported_record:
+      chemical_name: Zirconium(IV) sulfate hydrate
+      experiment_labels:
+      - zirconium(IV) sulfate
+      waters_of_hydration: null
+      cas_number: 34806-73-0
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '1003822319'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: MKCX6038
+        grade_and_assay_as_recorded: 99.99% trace metals basis
+        chemical_name_as_recorded: Zirconium(IV) sulfate hydrate
+        cas_as_recorded: 34806-73-0
+      chemical_formula: Zr(SO₄)₂·xH₂O
+    sources:
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.md
+      node: 'chemical table: Zirconium(IV) sulfate hydrate'
+    - path: data/00_materials_and_strains/chemicals_materials_equipment.yaml
+      node: chemicals.zirconium_iv_sulfate.reported_record
+  ammonium_metavanadate:
+    table_fields:
+      reagent: Ammonium metavanadate
+      chemical_formula: NH₄VO₃
+      cas_number: 7803-55-6
+      supplier: Sigma-Aldrich
+      lot_number: MKCL4102
+      source_number: '1003024890'
+      purity: ACS reagent ≥99.0%
+      stock_M: 0.300<sup>*</sup>
+    used_as_additive_in_tests: false
+    maximum_additive_stocks: []
+    attempted_stock_preparations:
+    - concentration_M: 0.3
+      pH: null
+      further_dilution_factor: 4
+      nominal_concentration_after_further_dilution_M: 0.075
+      diluent: sulfuric acid at target pH
+      visual_solubility_observation: not visibly soluble at indicated concentration or after further 4-fold
+        dilution
+      asterisk: true
+      concentration_basis: "nominal compound preparation target"
+      preparation_record:
+        record_id: ammonium_metavanadate:attempt1
+        mass_g: 0.8763
+        final_volume_mL: 25.0
+        formula_mass_for_nominal_calculation_g_per_mol: 116.978
+        formula_for_nominal_calculation: NH₄VO₃
+        nominal_concentration_from_preparation_M: 0.29964608729846637
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    solubility:
+      value_M: null
+      display: —
+      reference_ids: []
+      note: "Excluded from additive tests."
+    reported_record:
+      chemical_name: Ammonium metavanadate
+      cas_number: 7803-55-6
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: MKCL4102
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1003024890'
+        grade_and_assay_as_recorded: ACS reagent ≥99.0%
+        chemical_name_as_recorded: Ammonium metavanadate
+        cas_as_recorded: 7803-55-6
+      chemical_formula: NH₄VO₃
+  tin_ii_sulfate:
+    table_fields:
+      reagent: Tin(II) sulfate
+      chemical_formula: SnSO₄
+      cas_number: 7488-55-3
+      supplier: Sigma-Aldrich
+      lot_number: '1003846190'
+      source_number: MKCZ1949
+      purity: ≥95%
+      stock_M: 0.600<sup>*</sup>
+    used_as_additive_in_tests: false
+    maximum_additive_stocks: []
+    attempted_stock_preparations:
+    - concentration_M: 0.6
+      pH: null
+      further_dilution_factor: 4
+      nominal_concentration_after_further_dilution_M: 0.15
+      diluent: sulfuric acid at target pH
+      visual_solubility_observation: not visibly soluble at indicated concentration or after further 4-fold
+        dilution
+      asterisk: true
+      concentration_basis: "nominal compound preparation target"
+      preparation_record:
+        record_id: tin_ii_sulfate:attempt1
+        mass_g: 3.2131
+        final_volume_mL: 24.8
+        formula_mass_for_nominal_calculation_g_per_mol: 214.766
+        formula_for_nominal_calculation: SnSO₄
+        nominal_concentration_from_preparation_M: 0.6032634768583842
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    solubility:
+      value_M: null
+      display: —
+      reference_ids: []
+      note: "Excluded from additive tests."
+    reported_record:
+      chemical_name: Tin(II) sulfate
+      cas_number: 7488-55-3
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '1003846190'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: MKCZ1949
+        grade_and_assay_as_recorded: ≥95%
+        chemical_name_as_recorded: Tin(II) sulfate
+        cas_as_recorded: 7488-55-3
+      chemical_formula: SnSO₄
+  bismuth_iii_sulfate:
+    table_fields:
+      reagent: Bismuth sulfate
+      chemical_formula: Bi₂(SO₄)₃
+      cas_number: 7787-68-0
+      supplier: aladdin
+      lot_number: C2304331
+      source_number: null
+      purity: CP, ≥98%
+      stock_M: 0.500<sup>*</sup>
+    used_as_additive_in_tests: false
+    maximum_additive_stocks: []
+    attempted_stock_preparations:
+    - concentration_M: 0.5
+      pH: null
+      further_dilution_factor: 4
+      nominal_concentration_after_further_dilution_M: 0.125
+      diluent: sulfuric acid at target pH
+      visual_solubility_observation: not visibly soluble at indicated concentration or after further 4-fold
+        dilution
+      asterisk: true
+      concentration_basis: "nominal compound preparation target"
+      preparation_record:
+        record_id: bismuth_iii_sulfate:attempt1
+        mass_g: 8.8655
+        final_volume_mL: 25.0
+        formula_mass_for_nominal_calculation_g_per_mol: 706.128
+        formula_for_nominal_calculation: Bi₂(SO₄)₃
+        nominal_concentration_from_preparation_M: 0.502203566492194
+        nominal_concentration_basis: compound_formula_units
+        purity_correction_applied: false
+    solubility:
+      value_M: null
+      display: —
+      reference_ids: []
+      note: "Excluded from additive tests."
+    reported_record:
+      chemical_name: Bismuth sulfate
+      cas_number: 7787-68-0
+      reported_bottles:
+      - supplier_as_recorded: aladdin
+        lot_as_recorded: C2304331
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: null
+        grade_and_assay_as_recorded: CP, ≥98%
+        chemical_name_as_recorded: Bismuth sulfate
+        cas_as_recorded: 7787-68-0
+      chemical_formula: Bi₂(SO₄)₃
+  thallium_i_sulfate:
+    table_fields:
+      reagent: "Thallium(I) sulfate<sup>84</sup>"
+      chemical_formula: Tl₂SO₄
+      cas_number: 7446-18-6
+      supplier: null
+      lot_number: null
+      source_number: —
+      purity: null
+      stock_M: 0.0300<sup>*</sup>
+    identity_reference_numbers:
+    - 84
+    used_as_additive_in_tests: false
+    maximum_additive_stocks: []
+    attempted_stock_preparations:
+    - concentration_M: 0.03
+      pH: null
+      further_dilution_factor: 4
+      nominal_concentration_after_further_dilution_M: 0.0075
+      diluent: sulfuric acid at target pH
+      visual_solubility_observation: not visibly soluble at indicated concentration or after further 4-fold
+        dilution
+      asterisk: true
+      concentration_basis: "nominal compound preparation target"
+    solubility:
+      value_M: null
+      display: —
+      reference_ids: []
+      note: "Excluded from additive tests."
+    reported_record:
+      chemical_name: "Thallium(I) sulfate"
+      formula_as_recorded: Tl2SO4
+      reported_bottles: []
+  potassium_phosphate_dibasic:
+    table_fields:
+      reagent: Potassium phosphate dibasic
+      chemical_formula: K₂HPO₄
+      cas_number: 7758-11-4
+      supplier: Sigma-Aldrich
+      lot_number: SLBN6313V
+      source_number: '1002090630'
+      purity: ACS Reagent, ≥98%
+      stock_M: —
+    sources:
+    - path: data/02_media_validation/media_validation.yaml
+      node: media.AFM4.standard_medium_components
+    reported_record:
+      chemical_name: Potassium phosphate dibasic
+      cas_number: 7758-11-4
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: SLBN6313V
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1002090630'
+        grade_and_assay_as_recorded: ACS Reagent, ≥98%
+        chemical_name_as_recorded: Potassium phosphate dibasic
+        cas_as_recorded: 7758-11-4
+      chemical_formula: K₂HPO₄
+  calcium_chloride_anhydrous:
+    table_fields:
+      reagent: Calcium chloride, plant cell culture tested, anhydrous
+      chemical_formula: CaCl₂
+      cas_number: 10043-52-4
+      supplier: Σ Life Science
+      lot_number: 098K00191
+      source_number: null
+      purity: Plant cell culture tested
+      stock_M: —
+    sources:
+    - path: data/02_media_validation/media_validation.yaml
+      node: media.AFM4.standard_medium_components
+    reported_record:
+      chemical_name: Calcium chloride, plant cell culture tested, anhydrous
+      cas_number: 10043-52-4
+      reported_bottles:
+      - supplier_as_recorded: Σ Life Science
+        lot_as_recorded: 098K00191
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: null
+        grade_and_assay_as_recorded: Plant cell culture tested
+        chemical_name_as_recorded: Calcium chloride, plant cell culture tested, anhydrous
+        cas_as_recorded: 10043-52-4
+      waters_of_hydration: 0
+      chemical_formula: CaCl₂
+  calcium_chloride_dihydrate:
+    table_fields:
+      reagent: Calcium chloride dihydrate
+      chemical_formula: CaCl₂·2H₂O
+      cas_number: 10035-04-8
+      supplier: Sigma-Aldrich
+      lot_number: SLBP3147V
+      source_number: '1002191256'
+      purity: ReagentPlus, ≥99.0%
+      stock_M: —
+    sources:
+    - path: data/02_media_validation/media_validation.yaml
+      node: media.Starkey_brown.basal_components
+    reported_record:
+      chemical_name: Calcium chloride dihydrate
+      cas_number: 10035-04-8
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: SLBP3147V
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1002191256'
+        grade_and_assay_as_recorded: ReagentPlus, ≥99.0%
+        chemical_name_as_recorded: Calcium chloride dihydrate
+        cas_as_recorded: 10035-4-8
+      waters_of_hydration: 2
+      chemical_formula: CaCl₂·2H₂O
+  magnesium_chloride_hexahydrate:
+    table_fields:
+      reagent: Magnesium chloride hexahydrate
+      chemical_formula: MgCl₂·6H₂O
+      cas_number: 7791-18-6
+      supplier: Sigma-Aldrich
+      lot_number: '102547940'
+      source_number: BCCJ0827
+      purity: BioXtra, ≥99.0%
+      stock_M: —
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: media.HH.ingredients
+    reported_record:
+      chemical_name: Magnesium chloride hexahydrate
+      cas_number: 7791-18-6
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '102547940'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: BCCJ0827
+        grade_and_assay_as_recorded: BioXtra, ≥99.0%
+        chemical_name_as_recorded: Magnesium chloride hexahydrate
+        cas_as_recorded: 7791-18-6
+      waters_of_hydration: 6
+      chemical_formula: MgCl₂·6H₂O
+  elemental_sulfur_brown:
+    table_fields:
+      reagent: Elemental sulfur, brown preparation
+      chemical_formula: S
+      cas_number: 7704-34-9
+      supplier: Toronto Research Chemicals Inc.
+      lot_number: 1-LWF-28-1
+      source_number: S789400
+      purity: '>80%'
+      stock_M: —
+    sources:
+    - path: data/02_media_validation/media_validation.yaml
+      node: media.F2S.components
+    reported_record:
+      chemical_name: Elemental sulfur, brown preparation
+      cas_number: 7704-34-9
+      reported_bottles:
+      - supplier_as_recorded: 'Toronto Research
+
+          Chemicals Inc.'
+        lot_as_recorded: 1-LWF-28-1
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: S789400
+        grade_and_assay_as_recorded: '>80%'
+        chemical_name_as_recorded: Sulfur
+        cas_as_recorded: null
+      chemical_formula: S
+    cas_identity_lookup:
+      cas_number: 7704-34-9
+      source_url: https://www.sigmaaldrich.com/US/en/product/aldrich/213292
+      accessed_date: '2026-09-15'
+  elemental_sulfur_colloidal:
+    table_fields:
+      reagent: Elemental sulfur, colloidal powder
+      chemical_formula: S
+      cas_number: 7704-34-9
+      supplier: Sigma-Aldrich
+      lot_number: MKCC3309
+      source_number: '1002511265'
+      purity: powder, colloidal, ≥99.0%
+      stock_M: —
+    sources:
+    - path: data/02_media_validation/media_validation.yaml
+      node: media.Starkey_colloidal
+    reported_record:
+      chemical_name: Elemental sulfur, colloidal powder
+      cas_number: 7704-34-9
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: MKCC3309
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1002511265'
+        grade_and_assay_as_recorded: powder, colloidal, ≥99.0%
+        chemical_name_as_recorded: Sulfur
+        cas_as_recorded: 7704-34-9
+      chemical_formula: S
+  MD_TMS:
+    table_fields:
+      reagent: ATCC Trace Mineral Supplement
+      chemical_formula: null
+      cas_number: null
+      supplier: ATCC
+      lot_number: '70071354'
+      source_number: MD-TMS
+      purity: null
+      stock_M: —
+    sources:
+    - path: data/02_media_validation/media_validation.yaml
+      node: media.AFM1.components
+    reported_record:
+      chemical_name: ATCC Trace Mineral Supplement
+      cas_number: null
+      reported_bottles:
+      - supplier_as_recorded: ATCC
+        lot_as_recorded: '70071354'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: MD-TMS
+        grade_and_assay_as_recorded: null
+        chemical_name_as_recorded: ATCC Trace Mineral Supplement
+        cas_as_recorded: null
+      chemical_formula: null
+    preparation_type: purchased commercial supplement
+  thymol_blue:
+    table_fields:
+      reagent: Thymol blue
+      chemical_formula: null
+      cas_number: 76-61-9
+      supplier: Chem-Impex Int’l Inc.
+      lot_number: 002126-01-38
+      source_number: '01268'
+      purity: 98% (dye content)
+      stock_M: —
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: dye_stocks.thymol_blue
+    reported_record:
+      chemical_name: Thymol blue
+      cas_number: 76-61-9
+      reported_bottles:
+      - supplier_as_recorded: Chem-Impex Int’l Inc.
+        lot_as_recorded: 002126-01-38
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '01268'
+        grade_and_assay_as_recorded: 98% (dye content)
+        chemical_name_as_recorded: Thymol blue
+        cas_as_recorded: 76-61-9
+      chemical_formula: null
+  ethanol:
+    table_fields:
+      reagent: Ethanol
+      chemical_formula: C₂H₆O
+      cas_number: 64-17-5
+      supplier: Decon Laboratories, Inc.
+      lot_number: null
+      source_number: '2701'
+      purity: 200 proof, anhydrous
+      stock_M: —
+    sources:
+    - path: data/01_indicator_calibration/01_ratiometric_pH_indicator/ratiometric_pH_indicator.yaml
+      node: preparation_protocols.thymol_blue_stock.solvent
+    reported_record:
+      chemical_name: Ethanol
+      cas_number: 64-17-5
+      reported_bottles:
+      - supplier_as_recorded: Decon Laboratories, Inc.
+        lot_as_recorded: null
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '2701'
+        grade_and_assay_as_recorded: 200 proof, anhydrous
+        chemical_name_as_recorded: Ethanol
+        cas_as_recorded: 64-17-5
+      chemical_formula: C₂H₆O
+  sodium_hydroxide:
+    table_fields:
+      reagent: Sodium hydroxide
+      chemical_formula: NaOH
+      cas_number: 1310-73-2
+      supplier: Sigma Aldrich
+      lot_number: SLBT8498
+      source_number: '2488407'
+      purity: ≥ 98%
+      stock_M: —
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: stock_preparation.pH_adjustment_reagents
+    reported_record:
+      chemical_name: Sodium hydroxide
+      cas_number: 1310-73-2
+      reported_bottles:
+      - supplier_as_recorded: Sigma Aldrich
+        lot_as_recorded: SLBT8498
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '2488407'
+        grade_and_assay_as_recorded: ≥ 98%
+        chemical_name_as_recorded: Sodium hydroxide
+        cas_as_recorded: null
+      experiment_labels:
+      - Sodium hydroxide
+      chemical_formula: NaOH
+    cas_identity_lookup:
+      cas_number: 1310-73-2
+      source_url: https://webbook.nist.gov/cgi/cbook.cgi?ID=1310-73-2
+      accessed_date: '2026-09-15'
+  nitric_acid:
+    table_fields:
+      reagent: Nitric acid
+      chemical_formula: HNO₃
+      cas_number: 7697-37-2
+      supplier: Sigma-Aldrich
+      lot_number: '4104110432'
+      source_number: MKCX6119
+      purity: ACS reagent, 70%
+      stock_M: —
+    sources:
+    - path: data/01_indicator_calibration/02_iron_III_indicator/iron_III_indicator.yaml
+      node: reference_methods.total_Fe_ICP_OES.sample_diluent
+    reported_record:
+      chemical_name: Nitric acid
+      cas_number: 7697-37-2
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '4104110432'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: MKCX6119
+        grade_and_assay_as_recorded: ACS reagent, 70%
+        chemical_name_as_recorded: Nitric acid
+        cas_as_recorded: 7697-37-2
+      chemical_formula: HNO₃
+  ferroin:
+    table_fields:
+      reagent: Ferroin indicator solution
+      chemical_formula: null
+      cas_number: 14634-91-4
+      supplier: Chem-Impex
+      lot_number: 000878-6256161
+      source_number: '42509'
+      purity: 0.1 wt % in water, 1,10-phenanthroline iron(ii) sulfate complex, clear red liquid
+      stock_M: —
+    sources:
+    - path: data/01_indicator_calibration/02_iron_III_indicator/iron_III_indicator.yaml
+      node: reference_methods.FeII_titration
+    reported_record:
+      chemical_name: Ferroin indicator solution
+      cas_number: 14634-91-4
+      reported_bottles:
+      - supplier_as_recorded: Chem-Impex
+        lot_as_recorded: 000878-6256161
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '42509'
+        grade_and_assay_as_recorded: 0.1 wt % in water, 1,10-phenanthroline iron(ii) sulfate complex,
+          clear red liquid
+        chemical_name_as_recorded: Ferroin indicator solution
+        cas_as_recorded: 14634-91-4
+      chemical_formula: null
+  SYBR_Green_I:
+    table_fields:
+      reagent: SYBR(TM) Green I Nucleic Acid Gel Stain
+      chemical_formula: null
+      cas_number: 163795-75-3
+      supplier: Sigma-Aldrich
+      lot_number: '105377'
+      source_number: null
+      purity: 10,000X concentrate in DMSO
+      stock_M: —
+    sources:
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: measurement_methods.fluorescence
+    reported_record:
+      chemical_name: SYBR(TM) Green I Nucleic Acid Gel Stain
+      cas_number: 163795-75-3
+      reported_bottles:
+      - supplier_as_recorded: Sigma-Aldrich
+        lot_as_recorded: '105377'
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: null
+        grade_and_assay_as_recorded: 10,000X concentrate in DMSO
+        chemical_name_as_recorded: SYBR(TM) Green I Nucleic Acid Gel Stain
+        cas_as_recorded: null
+      chemical_formula: null
+    cas_identity_lookup:
+      cas_number: 163795-75-3
+      source_url: https://www.sigmaaldrich.com/US/en/product/sial/s9430
+      accessed_date: '2026-09-15'
+      scope: "Identifier for the active SYBR Green I dye in a 10,000× DMSO formulation."
+  TE_buffer:
+    table_fields:
+      reagent: TE Buffer
+      chemical_formula: null
+      cas_number: null
+      supplier: null
+      lot_number: null
+      source_number: —
+      purity: null
+      stock_M: —
+    sources:
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: measurement_methods.fluorescence.background_blank
+    preparation_method: TE Buffer was prepared as previously described.
+    preparation_reference:
+      reference_id: Dailey2026
+      doi: 10.64898/2026.08.27.747594
+      url: https://doi.org/10.64898/2026.08.27.747594
+      location: Supporting Information, protocol for cell density normalization and quantification.
+  water:
+    table_fields:
+      reagent: Water
+      chemical_formula: H₂O
+      cas_number: 7732-18-5
+      supplier: null
+      lot_number: null
+      source_number: —
+      purity: ultrapure Milli-Q water
+      stock_M: —
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: stock_preparation.solvent
+    - path: data/00_materials_and_strains/experimental_definitions.yaml
+      node: laboratory_water
+    reported_record:
+      chemical_name: Water
+      cas_number: 7732-18-5
+      water_grade: ultrapure
+      purification_system: Milli-Q
+    cas_identity_lookup:
+      cas_number: 7732-18-5
+      source_url: https://www.sigmaaldrich.com/US/en/product/sigma/w4502
+      accessed_date: '2026-09-15'
+  pH_standard_1_68:
+    table_fields:
+      reagent: pH calibration standard, pH 1.68
+      chemical_formula: null
+      cas_number: null
+      supplier: null
+      lot_number: null
+      source_number: —
+      purity: null
+      stock_M: —
+    sources:
+    - path: data/01_indicator_calibration/01_ratiometric_pH_indicator/ratiometric_pH_indicator.yaml
+      node: reference_methods.pH_meter.calibration_standard_pH
+  pH_standard_4_01:
+    table_fields:
+      reagent: pH calibration standard, pH 4.01
+      chemical_formula: null
+      cas_number: null
+      supplier: null
+      lot_number: null
+      source_number: —
+      purity: null
+      stock_M: —
+    sources:
+    - path: data/01_indicator_calibration/01_ratiometric_pH_indicator/ratiometric_pH_indicator.yaml
+      node: reference_methods.pH_meter.calibration_standard_pH
+  pH_standard_7_00:
+    table_fields:
+      reagent: pH calibration standard, pH 7.00
+      chemical_formula: null
+      cas_number: null
+      supplier: null
+      lot_number: null
+      source_number: —
+      purity: null
+      stock_M: —
+    sources:
+    - path: data/01_indicator_calibration/01_ratiometric_pH_indicator/ratiometric_pH_indicator.yaml
+      node: reference_methods.pH_meter.calibration_standard_pH
+  disodium_EDTA:
+    table_fields:
+      reagent: Disodium ethylenediaminetetraacetate
+      chemical_formula: "C₁₀H₁₄N₂Na₂O₈"
+      cas_number: null
+      supplier: Sigma
+      lot_number: SLBM2279V
+      source_number: '1001987424'
+      purity: 99.0–101.0%
+      stock_M: —
+    reported_record:
+      chemical_name: Disodium ethylenediaminetetraacetate
+      cas_number: null
+      reported_bottles:
+      - supplier_as_recorded: Sigma
+        lot_as_recorded: SLBM2279V
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '1001987424'
+        grade_and_assay_as_recorded: 99.0–101.0%
+        chemical_name_as_recorded: Disodium ethylenediaminetetraacetate
+        cas_as_recorded: null
+      waters_of_hydration: null
+      chemical_formula: "C₁₀H₁₄N₂Na₂O₈"
+  tris_hydrochloride:
+    table_fields:
+      reagent: Tris(hydroxymethyl)aminomethane hydrochloride
+      chemical_formula: C₄H₁₂ClNO₃
+      cas_number: 1185-53-1
+      supplier: Sigma
+      lot_number: SLBR1378V
+      source_number: '2286292'
+      purity: ≥99.0%
+      stock_M: —
+    reported_record:
+      chemical_name: Tris(hydroxymethyl)aminomethane hydrochloride
+      cas_number: 1185-53-1
+      reported_bottles:
+      - supplier_as_recorded: Sigma
+        lot_as_recorded: SLBR1378V
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: '2286292'
+        grade_and_assay_as_recorded: ≥99.0%
+        chemical_name_as_recorded: Tris(hydroxymethyl)aminomethane hydrochloride
+        cas_as_recorded: null
+      chemical_formula: C₄H₁₂ClNO₃
+    cas_identity_lookup:
+      cas_number: 1185-53-1
+      source_url: https://www.sigmaaldrich.com/US/en/product/sigma/t3253
+      accessed_date: '2026-09-15'
+  cerium_iv_sulfate_titrant_0_1_N:
+    table_fields:
+      reagent: Cerium(IV) sulfate titrant, 0.1 N
+      chemical_formula: Ce(SO₄)₂ (solution)
+      cas_number: 13590-82-4
+      supplier: Thermo Scientific
+      lot_number: R15J510
+      source_number: 035650.K2
+      purity: 0.1 N standardized solution
+      stock_M: —
+    reported_record:
+      chemical_name: Cerium(IV) sulfate titrant, 0.1 N
+      cas_number: 13590-82-4
+      reported_bottles:
+      - supplier_as_recorded: Thermo Scientific
+        lot_as_recorded: R15J510
+        additional_identifier:
+          label_as_recorded: 'Source/catalog #'
+          value_as_recorded: 035650.K2
+        grade_and_assay_as_recorded: 0.1 N standardized solution
+        chemical_name_as_recorded: Cerium(IV) sulfate
+        cas_as_recorded: 13590-82-4
+      chemical_formula: Ce(SO₄)₂ (solution)
+    preparation_type: purchased standardized solution
+    normality_eq_per_L: 0.1
+    sources:
+    - path: data/00_materials_and_strains/experimental_definitions.yaml
+      node: reference_methods.FeII_titration
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: measurement_methods.cerimetry
+materials_and_equipment:
+  spectramax_m2:
+    category: Equipment
+    item: Microplate reader
+    manufacturer: Molecular Devices
+    model_or_catalog: SpectraMax M2
+    lot_number: null
+    documented_use_and_limits: Calibration, media and biological absorbance; flask and tube fluorescence.
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: acquisition
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: measurement_methods.fluorescence
+    - path: data/05_test_tube_validation/test_tube_validation.yaml
+      node: measurement_methods.fluorescence
+  infinite_m_plex:
+    category: Equipment
+    item: Microplate reader
+    manufacturer: Tecan
+    model_or_catalog: Infinite M Plex
+    lot_number: null
+    documented_use_and_limits: "Paired lid comparison. The workbook header reads “infinite 200Pro”; the reader used was Infinite M Plex."
+    sources:
+    - path: data/01_indicator_calibration/03_lid_comparison/lid_comparison.yaml
+      node: readouts
+  ph_meter:
+    category: Equipment
+    item: Benchtop pH meter
+    manufacturer: Oakton
+    model_or_catalog: pH 700
+    lot_number: null
+    documented_use_and_limits: Reference and culture pH measurements.
+    sources:
+    - path: data/01_indicator_calibration/01_ratiometric_pH_indicator/ratiometric_pH_indicator.yaml
+      node: reference_methods.pH_meter
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: measurement_methods.pH
+    - path: data/05_test_tube_validation/test_tube_validation.yaml
+      node: measurement_methods.pH
+  icp_oes:
+    category: Equipment
+    item: ICP-OES
+    manufacturer: Horiba
+    model_or_catalog: Ultima Expert
+    lot_number: null
+    documented_use_and_limits: Radial-view elemental measurements.
+    sources:
+    - path: data/01_indicator_calibration/02_iron_III_indicator/iron_III_indicator.yaml
+      node: reference_methods.total_Fe_ICP_OES
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: measurement_methods.elemental_analysis
+  orp_electrode:
+    category: Equipment
+    item: ORP electrode
+    manufacturer: Oakton
+    model_or_catalog: Oakton ORP Electrode, epoxy body, double-junction
+    lot_number: null
+    documented_use_and_limits: "Flask and tube ORP measurements. Ag/AgCl reference with 3 M KCl electrolyte."
+    sources:
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: measurement_methods.orp
+    - path: data/05_test_tube_validation/test_tube_validation.yaml
+      node: measurement_methods.orp
+    catalog_number: WD-35805-15
+    supplier: Spectrum Chemical Mfg. Corp.
+    specifications:
+      body_material: epoxy
+      junction: double
+      reference_electrode: Ag/AgCl
+      reference_electrolyte: 3 M KCl
+  centrifuge:
+    category: Equipment
+    item: Microcentrifuge
+    manufacturer: Thermo Scientific
+    model_or_catalog: Sorvall Legend Micro 17 Centrifuge
+    lot_number: null
+    documented_use_and_limits: Both reference-sample clarification steps, at 3,000 × g and 17,000 × g,
+      used the Sorvall Legend Micro 17.
+    sources:
+    - path: data/01_indicator_calibration/02_iron_III_indicator/iron_III_indicator.yaml
+      node: reference_methods.iron_reference_sample_preparation
+    catalog_number: null
+    supplier: null
+    specifications:
+      centrifugation_step_assignment: Both reference-sample clarification steps
+      relative_centrifugal_force_x_g:
+      - 3000
+      - 17000
+  vortex_mixer:
+    category: Equipment
+    item: Vortex mixer
+    manufacturer: Scientific Industries
+    model_or_catalog: Vortex-Genie
+    lot_number: null
+    documented_use_and_limits: "Sulfur-suspension and titration mixing using Vortex-Genie."
+    sources:
+    - path: data/02_media_validation/media_validation.yaml
+      node: preparation.sulfur_suspension_mixing
+    - path: data/01_indicator_calibration/02_iron_III_indicator/iron_III_indicator.yaml
+      node: reference_methods.FeII_titration
+    catalog_number: null
+    supplier: null
+  culture_shaker:
+    category: Equipment
+    item: Temperature-controlled shaking apparatus
+    manufacturer: New Brunswick
+    model_or_catalog: I26 shaking incubator
+    lot_number: null
+    documented_use_and_limits: All flask experiments used this I26 at 150 rpm; tube culture shaking is also
+      assigned to this apparatus. Flasks were held individually and tubes in mounted wire racks at 60°.
+      The 4 °C calibration incubations used a separate I26R.
+    sources:
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: common_experimental_conditions
+    - path: data/05_test_tube_validation/test_tube_validation.yaml
+      node: common_conditions
+    catalog_number: null
+    supplier: null
+    specifications:
+      orbital_diameter_mm: 25
+      orbital_diameter_basis: "Manufacturer specification for I26 and I26R, manual p. 43."
+      application_assignment:
+      - flask_cultures
+      - tube_cultures
+      flask_mounting: individual_shaker_flask_holders
+      tube_mounting: mounted_wire_racks
+      tube_angle_degrees: 60
+      reported_model: I26
+      manufacturer_temperature_range: ambient +5 °C to 60 °C
+    product_information_sources:
+    - url: https://www.eppendorf.com/product-media/doc/en/141423_Operating-Manual/New-Brunswick_Shakers_Operating-manual_I-26_I-26R_New-Brunswick-I26-26R-Shaker.pdf
+      location: Specifications, p. 43
+      supports: 25 mm orbit and ambient +5 °C to 60 °C temperature range for I26.
+  uv_plate_3635:
+    category: Material
+    item: UV-transparent microplate
+    manufacturer: Corning
+    model_or_catalog: '3635'
+    lot_number: null
+    documented_use_and_limits: "Calibration physical plates carrying this catalog number."
+    sources:
+    - path: data/01_indicator_calibration/01_ratiometric_pH_indicator/ratiometric_pH_indicator.yaml
+      node: physical_plates
+    - path: data/01_indicator_calibration/02_iron_III_indicator/iron_III_indicator.yaml
+      node: physical_plates
+  uv_plate_unspecified:
+    category: Material
+    item: UV-transparent 96-well microplate for pH lid comparison
+    manufacturer: Corning
+    model_or_catalog: Costar UV Plate, 96 Well With UV Transparent Flat Bottom No Lid
+    lot_number: '21225049'
+    documented_use_and_limits: "Corning 3635 was used for the pH lid comparison. Product lot: 21225049."
+    sources:
+    - path: data/01_indicator_calibration/03_lid_comparison/lid_comparison.yaml
+      node: physical_plates
+    catalog_number: '3635'
+    supplier: null
+  nonuv_plate_3370:
+    category: Material
+    item: Non-UV-transparent microplate
+    manufacturer: Corning
+    model_or_catalog: '3370'
+    lot_number: null
+    documented_use_and_limits: Product identified for the calibration physical plates carrying this catalog
+      number.
+    sources:
+    - path: data/01_indicator_calibration/01_ratiometric_pH_indicator/ratiometric_pH_indicator.yaml
+      node: physical_plates
+    - path: data/01_indicator_calibration/02_iron_III_indicator/iron_III_indicator.yaml
+      node: physical_plates
+  nonuv_plate_unspecified:
+    category: Material
+    item: Non-UV-transparent 96-well microplate for storage, media and biological assays
+    manufacturer: Corning
+    model_or_catalog: Costar Assay Plate, With Low Evaporation Lid 96 Well Flat Bottom Non-Treated
+    lot_number: '17725025'
+    documented_use_and_limits: "Corning 3370 was used for pH storage, media validation and biological absorbance assays; supplied with a low-evaporation lid. Product lot: 17725025."
+    sources:
+    - path: data/01_indicator_calibration/01_ratiometric_pH_indicator/ratiometric_pH_indicator.yaml
+      node: physical_plates
+    - path: data/02_media_validation/media_validation.yaml
+      node: reader_settings
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: plate_layout
+    catalog_number: '3370'
+    supplier: null
+    specifications:
+      well_count: 96
+      bottom: flat
+      surface_treatment: non-treated
+      supplied_lid: low-evaporation
+  low_evaporation_lids:
+    category: Material
+    item: Low-evaporation plate lids
+    manufacturer: Corning
+    model_or_catalog: Low-evaporation lids from sacrificial non-UV Corning 3370 plates
+    lot_number: null
+    documented_use_and_limits: "Between-reading storage and paired lid comparisons. Donor lids came from sacrificial non-UV Corning 3370 plates."
+    sources:
+    - path: data/01_indicator_calibration/03_lid_comparison/lid_comparison.yaml
+      node: experiments.paired_lid_comparison
+    - path: data/01_indicator_calibration/01_ratiometric_pH_indicator/ratiometric_pH_indicator.yaml
+      node: incubation_protocols
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: incubation.between_readings
+    - path: data/01_indicator_calibration/02_iron_III_indicator/iron_III_indicator.yaml
+      node: incubation_protocols
+    reported_parent_plate_product: Corning 3370
+    parent_plate_assignment_by_experiment: "Donor lids: sacrificial non-UV Corning 3370 plates."
+  parafilm:
+    category: Material
+    item: Parafilm
+    manufacturer: Bemis
+    model_or_catalog: Parafilm™ M Laboratory Wrapping Film, 4" Width
+    lot_number: null
+    documented_use_and_limits: Plate sealing and storage as specified per experiment; 4-inch Parafilm
+      M, catalog PM999.
+    sources:
+    - path: data/01_indicator_calibration/01_ratiometric_pH_indicator/ratiometric_pH_indicator.yaml
+      node: incubation_protocols
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: incubation.between_readings
+    catalog_number: PM999
+    supplier: null
+  breathe_easy:
+    category: Material
+    item: Gas-exchange membrane
+    manufacturer: Sigma-Aldrich
+    model_or_catalog: Breathe-Easy® sealing membrane
+    lot_number: null
+    documented_use_and_limits: Gas-exchange membrane for calibration configuration comparisons.
+    sources:
+    - path: data/01_indicator_calibration/01_ratiometric_pH_indicator/ratiometric_pH_indicator.yaml
+      node: incubation_protocols.configuration_temperature_sequence
+    - path: data/01_indicator_calibration/02_iron_III_indicator/iron_III_indicator.yaml
+      node: incubation_protocols.configuration_temperature_sequence
+    catalog_number: Z380059
+    supplier: null
+  certitube_50ml:
+    category: Material
+    item: 50 mL stock-preparation tube
+    manufacturer: Environmental Express
+    model_or_catalog: CertiTube™, Digestion Tubes with Green Caps
+    lot_number: null
+    documented_use_and_limits: 50 mL nominal stock-preparation container established in the concentration
+      documentation; supplied catalog UX-53203-13 is a Cole-Parmer identifier.
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: concentration_conventions.measurement_methods.nominal.stock_preparation_container
+    catalog_number: UX-53203-13
+    supplier: Cole-Palmer
+    specifications:
+      capacity_mL: 50
+      cap_colour: green
+  flask_250ml:
+    category: Material
+    item: 250 mL baffled borosilicate-glass culture flask
+    manufacturer: Corning
+    model_or_catalog: PYREX® 250 mL Delong Shaker Erlenmeyer Flask with Baffles
+    lot_number: null
+    documented_use_and_limits: Flask validation with 100 mL initial liquid volume. Baffled PYREX borosilicate
+      glass, fitted with 38 mm polypropylene Chemglass CLS-1503-10 closures and held in individual shaker
+      flask holders.
+    sources:
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: common_experimental_conditions
+    catalog_number: 4444-250
+    supplier: null
+    specifications:
+      capacity_mL: 250
+      material: borosilicate_glass
+      baffled: true
+      baffle_count: 3
+      closure_used: flask_closure_38mm
+      shaker_mounting: individual_shaker_flask_holders
+    product_information_sources:
+    - url: https://ecatalog.corning.com/life-sciences/b2c/US/en/Bioprocess-and-Scale-up/Erlenmeyer-Flasks/Erlenmeyer-Flasks,-Glass/PYREX%C2%AE-Flask-with-Baffles/p/4444-250
+      supports: "PYREX flask capacity and baffles."
+    - url: https://certs-ecatalog.corning.com/life-sciences/certs/4444/250/4444-250_13526043.pdf
+      supports: "Product-family borosilicate glass specification."
+  tube_14ml:
+    category: Material
+    item: 14 mL capped polystyrene culture tube
+    manufacturer: CELLTREAT
+    model_or_catalog: 14 mL Culture Tube, PS Dual Cap
+    lot_number: 250810-1571-A
+    documented_use_and_limits: Tube validation with 6 mL prepared medium. Polystyrene tube with LDPE dual-position
+      cap, vented during culture; held at 60° in mounted wire racks.
+    sources:
+    - path: data/05_test_tube_validation/test_tube_validation.yaml
+      node: common_conditions
+    catalog_number: '230440'
+    supplier: null
+    specifications:
+      capacity_mL: 14
+      material: polystyrene
+      cap_material: LDPE
+      cap_type: dual_position
+      cap_position_used: vented
+      sterile: true
+      shaker_mounting: mounted_wire_racks
+      tube_angle_degrees: 60
+    product_information_sources:
+    - url: https://www.celltreat.com/product/230440/
+      supports: "Polystyrene tube and LDPE dual-position cap."
+  microcentrifuge_tubes:
+    category: Material
+    item: Sterile 1.5 mL microcentrifuge tubes
+    manufacturer: null
+    model_or_catalog: Sterile 1.5 mL microcentrifuge tubes
+    lot_number: null
+    documented_use_and_limits: 'Reference-sample clarification. Sterile
+      1.5 mL microcentrifuge tubes supplied by Spectrum Chemical, catalog 972-95685-CS.'
+    sources:
+    - path: data/01_indicator_calibration/02_iron_III_indicator/iron_III_indicator.yaml
+      node: reference_methods.iron_reference_sample_preparation
+    supplier: Spectrum Chemical
+    catalog_number: 972-95685-CS
+    specifications:
+      capacity_mL: 1.5
+      sterile: true
+  sterile_filters:
+    category: Material
+    item: Sterile syringe filter
+    manufacturer: CELLTREAT
+    model_or_catalog: PVDF Syringe Filter, 0.22μm, 30mm, Sterile
+    lot_number: null
+    documented_use_and_limits: Biological additive-stock sterile filtration; 0.22 µm PVDF membrane, 30
+      mm diameter.
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: stock_preparation.sterilization
+    catalog_number: '229743'
+    supplier: null
+    specifications:
+      format: syringe_filter
+      membrane_material: PVDF
+      pore_size_um: 0.22
+      diameter_mm: 30
+      sterile: true
+      housing_material: polypropylene
+    product_information_sources:
+    - url: https://www.celltreat.com/product/229743/
+      supports: Membrane, pore size, diameter, sterility and housing material.
+  water_beaker:
+    category: Material
+    item: Water beaker adjacent to incubating plates
+    manufacturer: null
+    model_or_catalog: null
+    lot_number: null
+    documented_use_and_limits: "100 mL sterile water adjacent to incubating plates."
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: incubation.between_readings
+  orp_meter:
+    category: Equipment
+    item: ORP meter
+    manufacturer: Oakton
+    model_or_catalog: pH 700 Benchtop Meter
+    catalog_number: EW-35419-03
+    supplier: null
+    lot_number: null
+    documented_use_and_limits: Flask and tube ORP measurements; paired with the separately identified
+      ORP electrode.
+    sources:
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: measurement_methods.orp
+    - path: data/05_test_tube_validation/test_tube_validation.yaml
+      node: measurement_methods.orp
+  ph_electrode:
+    category: Equipment
+    item: pH electrode
+    manufacturer: Oakton
+    model_or_catalog: Oakton® pH Electrodes with Glass Body
+    catalog_number: WD-35805-04
+    supplier: Spectrum Chemical Mfg. Corp.
+    lot_number: null
+    documented_use_and_limits: Reference and culture pH measurements with the documented Oakton pH 700
+      meter.
+    sources:
+    - path: data/00_materials_and_strains/experimental_definitions.yaml
+      node: reference_methods.pH_meter
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: measurement_methods.pH
+    - path: data/05_test_tube_validation/test_tube_validation.yaml
+      node: measurement_methods.pH
+  centrifuge_st_plus:
+    category: Equipment
+    item: Centrifuge
+    manufacturer: Thermo Scientific
+    model_or_catalog: Sorvall ST Plus centrifuge
+    catalog_number: null
+    supplier: null
+    lot_number: null
+    documented_use_and_limits: "Cell pellets were prepared by centrifugation in 50 mL tubes."
+    sources:
+    - path: data/00_materials_and_strains/experimental_definitions.yaml
+      node: reference_methods.cell_pellet_preparation
+    specifications:
+      centrifugation_step_assignment: cell_pellet_preparation
+      tube_capacity_mL: 50
+      method_reference_doi: 10.64898/2026.08.27.747594
+    method_reference_id: Dailey2026
+  temperature_incubator:
+    category: Equipment
+    item: Incubator
+    manufacturer: Thermo Scientific
+    model_or_catalog: Heratherm General Incubator
+    catalog_number: '51028064'
+    supplier: null
+    lot_number: null
+    documented_use_and_limits: LF biological microplate incubation, batch LF_2026-05-29 (33 physical plates).
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: incubation.equipment_by_batch_id.LF_2026-05-29
+    specifications:
+      manufacturer_temperature_range: ambient +5 °C to 75 °C
+      incubation_assignments:
+      - LF_2026-05-29
+    product_information_sources:
+    - url: https://www.thermofisher.com/order/catalog/product/51028064
+      supports: "Catalog identity and specified temperature range."
+  fluorescence_plate_3915:
+    category: Material
+    item: Black 96-well fluorescence microplate
+    manufacturer: Corning
+    model_or_catalog: Costar Assay Plate, 96 Well, No Lid Black, Flat Bottom
+    catalog_number: '3915'
+    supplier: null
+    lot_number: '09525004'
+    documented_use_and_limits: "SYBR Green fluorescence measurements used Corning 3915; absorbance measurements used Corning 3370. Product lot: 09525004."
+    sources:
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: measurement_methods.fluorescence
+    - path: data/05_test_tube_validation/test_tube_validation.yaml
+      node: measurement_methods.fluorescence
+    specifications:
+      well_count: 96
+      colour: black
+      bottom: flat
+      supplied_lid: false
+  centrifuge_tube_50ml:
+    category: Material
+    item: 50 mL sterile centrifuge tube
+    manufacturer: CELLTREAT
+    model_or_catalog: 50mL Centrifuge Tube, Sterile
+    catalog_number: '229436'
+    supplier: null
+    lot_number: null
+    documented_use_and_limits: Containment of sterile-filtered additive stocks. Nominal concentrations use the documented
+      50 mL CertiTube preparation vessel.
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: stock_preparation.filtered_stock_container
+    specifications:
+      capacity_mL: 50
+      sterile: true
+      application_assignment: sterile_filtered_additive_stock_storage
+  centrifuge_tube_15ml:
+    category: Material
+    item: 15 mL sterile centrifuge tube
+    manufacturer: CELLTREAT
+    model_or_catalog: 15 mL Centrifuge Tube, Sterile
+    catalog_number: '229414'
+    supplier: null
+    lot_number: null
+    documented_use_and_limits: "Preparation of serial dilutions of additive stocks."
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: stock_preparation.serial_dilution_container
+    specifications:
+      capacity_mL: 15
+      sterile: true
+      application_assignment: additive_stock_serial_dilutions
+  flask_closure_38mm:
+    category: Material
+    item: 38 mm polypropylene culture-flask closure
+    manufacturer: Chemglass
+    model_or_catalog: Polypropylene closure, 38 mm
+    catalog_number: CLS-1503-10
+    supplier: null
+    lot_number: null
+    documented_use_and_limits: Closure used on culture flasks.
+    specifications:
+      diameter_mm: 38
+      material: polypropylene
+    sources:
+    - path: data/04_flask_validation/flask_validation.yaml
+      node: common_experimental_conditions.flask_closure
+    product_information_sources:
+    - url: https://chemglass.com/closures-polypropylene
+      supports: CLS-1503-10 product identity, 38 mm size and polypropylene material; 2 closure positions.
+  biological_incubator_kf_set:
+    category: Equipment
+    item: Biological-plate incubator for the KF-containing batch
+    manufacturer: Thermo Scientific
+    model_or_catalog: Heratherm IMC18
+    product_family: Heratherm
+    catalog_number: null
+    supplier: null
+    lot_number: null
+    documented_use_and_limits: "All 55 physical plates in batch AF_2026-01-06, including all additives in the KF-containing experimental set, used the Thermo Scientific Heratherm IMC18. LF plates used the Heratherm catalog 51028064."
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: incubation.equipment_by_batch_id
+  biological_incubator_other:
+    category: Equipment
+    item: Biological-plate incubator for remaining batches
+    manufacturer: Thermo Scientific
+    model_or_catalog: MaxQ 6000
+    catalog_number: null
+    supplier: null
+    lot_number: null
+    documented_use_and_limits: "The 350 biological plates outside AF_2026-01-06 and LF_2026-05-29 used the Thermo Scientific MaxQ 6000. Incubation was static."
+    sources:
+    - path: data/03_biological_microplates/biological_definitions.yaml
+      node: incubation.equipment_by_batch_id
+  calibration_incubator_4c:
+    category: Equipment
+    item: Refrigerated incubator for 4 °C calibration
+    manufacturer: New Brunswick
+    model_or_catalog: I26R shaking incubator
+    catalog_number: null
+    supplier: null
+    lot_number: null
+    documented_use_and_limits: "An I26R was used for the 4 °C calibration incubations; all flask experiments used the I26."
+    sources:
+    - path: data/01_indicator_calibration/01_ratiometric_pH_indicator/ratiometric_pH_indicator.yaml
+      node: incubation_protocols.configuration_temperature_sequence
+    - path: data/01_indicator_calibration/02_iron_III_indicator/iron_III_indicator.yaml
+      node: incubation_protocols.configuration_temperature_sequence
+    specifications:
+      application_assignment:
+      - calibration_4_C_incubation
+      reported_temperature_C: 4
+      shaking_during_calibration: null
+      distinct_from_equipment_id: culture_shaker
+      orbital_diameter_mm: 25
+      orbital_diameter_basis: "Manufacturer specification for I26R, manual p. 43."
+      manufacturer_temperature_range: 15 °C below ambient, minimum 4 °C, to 60 °C
+    product_information_sources:
+    - url: https://www.eppendorf.com/product-media/doc/en/141423_Operating-Manual/New-Brunswick_Shakers_Operating-manual_I-26_I-26R_New-Brunswick-I26-26R-Shaker.pdf
+      location: Specifications, p. 43
+      supports: I26R model-specific temperature range and 25 mm orbit.
+method_references:
+  Dailey2026:
+    citation: '[Dailey, D. A.](https://orcid.org/0000-0003-1908-7196); Hernández-Pagán, E.; Bailey, S.; Raffaele, N. E.; [Bavaresco, S. T.](https://orcid.org/0009-0007-4652-5733); Piatt-Price,
+      A.; Carneiro, J. S. A.; Austin, R. N.; Doherty, C. J.; [Banta, S.](https://orcid.org/0000-0001-7885-0150) Biophytometallurgy: Biomining Metals
+      from Plant Resources. bioRxiv (preprint), 2026. DOI: 10.64898/2026.08.27.747594.'
+    citation_style: ACS
+    doi: 10.64898/2026.08.27.747594
+    url: https://doi.org/10.64898/2026.08.27.747594
+    publication_type: preprint
+    bibliography: chemicals_materials_equipment.md#references
+    bibliography_number: 85

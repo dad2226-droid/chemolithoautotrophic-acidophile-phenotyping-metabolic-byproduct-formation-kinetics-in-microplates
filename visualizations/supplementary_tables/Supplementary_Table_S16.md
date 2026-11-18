@@ -1,0 +1,46 @@
+# Supplementary Table S16. Net 380 versus 428 nm response at citrate endpoints
+
+None of 18 citrate–gallium formulations shows a significant net wavelength difference after Holm adjustment. The paired contrast is net A380 minus net A428 in AU.
+
+**Figure panels** 7d · [All Supplementary tables](README.md)
+
+**Column definitions**
+
+- `citric_acid_mM` — Final citric acid concentration in the microplate treatment, in mM.
+- `Ga_mM` — Final gallium(III) sulfate concentration expressed as mM Ga³⁺ in the microplate treatment.
+- `paired_plate_n` — Number of physical-plate endpoints with finite net absorbance changes measured at both wavelengths for the formulation.
+- `batch_n` — Number of distinct starting batches represented by the paired endpoints. Each contributes one mean difference.
+- `net_380_mean_AU` — Mean final net absorbance change at 380 nm (AU). The biotic change from baseline minus the matched abiotic change is averaged within each batch and then equally across batches.
+- `net_428_mean_AU` — Mean final net change at 428 nm (AU), using the same paired plates, abiotic correction and equal batch weighting.
+- `paired_380_minus_428_AU` — Mean within-plate difference in net change (380 minus 428 nm, AU), averaged within each batch and then equally across batches.
+- `between_batch_difference_sd_AU` — Sample standard deviation among starting-batch means of the paired wavelength difference, in AU.
+- `ci_low` — Lower unadjusted 95% Student’s t confidence limit for the mean paired wavelength difference across starting batches, in AU.
+- `ci_high` — Upper unadjusted 95% Student’s t confidence limit for the same difference, in AU.
+- `statistic` — One-sample t statistic testing whether the batch means of the paired 380-minus-428 nm differences average to zero.
+- `df` — Degrees of freedom of the t test, equal to the number of contributing starting batches minus one.
+- `p_value` — Unadjusted two-sided p-value for the test of zero mean paired wavelength difference.
+- `p_holm` — P-value adjusted by Holm’s method across the 18 citric acid–Ga formulations.
+- `days_min` — Shortest elapsed time in days to a contributing plate endpoint, using the 380 nm acquisition time.
+- `days_max` — Longest elapsed time in days to a contributing plate endpoint, using the 380 nm acquisition time.
+- `status` — Indicates whether at least three starting batches supplied paired differences for the exploratory t test.
+
+| citric&#95;<wbr>acid&#95;<wbr>mM | Ga&#95;<wbr>mM | paired&#95;<wbr>plate&#95;<wbr>n | batch&#95;<wbr>n | net&#95;<wbr>380&#95;<wbr>mean&#95;<wbr>AU | net&#95;<wbr>428&#95;<wbr>mean&#95;<wbr>AU | paired&#95;<wbr>380&#95;<wbr>minus&#95;<wbr>428&#95;<wbr>AU | between&#95;<wbr>batch&#95;<wbr>difference&#95;<wbr>sd&#95;<wbr>AU | ci&#95;<wbr>low | ci&#95;<wbr>high | statistic | df | p&#95;<wbr>value | p&#95;<wbr>holm | days&#95;<wbr>min | days&#95;<wbr>max | status |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| 0.0 | 0.0 | 6 | 4 | 2.9832375 | 1.9527541666666668 | 1.0304833333333332 | 0.2832470463381027 | 0.5797740752827241 | 1.4811925913839423 | 7.2762159157930215 | 3 | 0.005357772212044334 | 0.09108212760475368 | 6.841712962962963 | 6.998194444444445 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 0.0 | 1.0 | 6 | 4 | 3.151841666666667 | 1.8666083333333336 | 1.2852333333333332 | 0.4955475069725071 | 0.49670666700472943 | 2.073759999661937 | 5.187124605611779 | 3 | 0.013913405013080147 | 0.17166159489193242 | 6.841712962962963 | 6.998194444444445 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 1.0 | 0.0 | 3 | 3 | 2.9360999999999997 | 1.7450555555555554 | 1.1910444444444444 | 0.6692726211951908 | -0.4715209133085223 | 2.8536098021974112 | 3.0823754424114913 | 2 | 0.09109810308732533 | 0.5343300824203242 | 6.841712962962963 | 6.878344907407407 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 1.0 | 1.0 | 3 | 3 | 2.9474444444444448 | 1.676977777777778 | 1.2704666666666666 | 0.6455266402971557 | -0.33311040443498796 | 2.8740437377683214 | 3.408864450545954 | 2 | 0.07633286891718917 | 0.5343300824203242 | 6.841712962962963 | 6.878344907407407 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 3.0 | 0.0 | 3 | 3 | 2.5484444444444443 | 1.066488888888889 | 1.4819555555555555 | 0.200440984202703 | 0.9840325477172687 | 1.9798785633938423 | 12.805875639611681 | 2 | 0.006042700051867738 | 0.09668320082988381 | 6.866412037037037 | 6.998194444444445 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 3.0 | 1.0 | 3 | 3 | 2.581088888888889 | 0.9777222222222223 | 1.6033666666666668 | 0.23929941031640206 | 1.0089139771000766 | 2.197819356233257 | 11.605179160939496 | 2 | 0.007343311677819836 | 0.11014967516729754 | 6.866412037037037 | 6.998194444444445 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 6.0 | 0.0 | 3 | 3 | 2.0189888888888885 | 0.7266888888888888 | 1.2922999999999998 | 0.22957445657370362 | 0.7220054347706741 | 1.8625945652293254 | 9.749905507900687 | 2 | 0.010356463806794506 | 0.1449904932951231 | 6.841712962962963 | 6.878344907407407 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 6.0 | 1.0 | 3 | 3 | 2.1843444444444446 | 0.6456888888888889 | 1.5386555555555557 | 0.18324596200896925 | 1.0834473508031068 | 1.9938637603080045 | 14.543456065023118 | 2 | 0.004694594605488959 | 0.08450270289880127 | 6.841712962962963 | 6.878344907407407 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 12.0 | 0.0 | 3 | 3 | 1.5979888888888887 | 0.7162999999999999 | 0.8816888888888887 | 0.19583815975140023 | 0.39519993085064975 | 1.3681778469271277 | 7.7979182094187705 | 2 | 0.01605046695129937 | 0.17655513646429305 | 6.841712962962963 | 6.878344907407407 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 12.0 | 1.0 | 3 | 3 | 1.7404666666666666 | 0.7498555555555556 | 0.990611111111111 | 0.1991421639971844 | 0.4959145515261364 | 1.4853076706960855 | 8.615899016799684 | 2 | 0.013204738068610186 | 0.17166159489193242 | 6.841712962962963 | 6.878344907407407 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 18.0 | 0.0 | 3 | 3 | 1.3731555555555557 | 1.0466555555555555 | 0.3265000000000001 | 0.2063138951533156 | -0.18601212740845474 | 0.839012127408455 | 2.7410397552282864 | 2 | 0.11131108616819453 | 0.5343300824203242 | 6.841712962962963 | 6.878344907407407 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 18.0 | 1.0 | 3 | 3 | 1.4385666666666668 | 1.1172555555555557 | 0.32131111111111116 | 0.2021661097363401 | -0.1808973461227869 | 0.8235195683450092 | 2.752821282492213 | 2 | 0.1105121221704674 | 0.5343300824203242 | 6.841712962962963 | 6.878344907407407 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 24.0 | 0.0 | 3 | 3 | 1.1482333333333334 | 1.4317555555555554 | -0.2835222222222221 | 0.19719110959600547 | -0.7733720939915517 | 0.20632764954710747 | -2.4903500719165805 | 2 | 0.13042977195087152 | 0.5343300824203242 | 6.866412037037037 | 6.998194444444445 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 24.0 | 1.0 | 3 | 3 | 1.424777777777778 | 1.4922555555555557 | -0.06747777777777782 | 0.20604243719662674 | -0.5793155662388674 | 0.4443600106833117 | -0.5672372210459699 | 2 | 0.6277315429110583 | 0.6277315429110583 | 6.866412037037037 | 6.998194444444445 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 30.0 | 0.0 | 3 | 3 | 0.9803777777777777 | 1.7509444444444446 | -0.7705666666666668 | 0.19575827213967514 | -1.256857172875918 | -0.2842761604574158 | -6.817901500138737 | 2 | 0.02084266245431472 | 0.2084266245431472 | 6.866412037037037 | 6.998194444444445 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 30.0 | 1.0 | 3 | 3 | 1.144677777777778 | 1.7339888888888888 | -0.5893111111111109 | 0.18390962857197396 | -1.0461679550007474 | -0.1324542672214744 | -5.550099762774788 | 2 | 0.030963831601274912 | 0.2786744844114742 | 6.866412037037037 | 6.998194444444445 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 36.0 | 0.0 | 3 | 3 | 0.8310777777777778 | 1.7195111111111112 | -0.8884333333333334 | 0.2864609591394804 | -1.6000418048758869 | -0.17682486179077983 | -5.371802416265207 | 2 | 0.032951225000671006 | 0.2786744844114742 | 6.866412037037037 | 6.998194444444445 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |
+| 36.0 | 1.0 | 3 | 3 | 0.9242777777777778 | 1.6739666666666668 | -0.749688888888889 | 0.4108753262288988 | -1.7703597816018162 | 0.27098200382403814 | -3.1603242213235756 | 2 | 0.08722312831409249 | 0.5343300824203242 | 6.866412037037037 | 6.998194444444445 | exploratory&#95;<wbr>paired&#95;<wbr>starting&#95;<wbr>batch&#95;<wbr>t&#95;<wbr>test |

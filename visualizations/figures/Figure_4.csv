@@ -1,0 +1,1001 @@
+figure,panel,view,series,mark,group,index,observation,x_axis,y_axis,x,y,lower_y,upper_y,x_category,y_category,value,in_view
+4,a,main,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,1,,measured pH,$R$,0.72,,1.0902903099505088,1.1420608615142838,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,2,,measured pH,$R$,1.0,,1.1486350466556872,1.187625007551566,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,3,,measured pH,$R$,1.19,,1.1188114348957474,1.1741001056322822,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,4,,measured pH,$R$,1.39,,1.041331631025852,1.107192890409967,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,5,,measured pH,$R$,1.61,,1.150751902601964,1.1845005078127682,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,6,,measured pH,$R$,1.83,,0.9392245985729428,0.9877159747634108,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,7,,measured pH,$R$,3.0,,1.0020054517653256,1.0927435289705625,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,8,,measured pH,$R$,3.79,,0.5925660008124787,0.65358878454995,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean,line,2,1,,measured pH,$R$,0.72,1.1161755857323963,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean,line,2,2,,measured pH,$R$,1.0,1.1681300271036266,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean,line,2,3,,measured pH,$R$,1.19,1.1464557702640148,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean,line,2,4,,measured pH,$R$,1.39,1.0742622607179095,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean,line,2,5,,measured pH,$R$,1.61,1.167626205207366,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean,line,2,6,,measured pH,$R$,1.83,0.9634702866681768,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean,line,2,7,,measured pH,$R$,3.0,1.047374490367944,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | mean,line,2,8,,measured pH,$R$,3.79,0.6230773926812143,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,1,media_plate_07,measured pH,$R$,0.72,1.0893105690314082,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,2,media_plate_07,measured pH,$R$,1.0,1.1528470262082802,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,3,media_plate_07,measured pH,$R$,1.19,1.1199928934456482,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,4,media_plate_07,measured pH,$R$,1.39,1.0432311938336902,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,5,media_plate_07,measured pH,$R$,1.61,1.1800986621907912,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,6,media_plate_07,measured pH,$R$,1.83,0.9536424239069121,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,7,media_plate_07,measured pH,$R$,3.0,1.0694766814656258,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,8,media_plate_07,measured pH,$R$,3.79,0.6557060287194041,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,9,media_plate_08,measured pH,$R$,0.72,1.1273822230778512,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,10,media_plate_08,measured pH,$R$,1.0,1.1653374567854595,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,11,media_plate_08,measured pH,$R$,1.19,1.141586423954664,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,12,media_plate_08,measured pH,$R$,1.39,1.071438145192862,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,13,media_plate_08,measured pH,$R$,1.61,1.1621597069410743,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,14,media_plate_08,measured pH,$R$,1.83,0.97306604409137,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,15,media_plate_08,measured pH,$R$,3.0,1.082046832058672,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,16,media_plate_08,measured pH,$R$,3.79,0.6112384496202522,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,17,media_plate_09,measured pH,$R$,0.72,1.1318339650879292,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,18,media_plate_09,measured pH,$R$,1.0,1.1862055983171393,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,19,media_plate_09,measured pH,$R$,1.19,1.1777879933917317,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,20,media_plate_09,measured pH,$R$,1.39,1.1081174431271759,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,21,media_plate_09,measured pH,$R$,1.61,1.1606202464902324,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,22,media_plate_09,measured pH,$R$,1.83,0.9637023920062483,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,23,media_plate_09,measured pH,$R$,3.0,0.990599957579534,,,,,,True
+4,a,main,AFM4 | ratio_raw | with dye | physical plate,point,3,24,media_plate_09,measured pH,$R$,3.79,0.6022876997039868,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,1,,measured pH,$R$,0.72,,2.385589514079884,2.5387851168904403,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,2,,measured pH,$R$,1.0,,2.3143650336129915,2.490294587744098,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,3,,measured pH,$R$,1.19,,2.046689906956196,2.2114458893070683,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,4,,measured pH,$R$,1.39,,1.4427381605792147,2.137136903266131,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,5,,measured pH,$R$,1.61,,1.255044673759093,1.6587639916035608,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,6,,measured pH,$R$,1.83,,1.1615924062371887,1.3645569559287647,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,7,,measured pH,$R$,3.0,,1.02504960153311,1.0762268338989824,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,8,,measured pH,$R$,3.79,,0.6619523008084629,0.7289278313094634,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean,line,5,1,,measured pH,$R$,0.72,2.462187315485162,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean,line,5,2,,measured pH,$R$,1.0,2.4023298106785447,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean,line,5,3,,measured pH,$R$,1.19,2.129067898131632,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean,line,5,4,,measured pH,$R$,1.39,1.789937531922673,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean,line,5,5,,measured pH,$R$,1.61,1.456904332681327,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean,line,5,6,,measured pH,$R$,1.83,1.2630746810829767,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean,line,5,7,,measured pH,$R$,3.0,1.0506382177160463,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | mean,line,5,8,,measured pH,$R$,3.79,0.6954400660589631,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,1,media_plate_07,measured pH,$R$,0.72,2.484439883461775,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,2,media_plate_07,measured pH,$R$,1.0,2.3077105059597653,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,3,media_plate_07,measured pH,$R$,1.19,2.1275173388884703,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,4,media_plate_07,measured pH,$R$,1.39,1.9120671094656225,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,5,media_plate_07,measured pH,$R$,1.61,1.5356752697525267,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,6,media_plate_07,measured pH,$R$,1.83,1.2977449940702188,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,7,media_plate_07,measured pH,$R$,3.0,1.0311666465204994,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,8,media_plate_07,measured pH,$R$,3.79,0.6791783529591026,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,9,media_plate_08,measured pH,$R$,0.72,2.436785181612768,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,10,media_plate_08,measured pH,$R$,1.0,2.460760433233295,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,11,media_plate_08,measured pH,$R$,1.19,2.1134646730699824,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,12,media_plate_08,measured pH,$R$,1.39,1.6004712832893933,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,13,media_plate_08,measured pH,$R$,1.61,1.5483938714027208,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,14,media_plate_08,measured pH,$R$,1.83,1.2648319908713266,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,15,media_plate_08,measured pH,$R$,3.0,1.07607362903473,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,16,media_plate_08,measured pH,$R$,3.79,0.7243438822867198,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,17,media_plate_09,measured pH,$R$,0.72,2.4653368813809435,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,18,media_plate_09,measured pH,$R$,1.0,2.4385184928425736,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,19,media_plate_09,measured pH,$R$,1.19,2.146221682436445,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,20,media_plate_09,measured pH,$R$,1.39,1.857274203013003,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,21,media_plate_09,measured pH,$R$,1.61,1.2866438568887337,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,22,media_plate_09,measured pH,$R$,1.83,1.2266470583073843,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,23,media_plate_09,measured pH,$R$,3.0,1.0446743775929088,,,,,,True
+4,a,main,AFM5 | ratio_raw | with dye | physical plate,point,6,24,media_plate_09,measured pH,$R$,3.79,0.6827979629310672,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,1,,measured pH,$R$,0.7,,1.0034839402721947,1.0364198814823469,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,2,,measured pH,$R$,0.97,,0.9954214041402462,1.032207367388172,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,3,,measured pH,$R$,1.14,,0.9817540467263669,1.0315507055911923,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,4,,measured pH,$R$,1.31,,0.9819895438129874,1.0085442104959181,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,5,,measured pH,$R$,1.49,,0.9815096961215095,1.0013758852128816,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,6,,measured pH,$R$,1.64,,0.9764337236463232,0.9883154211575451,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,7,,measured pH,$R$,1.77,,0.9696207840448868,0.9856139300174739,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,8,,measured pH,$R$,2.1,,0.9691343782992207,0.9757109748777361,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean,line,8,1,,measured pH,$R$,0.7,1.0199519108772708,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean,line,8,2,,measured pH,$R$,0.97,1.013814385764209,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean,line,8,3,,measured pH,$R$,1.14,1.0066523761587796,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean,line,8,4,,measured pH,$R$,1.31,0.9952668771544528,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean,line,8,5,,measured pH,$R$,1.49,0.9914427906671955,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean,line,8,6,,measured pH,$R$,1.64,0.9823745724019342,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean,line,8,7,,measured pH,$R$,1.77,0.9776173570311804,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | mean,line,8,8,,measured pH,$R$,2.1,0.9724226765884784,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,1,media_plate_01,measured pH,$R$,0.7,1.0271420592087803,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,2,media_plate_01,measured pH,$R$,0.97,1.0049012261954944,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,3,media_plate_01,measured pH,$R$,1.14,0.9833304613634741,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,4,media_plate_01,measured pH,$R$,1.31,0.9854075043100541,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,5,media_plate_01,measured pH,$R$,1.49,0.9930846955128865,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,6,media_plate_01,measured pH,$R$,1.64,0.9845474850611042,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,7,media_plate_01,measured pH,$R$,1.77,0.9756559314522456,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,8,media_plate_01,measured pH,$R$,2.1,0.9711682455399991,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,9,media_plate_02,measured pH,$R$,0.7,1.021229520117602,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,10,media_plate_02,measured pH,$R$,0.97,1.0205731285717017,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,11,media_plate_02,measured pH,$R$,1.14,1.0216463234636355,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,12,media_plate_02,measured pH,$R$,1.31,0.9966209512569574,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,13,media_plate_02,measured pH,$R$,1.49,0.9987379582576699,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,14,media_plate_02,measured pH,$R$,1.64,0.979969483927158,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,15,media_plate_02,measured pH,$R$,1.77,0.9776849977056181,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,16,media_plate_02,measured pH,$R$,2.1,0.9761733824660562,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,17,media_plate_03,measured pH,$R$,0.7,1.0114841533054304,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,18,media_plate_03,measured pH,$R$,0.97,1.0159688025254316,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,19,media_plate_03,measured pH,$R$,1.14,1.0149803436492288,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,20,media_plate_03,measured pH,$R$,1.31,1.0037721758963472,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,21,media_plate_03,measured pH,$R$,1.49,0.9825057182310305,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,22,media_plate_03,measured pH,$R$,1.64,0.9826067482175403,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,23,media_plate_03,measured pH,$R$,1.77,0.9795111419356775,,,,,,True
+4,a,main,F2S | ratio_raw | with dye | physical plate,point,9,24,media_plate_03,measured pH,$R$,2.1,0.9699264017593796,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,1,,measured pH,$R$,0.72,,1.0295662520863729,1.0372983995051361,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,2,,measured pH,$R$,0.99,,1.0166277201947729,1.0339191515242891,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,3,,measured pH,$R$,1.18,,1.0086177602335902,1.0244835069891949,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,4,,measured pH,$R$,1.37,,0.998241177914512,1.008757645590354,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,5,,measured pH,$R$,1.58,,0.9784840699736359,0.99193216112233,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,6,,measured pH,$R$,1.79,,0.9747323880782867,0.9826670189570744,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,7,,measured pH,$R$,1.97,,0.9675347798814541,0.9735622187294245,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,8,,measured pH,$R$,2.8,,0.9624555705048223,0.9744612586136772,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean,line,11,1,,measured pH,$R$,0.72,1.0334323257957545,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean,line,11,2,,measured pH,$R$,0.99,1.025273435859531,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean,line,11,3,,measured pH,$R$,1.18,1.0165506336113925,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean,line,11,4,,measured pH,$R$,1.37,1.003499411752433,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean,line,11,5,,measured pH,$R$,1.58,0.9852081155479829,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean,line,11,6,,measured pH,$R$,1.79,0.9786997035176805,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean,line,11,7,,measured pH,$R$,1.97,0.9705484993054393,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | mean,line,11,8,,measured pH,$R$,2.8,0.9684584145592497,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,1,media_plate_10,measured pH,$R$,0.72,1.0350473227383599,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,2,media_plate_10,measured pH,$R$,0.99,1.0342450831878853,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,3,media_plate_10,measured pH,$R$,1.18,1.010607898807111,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,4,media_plate_10,measured pH,$R$,1.37,1.0013382943303872,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,5,media_plate_10,measured pH,$R$,1.58,0.987258102778914,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,6,media_plate_10,measured pH,$R$,1.79,0.9783302795759833,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,7,media_plate_10,measured pH,$R$,1.97,0.9732016381402259,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,8,media_plate_10,measured pH,$R$,2.8,0.9651441858418742,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,9,media_plate_11,measured pH,$R$,0.72,1.034385661509137,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,10,media_plate_11,measured pH,$R$,0.99,1.0239848669357576,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,11,media_plate_11,measured pH,$R$,1.18,1.01732214317311,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,12,media_plate_11,measured pH,$R$,1.37,1.000370993755439,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,13,media_plate_11,measured pH,$R$,1.58,0.9812510426068881,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,14,media_plate_11,measured pH,$R$,1.79,0.978247701464527,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,15,media_plate_11,measured pH,$R$,1.97,0.9676392890749287,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,16,media_plate_11,measured pH,$R$,2.8,0.969129615946413,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,17,media_plate_12,measured pH,$R$,0.72,1.0308639931397667,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,18,media_plate_12,measured pH,$R$,0.99,1.01759035745495,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,19,media_plate_12,measured pH,$R$,1.18,1.0217218588539567,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,20,media_plate_12,measured pH,$R$,1.37,1.0087889471714726,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,21,media_plate_12,measured pH,$R$,1.58,0.9871152012581464,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,22,media_plate_12,measured pH,$R$,1.79,0.9795211295125311,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,23,media_plate_12,measured pH,$R$,1.97,0.9708045707011635,,,,,,True
+4,a,main,Starkey_brown | ratio_raw | with dye | physical plate,point,12,24,media_plate_12,measured pH,$R$,2.8,0.9711014418894622,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,1,,measured pH,$R$,0.72,,1.510263199229033,2.1822029737076307,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,2,,measured pH,$R$,0.99,,1.3496866274274715,2.233000666217028,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,3,,measured pH,$R$,1.18,,1.5263180378719667,2.3369112042942777,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,4,,measured pH,$R$,1.37,,1.2373638313697193,1.837141448536286,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,5,,measured pH,$R$,1.58,,1.149425191289709,1.5247328195522216,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,6,,measured pH,$R$,1.79,,1.1732924240981746,1.3346200064921125,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,7,,measured pH,$R$,1.97,,0.9848089611232984,1.1490535718129053,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,8,,measured pH,$R$,2.8,,0.7679133260054027,1.0730921852864042,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean,line,14,1,,measured pH,$R$,0.72,1.8462330864683318,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean,line,14,2,,measured pH,$R$,0.99,1.7913436468222497,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean,line,14,3,,measured pH,$R$,1.18,1.9316146210831222,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean,line,14,4,,measured pH,$R$,1.37,1.5372526399530027,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean,line,14,5,,measured pH,$R$,1.58,1.3370790054209654,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean,line,14,6,,measured pH,$R$,1.79,1.2539562152951436,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean,line,14,7,,measured pH,$R$,1.97,1.0669312664681019,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | mean,line,14,8,,measured pH,$R$,2.8,0.9205027556459034,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,1,media_plate_10,measured pH,$R$,0.72,1.6390604500691308,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,2,media_plate_10,measured pH,$R$,0.99,1.4924311075920798,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,3,media_plate_10,measured pH,$R$,1.18,1.67625074582101,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,4,media_plate_10,measured pH,$R$,1.37,1.437047754552925,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,5,media_plate_10,measured pH,$R$,1.58,1.2195925115341886,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,6,media_plate_10,measured pH,$R$,1.79,1.1911978850583493,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,7,media_plate_10,measured pH,$R$,1.97,1.0430603443904163,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,8,media_plate_10,measured pH,$R$,2.8,0.9371199392808635,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,9,media_plate_11,measured pH,$R$,0.72,1.874043871022386,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,10,media_plate_11,measured pH,$R$,0.99,2.126772676601387,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,11,media_plate_11,measured pH,$R$,1.18,2.118478725114657,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,12,media_plate_11,measured pH,$R$,1.37,1.6192897097054495,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,13,media_plate_11,measured pH,$R$,1.58,1.427032138673302,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,14,media_plate_11,measured pH,$R$,1.79,1.2815014247338634,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,15,media_plate_11,measured pH,$R$,1.97,1.1253185669788783,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,16,media_plate_11,measured pH,$R$,2.8,0.8299075811270934,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,17,media_plate_12,measured pH,$R$,0.72,2.0255949383134793,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,18,media_plate_12,measured pH,$R$,0.99,1.754827156273283,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,19,media_plate_12,measured pH,$R$,1.18,2.0001143923136993,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,20,media_plate_12,measured pH,$R$,1.37,1.5554204556006337,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,21,media_plate_12,measured pH,$R$,1.58,1.3646123660554055,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,22,media_plate_12,measured pH,$R$,1.79,1.2891693360932184,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,23,media_plate_12,measured pH,$R$,1.97,1.0324148880350108,,,,,,True
+4,a,main,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,24,media_plate_12,measured pH,$R$,2.8,0.9944807465297537,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,1,,measured pH,$R$,0.72,,1.0902903099505088,1.1420608615142838,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,2,,measured pH,$R$,1.0,,1.1486350466556872,1.187625007551566,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,3,,measured pH,$R$,1.19,,1.1188114348957474,1.1741001056322822,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,4,,measured pH,$R$,1.39,,1.041331631025852,1.107192890409967,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,5,,measured pH,$R$,1.61,,1.150751902601964,1.1845005078127682,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,6,,measured pH,$R$,1.83,,0.9392245985729428,0.9877159747634108,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,7,,measured pH,$R$,3.0,,1.0020054517653256,1.0927435289705625,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean ± pooled technical SD,interval band,1,8,,measured pH,$R$,3.79,,0.5925660008124787,0.65358878454995,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean,line,2,1,,measured pH,$R$,0.72,1.1161755857323963,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean,line,2,2,,measured pH,$R$,1.0,1.1681300271036266,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean,line,2,3,,measured pH,$R$,1.19,1.1464557702640148,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean,line,2,4,,measured pH,$R$,1.39,1.0742622607179095,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean,line,2,5,,measured pH,$R$,1.61,1.167626205207366,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean,line,2,6,,measured pH,$R$,1.83,0.9634702866681768,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean,line,2,7,,measured pH,$R$,3.0,1.047374490367944,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | mean,line,2,8,,measured pH,$R$,3.79,0.6230773926812143,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,1,media_plate_07,measured pH,$R$,0.72,1.0893105690314082,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,2,media_plate_07,measured pH,$R$,1.0,1.1528470262082802,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,3,media_plate_07,measured pH,$R$,1.19,1.1199928934456482,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,4,media_plate_07,measured pH,$R$,1.39,1.0432311938336902,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,5,media_plate_07,measured pH,$R$,1.61,1.1800986621907912,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,6,media_plate_07,measured pH,$R$,1.83,0.9536424239069121,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,7,media_plate_07,measured pH,$R$,3.0,1.0694766814656258,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,8,media_plate_07,measured pH,$R$,3.79,0.6557060287194041,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,9,media_plate_08,measured pH,$R$,0.72,1.1273822230778512,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,10,media_plate_08,measured pH,$R$,1.0,1.1653374567854595,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,11,media_plate_08,measured pH,$R$,1.19,1.141586423954664,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,12,media_plate_08,measured pH,$R$,1.39,1.071438145192862,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,13,media_plate_08,measured pH,$R$,1.61,1.1621597069410743,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,14,media_plate_08,measured pH,$R$,1.83,0.97306604409137,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,15,media_plate_08,measured pH,$R$,3.0,1.082046832058672,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,16,media_plate_08,measured pH,$R$,3.79,0.6112384496202522,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,17,media_plate_09,measured pH,$R$,0.72,1.1318339650879292,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,18,media_plate_09,measured pH,$R$,1.0,1.1862055983171393,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,19,media_plate_09,measured pH,$R$,1.19,1.1777879933917317,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,20,media_plate_09,measured pH,$R$,1.39,1.1081174431271759,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,21,media_plate_09,measured pH,$R$,1.61,1.1606202464902324,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,22,media_plate_09,measured pH,$R$,1.83,0.9637023920062483,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,23,media_plate_09,measured pH,$R$,3.0,0.990599957579534,,,,,,True
+4,a,inset 1,AFM4 | ratio_raw | with dye | physical plate,point,3,24,media_plate_09,measured pH,$R$,3.79,0.6022876997039868,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,1,,measured pH,$R$,0.72,,2.385589514079884,2.5387851168904403,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,2,,measured pH,$R$,1.0,,2.3143650336129915,2.490294587744098,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,3,,measured pH,$R$,1.19,,2.046689906956196,2.2114458893070683,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,4,,measured pH,$R$,1.39,,1.4427381605792147,2.137136903266131,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,5,,measured pH,$R$,1.61,,1.255044673759093,1.6587639916035608,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,6,,measured pH,$R$,1.83,,1.1615924062371887,1.3645569559287647,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,7,,measured pH,$R$,3.0,,1.02504960153311,1.0762268338989824,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean ± pooled technical SD,interval band,4,8,,measured pH,$R$,3.79,,0.6619523008084629,0.7289278313094634,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean,line,5,1,,measured pH,$R$,0.72,2.462187315485162,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean,line,5,2,,measured pH,$R$,1.0,2.4023298106785447,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean,line,5,3,,measured pH,$R$,1.19,2.129067898131632,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean,line,5,4,,measured pH,$R$,1.39,1.789937531922673,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean,line,5,5,,measured pH,$R$,1.61,1.456904332681327,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean,line,5,6,,measured pH,$R$,1.83,1.2630746810829767,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean,line,5,7,,measured pH,$R$,3.0,1.0506382177160463,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | mean,line,5,8,,measured pH,$R$,3.79,0.6954400660589631,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,1,media_plate_07,measured pH,$R$,0.72,2.484439883461775,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,2,media_plate_07,measured pH,$R$,1.0,2.3077105059597653,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,3,media_plate_07,measured pH,$R$,1.19,2.1275173388884703,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,4,media_plate_07,measured pH,$R$,1.39,1.9120671094656225,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,5,media_plate_07,measured pH,$R$,1.61,1.5356752697525267,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,6,media_plate_07,measured pH,$R$,1.83,1.2977449940702188,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,7,media_plate_07,measured pH,$R$,3.0,1.0311666465204994,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,8,media_plate_07,measured pH,$R$,3.79,0.6791783529591026,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,9,media_plate_08,measured pH,$R$,0.72,2.436785181612768,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,10,media_plate_08,measured pH,$R$,1.0,2.460760433233295,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,11,media_plate_08,measured pH,$R$,1.19,2.1134646730699824,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,12,media_plate_08,measured pH,$R$,1.39,1.6004712832893933,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,13,media_plate_08,measured pH,$R$,1.61,1.5483938714027208,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,14,media_plate_08,measured pH,$R$,1.83,1.2648319908713266,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,15,media_plate_08,measured pH,$R$,3.0,1.07607362903473,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,16,media_plate_08,measured pH,$R$,3.79,0.7243438822867198,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,17,media_plate_09,measured pH,$R$,0.72,2.4653368813809435,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,18,media_plate_09,measured pH,$R$,1.0,2.4385184928425736,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,19,media_plate_09,measured pH,$R$,1.19,2.146221682436445,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,20,media_plate_09,measured pH,$R$,1.39,1.857274203013003,,,,,,False
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,21,media_plate_09,measured pH,$R$,1.61,1.2866438568887337,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,22,media_plate_09,measured pH,$R$,1.83,1.2266470583073843,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,23,media_plate_09,measured pH,$R$,3.0,1.0446743775929088,,,,,,True
+4,a,inset 1,AFM5 | ratio_raw | with dye | physical plate,point,6,24,media_plate_09,measured pH,$R$,3.79,0.6827979629310672,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,1,,measured pH,$R$,0.7,,1.0034839402721947,1.0364198814823469,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,2,,measured pH,$R$,0.97,,0.9954214041402462,1.032207367388172,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,3,,measured pH,$R$,1.14,,0.9817540467263669,1.0315507055911923,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,4,,measured pH,$R$,1.31,,0.9819895438129874,1.0085442104959181,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,5,,measured pH,$R$,1.49,,0.9815096961215095,1.0013758852128816,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,6,,measured pH,$R$,1.64,,0.9764337236463232,0.9883154211575451,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,7,,measured pH,$R$,1.77,,0.9696207840448868,0.9856139300174739,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean ± pooled technical SD,interval band,7,8,,measured pH,$R$,2.1,,0.9691343782992207,0.9757109748777361,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean,line,8,1,,measured pH,$R$,0.7,1.0199519108772708,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean,line,8,2,,measured pH,$R$,0.97,1.013814385764209,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean,line,8,3,,measured pH,$R$,1.14,1.0066523761587796,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean,line,8,4,,measured pH,$R$,1.31,0.9952668771544528,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean,line,8,5,,measured pH,$R$,1.49,0.9914427906671955,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean,line,8,6,,measured pH,$R$,1.64,0.9823745724019342,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean,line,8,7,,measured pH,$R$,1.77,0.9776173570311804,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | mean,line,8,8,,measured pH,$R$,2.1,0.9724226765884784,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,1,media_plate_01,measured pH,$R$,0.7,1.0271420592087803,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,2,media_plate_01,measured pH,$R$,0.97,1.0049012261954944,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,3,media_plate_01,measured pH,$R$,1.14,0.9833304613634741,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,4,media_plate_01,measured pH,$R$,1.31,0.9854075043100541,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,5,media_plate_01,measured pH,$R$,1.49,0.9930846955128865,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,6,media_plate_01,measured pH,$R$,1.64,0.9845474850611042,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,7,media_plate_01,measured pH,$R$,1.77,0.9756559314522456,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,8,media_plate_01,measured pH,$R$,2.1,0.9711682455399991,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,9,media_plate_02,measured pH,$R$,0.7,1.021229520117602,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,10,media_plate_02,measured pH,$R$,0.97,1.0205731285717017,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,11,media_plate_02,measured pH,$R$,1.14,1.0216463234636355,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,12,media_plate_02,measured pH,$R$,1.31,0.9966209512569574,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,13,media_plate_02,measured pH,$R$,1.49,0.9987379582576699,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,14,media_plate_02,measured pH,$R$,1.64,0.979969483927158,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,15,media_plate_02,measured pH,$R$,1.77,0.9776849977056181,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,16,media_plate_02,measured pH,$R$,2.1,0.9761733824660562,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,17,media_plate_03,measured pH,$R$,0.7,1.0114841533054304,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,18,media_plate_03,measured pH,$R$,0.97,1.0159688025254316,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,19,media_plate_03,measured pH,$R$,1.14,1.0149803436492288,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,20,media_plate_03,measured pH,$R$,1.31,1.0037721758963472,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,21,media_plate_03,measured pH,$R$,1.49,0.9825057182310305,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,22,media_plate_03,measured pH,$R$,1.64,0.9826067482175403,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,23,media_plate_03,measured pH,$R$,1.77,0.9795111419356775,,,,,,True
+4,a,inset 1,F2S | ratio_raw | with dye | physical plate,point,9,24,media_plate_03,measured pH,$R$,2.1,0.9699264017593796,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,1,,measured pH,$R$,0.72,,1.0295662520863729,1.0372983995051361,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,2,,measured pH,$R$,0.99,,1.0166277201947729,1.0339191515242891,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,3,,measured pH,$R$,1.18,,1.0086177602335902,1.0244835069891949,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,4,,measured pH,$R$,1.37,,0.998241177914512,1.008757645590354,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,5,,measured pH,$R$,1.58,,0.9784840699736359,0.99193216112233,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,6,,measured pH,$R$,1.79,,0.9747323880782867,0.9826670189570744,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,7,,measured pH,$R$,1.97,,0.9675347798814541,0.9735622187294245,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean ± pooled technical SD,interval band,10,8,,measured pH,$R$,2.8,,0.9624555705048223,0.9744612586136772,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean,line,11,1,,measured pH,$R$,0.72,1.0334323257957545,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean,line,11,2,,measured pH,$R$,0.99,1.025273435859531,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean,line,11,3,,measured pH,$R$,1.18,1.0165506336113925,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean,line,11,4,,measured pH,$R$,1.37,1.003499411752433,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean,line,11,5,,measured pH,$R$,1.58,0.9852081155479829,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean,line,11,6,,measured pH,$R$,1.79,0.9786997035176805,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean,line,11,7,,measured pH,$R$,1.97,0.9705484993054393,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | mean,line,11,8,,measured pH,$R$,2.8,0.9684584145592497,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,1,media_plate_10,measured pH,$R$,0.72,1.0350473227383599,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,2,media_plate_10,measured pH,$R$,0.99,1.0342450831878853,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,3,media_plate_10,measured pH,$R$,1.18,1.010607898807111,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,4,media_plate_10,measured pH,$R$,1.37,1.0013382943303872,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,5,media_plate_10,measured pH,$R$,1.58,0.987258102778914,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,6,media_plate_10,measured pH,$R$,1.79,0.9783302795759833,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,7,media_plate_10,measured pH,$R$,1.97,0.9732016381402259,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,8,media_plate_10,measured pH,$R$,2.8,0.9651441858418742,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,9,media_plate_11,measured pH,$R$,0.72,1.034385661509137,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,10,media_plate_11,measured pH,$R$,0.99,1.0239848669357576,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,11,media_plate_11,measured pH,$R$,1.18,1.01732214317311,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,12,media_plate_11,measured pH,$R$,1.37,1.000370993755439,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,13,media_plate_11,measured pH,$R$,1.58,0.9812510426068881,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,14,media_plate_11,measured pH,$R$,1.79,0.978247701464527,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,15,media_plate_11,measured pH,$R$,1.97,0.9676392890749287,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,16,media_plate_11,measured pH,$R$,2.8,0.969129615946413,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,17,media_plate_12,measured pH,$R$,0.72,1.0308639931397667,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,18,media_plate_12,measured pH,$R$,0.99,1.01759035745495,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,19,media_plate_12,measured pH,$R$,1.18,1.0217218588539567,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,20,media_plate_12,measured pH,$R$,1.37,1.0087889471714726,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,21,media_plate_12,measured pH,$R$,1.58,0.9871152012581464,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,22,media_plate_12,measured pH,$R$,1.79,0.9795211295125311,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,23,media_plate_12,measured pH,$R$,1.97,0.9708045707011635,,,,,,True
+4,a,inset 1,Starkey_brown | ratio_raw | with dye | physical plate,point,12,24,media_plate_12,measured pH,$R$,2.8,0.9711014418894622,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,1,,measured pH,$R$,0.72,,1.510263199229033,2.1822029737076307,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,2,,measured pH,$R$,0.99,,1.3496866274274715,2.233000666217028,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,3,,measured pH,$R$,1.18,,1.5263180378719667,2.3369112042942777,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,4,,measured pH,$R$,1.37,,1.2373638313697193,1.837141448536286,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,5,,measured pH,$R$,1.58,,1.149425191289709,1.5247328195522216,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,6,,measured pH,$R$,1.79,,1.1732924240981746,1.3346200064921125,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,7,,measured pH,$R$,1.97,,0.9848089611232984,1.1490535718129053,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean ± pooled technical SD,interval band,13,8,,measured pH,$R$,2.8,,0.7679133260054027,1.0730921852864042,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean,line,14,1,,measured pH,$R$,0.72,1.8462330864683318,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean,line,14,2,,measured pH,$R$,0.99,1.7913436468222497,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean,line,14,3,,measured pH,$R$,1.18,1.9316146210831222,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean,line,14,4,,measured pH,$R$,1.37,1.5372526399530027,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean,line,14,5,,measured pH,$R$,1.58,1.3370790054209654,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean,line,14,6,,measured pH,$R$,1.79,1.2539562152951436,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean,line,14,7,,measured pH,$R$,1.97,1.0669312664681019,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | mean,line,14,8,,measured pH,$R$,2.8,0.9205027556459034,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,1,media_plate_10,measured pH,$R$,0.72,1.6390604500691308,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,2,media_plate_10,measured pH,$R$,0.99,1.4924311075920798,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,3,media_plate_10,measured pH,$R$,1.18,1.67625074582101,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,4,media_plate_10,measured pH,$R$,1.37,1.437047754552925,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,5,media_plate_10,measured pH,$R$,1.58,1.2195925115341886,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,6,media_plate_10,measured pH,$R$,1.79,1.1911978850583493,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,7,media_plate_10,measured pH,$R$,1.97,1.0430603443904163,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,8,media_plate_10,measured pH,$R$,2.8,0.9371199392808635,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,9,media_plate_11,measured pH,$R$,0.72,1.874043871022386,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,10,media_plate_11,measured pH,$R$,0.99,2.126772676601387,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,11,media_plate_11,measured pH,$R$,1.18,2.118478725114657,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,12,media_plate_11,measured pH,$R$,1.37,1.6192897097054495,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,13,media_plate_11,measured pH,$R$,1.58,1.427032138673302,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,14,media_plate_11,measured pH,$R$,1.79,1.2815014247338634,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,15,media_plate_11,measured pH,$R$,1.97,1.1253185669788783,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,16,media_plate_11,measured pH,$R$,2.8,0.8299075811270934,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,17,media_plate_12,measured pH,$R$,0.72,2.0255949383134793,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,18,media_plate_12,measured pH,$R$,0.99,1.754827156273283,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,19,media_plate_12,measured pH,$R$,1.18,2.0001143923136993,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,20,media_plate_12,measured pH,$R$,1.37,1.5554204556006337,,,,,,False
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,21,media_plate_12,measured pH,$R$,1.58,1.3646123660554055,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,22,media_plate_12,measured pH,$R$,1.79,1.2891693360932184,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,23,media_plate_12,measured pH,$R$,1.97,1.0324148880350108,,,,,,True
+4,a,inset 1,Starkey_colloidal | ratio_raw | with dye | physical plate,point,15,24,media_plate_12,measured pH,$R$,2.8,0.9944807465297537,,,,,,True
+4,b,main,AFM4 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,1,1,,measured pH,$R^{*}$,3.79,,-0.3969875950006505,-0.03020650719874793,,,,True
+4,b,main,AFM4 | ratio_corrected | with dye | mean,line,2,1,,measured pH,$R^{*}$,0.72,,,,,,,False
+4,b,main,AFM4 | ratio_corrected | with dye | mean,line,2,2,,measured pH,$R^{*}$,1.0,,,,,,,False
+4,b,main,AFM4 | ratio_corrected | with dye | mean,line,2,3,,measured pH,$R^{*}$,1.19,,,,,,,False
+4,b,main,AFM4 | ratio_corrected | with dye | mean,line,2,4,,measured pH,$R^{*}$,1.39,1.6705202312138714,,,,,,True
+4,b,main,AFM4 | ratio_corrected | with dye | mean,line,2,5,,measured pH,$R^{*}$,1.61,,,,,,,False
+4,b,main,AFM4 | ratio_corrected | with dye | mean,line,2,6,,measured pH,$R^{*}$,1.83,,,,,,,False
+4,b,main,AFM4 | ratio_corrected | with dye | mean,line,2,7,,measured pH,$R^{*}$,3.0,,,,,,,False
+4,b,main,AFM4 | ratio_corrected | with dye | mean,line,2,8,,measured pH,$R^{*}$,3.79,-0.21359705109969923,,,,,,True
+4,b,main,AFM4 | ratio_corrected | with dye | physical plate,point,3,8,media_plate_07,measured pH,$R^{*}$,3.79,-0.3422941024903319,,,,,,True
+4,b,main,AFM4 | ratio_corrected | with dye | physical plate,point,3,12,media_plate_08,measured pH,$R^{*}$,1.39,1.6705202312138714,,,,,,True
+4,b,main,AFM4 | ratio_corrected | with dye | physical plate,point,3,16,media_plate_08,measured pH,$R^{*}$,3.79,-0.2179339607522045,,,,,,True
+4,b,main,AFM4 | ratio_corrected | with dye | physical plate,point,3,24,media_plate_09,measured pH,$R^{*}$,3.79,-0.08056309005656129,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,1,,measured pH,$R^{*}$,0.72,,6.464237561041365,7.160239384540205,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,2,,measured pH,$R^{*}$,1.0,,6.06232806798798,7.225691568553919,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,3,,measured pH,$R^{*}$,1.19,,5.0644930339093595,6.837599056847385,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,4,,measured pH,$R^{*}$,1.39,,2.7085902423110686,6.424779179890571,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,5,,measured pH,$R^{*}$,1.61,,2.2423493038327145,4.086194598631835,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,6,,measured pH,$R^{*}$,1.83,,1.7630973896522657,2.4127336848742664,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,7,,measured pH,$R^{*}$,3.0,,1.0818744689553284,1.314365849808659,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,8,,measured pH,$R^{*}$,3.79,,-0.03743015853110423,0.1235620312385727,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean,line,5,1,,measured pH,$R^{*}$,0.72,6.812238472790785,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean,line,5,2,,measured pH,$R^{*}$,1.0,6.644009818270949,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean,line,5,3,,measured pH,$R^{*}$,1.19,5.951046045378372,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean,line,5,4,,measured pH,$R^{*}$,1.39,4.5666847111008195,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean,line,5,5,,measured pH,$R^{*}$,1.61,3.1642719512322746,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean,line,5,6,,measured pH,$R^{*}$,1.83,2.087915537263266,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean,line,5,7,,measured pH,$R^{*}$,3.0,1.1981201593819937,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | mean,line,5,8,,measured pH,$R^{*}$,3.79,0.04306593635373424,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,1,media_plate_07,measured pH,$R^{*}$,0.72,6.4772337150309625,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,2,media_plate_07,measured pH,$R^{*}$,1.0,6.982771033314511,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,3,media_plate_07,measured pH,$R^{*}$,1.19,5.6864236384299325,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,4,media_plate_07,measured pH,$R^{*}$,1.39,4.754133378185181,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,5,media_plate_07,measured pH,$R^{*}$,1.61,3.4659973684899263,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,6,media_plate_07,measured pH,$R^{*}$,1.83,2.362401231322529,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,7,media_plate_07,measured pH,$R^{*}$,3.0,1.098092209856916,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,8,media_plate_07,measured pH,$R^{*}$,3.79,0.024070217053815197,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,9,media_plate_08,measured pH,$R^{*}$,0.72,6.85521748929457,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,10,media_plate_08,measured pH,$R^{*}$,1.0,6.68842827828806,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,11,media_plate_08,measured pH,$R^{*}$,1.19,6.674751388350768,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,12,media_plate_08,measured pH,$R^{*}$,1.39,3.4105449814656397,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,13,media_plate_08,measured pH,$R^{*}$,1.61,3.2309445054063084,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,14,media_plate_08,measured pH,$R^{*}$,1.83,2.032730067153102,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,15,media_plate_08,measured pH,$R^{*}$,3.0,1.3066690400158034,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,16,media_plate_08,measured pH,$R^{*}$,3.79,0.016199918373831588,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,17,media_plate_09,measured pH,$R^{*}$,0.72,7.104264214046822,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,18,media_plate_09,measured pH,$R^{*}$,1.0,6.260830143210278,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,19,media_plate_09,measured pH,$R^{*}$,1.19,5.491963109354413,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,20,media_plate_09,measured pH,$R^{*}$,1.39,5.535375773651637,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,21,media_plate_09,measured pH,$R^{*}$,1.61,2.7958739798005894,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,22,media_plate_09,measured pH,$R^{*}$,1.83,1.8686153133141679,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,23,media_plate_09,measured pH,$R^{*}$,3.0,1.1895992282732617,,,,,,True
+4,b,main,AFM5 | ratio_corrected | with dye | physical plate,point,6,24,media_plate_09,measured pH,$R^{*}$,3.79,0.08892767363355593,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,1,,measured pH,$R^{*}$,0.7,,1.047959423934089,1.6900493753861092,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,2,,measured pH,$R^{*}$,0.97,,0.9319218832426794,1.6395431444625106,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,3,,measured pH,$R^{*}$,1.14,,0.713857169699828,1.7292269925525763,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,4,,measured pH,$R^{*}$,1.31,,0.7897097973808438,1.1341656909668885,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,5,,measured pH,$R^{*}$,1.49,,0.7747788533475339,1.0167626813748858,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,6,,measured pH,$R^{*}$,1.64,,0.7133075234043119,0.85070905599829,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,7,,measured pH,$R^{*}$,1.77,,0.6320836361129748,0.8107445393580551,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,8,,measured pH,$R^{*}$,2.1,,0.5796328079530325,0.6502527979871583,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean,line,8,1,,measured pH,$R^{*}$,0.7,1.3690043996600991,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean,line,8,2,,measured pH,$R^{*}$,0.97,1.285732513852595,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean,line,8,3,,measured pH,$R^{*}$,1.14,1.221542081126202,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean,line,8,4,,measured pH,$R^{*}$,1.31,0.9619377441738661,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean,line,8,5,,measured pH,$R^{*}$,1.49,0.8957707673612099,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean,line,8,6,,measured pH,$R^{*}$,1.64,0.782008289701301,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean,line,8,7,,measured pH,$R^{*}$,1.77,0.721414087735515,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | mean,line,8,8,,measured pH,$R^{*}$,2.1,0.6149428029700954,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,1,media_plate_01,measured pH,$R^{*}$,0.7,1.4808291790961465,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,2,media_plate_01,measured pH,$R^{*}$,0.97,1.0677826069232486,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,3,media_plate_01,measured pH,$R^{*}$,1.14,0.804557676425767,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,4,media_plate_01,measured pH,$R^{*}$,1.31,0.8402163235791305,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,5,media_plate_01,measured pH,$R^{*}$,1.49,0.9188121038559057,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,6,media_plate_01,measured pH,$R^{*}$,1.64,0.8161505907292902,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,7,media_plate_01,measured pH,$R^{*}$,1.77,0.7170271044858145,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,8,media_plate_01,measured pH,$R^{*}$,2.1,0.6244082184941648,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,9,media_plate_02,measured pH,$R^{*}$,0.7,1.441371586341245,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,10,media_plate_02,measured pH,$R^{*}$,0.97,1.471456074121426,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,11,media_plate_02,measured pH,$R^{*}$,1.14,1.529984109074227,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,12,media_plate_02,measured pH,$R^{*}$,1.31,0.9629965534273871,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,13,media_plate_02,measured pH,$R^{*}$,1.49,0.9813379210611609,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,14,media_plate_02,measured pH,$R^{*}$,1.64,0.7373394535109017,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,15,media_plate_02,measured pH,$R^{*}$,1.77,0.7150443421352412,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,16,media_plate_02,measured pH,$R^{*}$,2.1,0.5759579328017417,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,17,media_plate_03,measured pH,$R^{*}$,0.7,1.184812433542906,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,18,media_plate_03,measured pH,$R^{*}$,0.97,1.3179588605131107,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,19,media_plate_03,measured pH,$R^{*}$,1.14,1.3300844578786124,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,20,media_plate_03,measured pH,$R^{*}$,1.31,1.0826003555150807,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,21,media_plate_03,measured pH,$R^{*}$,1.49,0.7871622771665633,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,22,media_plate_03,measured pH,$R^{*}$,1.64,0.7925348248637111,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,23,media_plate_03,measured pH,$R^{*}$,1.77,0.7321708165854891,,,,,,True
+4,b,main,F2S | ratio_corrected | with dye | physical plate,point,9,24,media_plate_03,measured pH,$R^{*}$,2.1,0.6444622576143799,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,1,,measured pH,$R^{*}$,0.72,,1.3525294168501183,1.4616716355971675,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,2,,measured pH,$R^{*}$,0.99,,1.1432490837696851,1.396394139799969,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,3,,measured pH,$R^{*}$,1.18,,1.0668033584173129,1.3056610262854211,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,4,,measured pH,$R^{*}$,1.37,,0.981335028996312,1.0965985003791117,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,5,,measured pH,$R^{*}$,1.58,,0.8029093096504041,0.9217965901252705,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,6,,measured pH,$R^{*}$,1.79,,0.7684167820188523,0.8367595632858227,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,7,,measured pH,$R^{*}$,1.97,,0.6922422081427325,0.7503639463528401,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,8,,measured pH,$R^{*}$,2.8,,0.5330827033420855,0.6550744402020285,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean,line,11,1,,measured pH,$R^{*}$,0.72,1.407100526223643,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean,line,11,2,,measured pH,$R^{*}$,0.99,1.269821611784827,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean,line,11,3,,measured pH,$R^{*}$,1.18,1.186232192351367,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean,line,11,4,,measured pH,$R^{*}$,1.37,1.0389667646877119,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean,line,11,5,,measured pH,$R^{*}$,1.58,0.8623529498878373,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean,line,11,6,,measured pH,$R^{*}$,1.79,0.8025881726523375,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean,line,11,7,,measured pH,$R^{*}$,1.97,0.7213030772477863,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | mean,line,11,8,,measured pH,$R^{*}$,2.8,0.594078571772057,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,1,media_plate_10,measured pH,$R^{*}$,0.72,1.4270613305424842,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,2,media_plate_10,measured pH,$R^{*}$,0.99,1.3839733415836664,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,3,media_plate_10,measured pH,$R^{*}$,1.18,1.103838923876934,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,4,media_plate_10,measured pH,$R^{*}$,1.37,1.0132009826549488,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,5,media_plate_10,measured pH,$R^{*}$,1.58,0.8832967349456308,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,6,media_plate_10,measured pH,$R^{*}$,1.79,0.8063769920599261,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,7,media_plate_10,measured pH,$R^{*}$,1.97,0.7503101066071598,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,8,media_plate_10,measured pH,$R^{*}$,2.8,0.6303721368745486,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,9,media_plate_11,measured pH,$R^{*}$,0.72,1.416801120715757,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,10,media_plate_11,measured pH,$R^{*}$,0.99,1.246564036905844,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,11,media_plate_11,measured pH,$R^{*}$,1.18,1.1945450369342117,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,12,media_plate_11,measured pH,$R^{*}$,1.37,1.00366084679653,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,13,media_plate_11,measured pH,$R^{*}$,1.58,0.8353228165668366,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,14,media_plate_11,measured pH,$R^{*}$,1.79,0.7959174404166148,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,15,media_plate_11,measured pH,$R^{*}$,1.97,0.7041232986100373,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,16,media_plate_11,measured pH,$R^{*}$,2.8,0.618933397220157,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,17,media_plate_12,measured pH,$R^{*}$,0.72,1.3774391274126874,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,18,media_plate_12,measured pH,$R^{*}$,0.99,1.1789274568649708,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,19,media_plate_12,measured pH,$R^{*}$,1.18,1.2603126162429559,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,20,media_plate_12,measured pH,$R^{*}$,1.37,1.100038464611657,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,21,media_plate_12,measured pH,$R^{*}$,1.58,0.8684392981510444,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,22,media_plate_12,measured pH,$R^{*}$,1.79,0.8054700854804716,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,23,media_plate_12,measured pH,$R^{*}$,1.97,0.7094758265261617,,,,,,True
+4,b,main,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,24,media_plate_12,measured pH,$R^{*}$,2.8,0.5329301812214653,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,1,,measured pH,$R^{*}$,0.72,,4.215288168500381,8.80737474886145,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,2,,measured pH,$R^{*}$,0.99,,0.4699831087251871,11.057595569117492,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,3,,measured pH,$R^{*}$,1.18,,-6.072926724977718,29.410577146736813,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,4,,measured pH,$R^{*}$,1.37,,-0.6570291786662086,21.338922601692694,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,5,,measured pH,$R^{*}$,1.58,,1.5465913874356991,3.4090481139735216,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,6,,measured pH,$R^{*}$,1.79,,1.7230959647569914,2.371806227856802,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,7,,measured pH,$R^{*}$,1.97,,0.880017216175602,1.9217628810400793,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,8,,measured pH,$R^{*}$,2.8,,-0.21454913743340143,0.7913940405333117,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,1,,measured pH,$R^{*}$,0.72,6.511331458680916,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,2,,measured pH,$R^{*}$,0.99,5.76378933892134,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,3,,measured pH,$R^{*}$,1.18,11.668825210879548,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,4,,measured pH,$R^{*}$,1.37,10.340946711513244,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,5,,measured pH,$R^{*}$,1.58,2.4778197507046102,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,6,,measured pH,$R^{*}$,1.79,2.047451096306897,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,7,,measured pH,$R^{*}$,1.97,1.4008900486078406,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,8,,measured pH,$R^{*}$,2.8,0.28842245154995516,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,1,media_plate_10,measured pH,$R^{*}$,0.72,5.9578128650705855,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,2,media_plate_10,measured pH,$R^{*}$,0.99,7.620938102566825,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,3,media_plate_10,measured pH,$R^{*}$,1.18,19.729657366300913,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,4,media_plate_10,measured pH,$R^{*}$,1.37,17.995865412033147,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,5,media_plate_10,measured pH,$R^{*}$,1.58,2.2864566999686393,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,6,media_plate_10,measured pH,$R^{*}$,1.79,2.1624447839111536,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,7,media_plate_10,measured pH,$R^{*}$,1.97,1.369712050807457,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,8,media_plate_10,measured pH,$R^{*}$,2.8,-0.17116697703289843,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,9,media_plate_11,measured pH,$R^{*}$,0.72,6.04919674187574,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,10,media_plate_11,measured pH,$R^{*}$,0.99,5.223316461087359,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,11,media_plate_11,measured pH,$R^{*}$,1.18,6.253506970895725,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,12,media_plate_11,measured pH,$R^{*}$,1.37,4.012865497076023,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,13,media_plate_11,measured pH,$R^{*}$,1.58,2.5120502945920147,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,14,media_plate_11,measured pH,$R^{*}$,1.79,1.9891613118233202,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,15,media_plate_11,measured pH,$R^{*}$,1.97,1.4405442675603968,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,16,media_plate_11,measured pH,$R^{*}$,2.8,0.48150226839160615,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,17,media_plate_12,measured pH,$R^{*}$,0.72,7.526984769096422,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,18,media_plate_12,measured pH,$R^{*}$,0.99,3.7887755102040828,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,19,media_plate_12,measured pH,$R^{*}$,1.18,3.7322834645669265,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,20,media_plate_12,measured pH,$R^{*}$,1.37,11.565748792270531,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,21,media_plate_12,measured pH,$R^{*}$,1.58,2.5711645739745195,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,22,media_plate_12,measured pH,$R^{*}$,1.79,1.9907471931862173,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,23,media_plate_12,measured pH,$R^{*}$,1.97,1.392413827455668,,,,,,True
+4,b,main,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,24,media_plate_12,measured pH,$R^{*}$,2.8,0.6283618581907092,,,,,,True
+4,b,inset 1,AFM4 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,1,1,,measured pH,$R^{*}$,3.79,,-0.3969875950006505,-0.03020650719874793,,,,False
+4,b,inset 1,AFM4 | ratio_corrected | with dye | mean,line,2,1,,measured pH,$R^{*}$,0.72,,,,,,,False
+4,b,inset 1,AFM4 | ratio_corrected | with dye | mean,line,2,2,,measured pH,$R^{*}$,1.0,,,,,,,False
+4,b,inset 1,AFM4 | ratio_corrected | with dye | mean,line,2,3,,measured pH,$R^{*}$,1.19,,,,,,,False
+4,b,inset 1,AFM4 | ratio_corrected | with dye | mean,line,2,4,,measured pH,$R^{*}$,1.39,1.6705202312138714,,,,,,True
+4,b,inset 1,AFM4 | ratio_corrected | with dye | mean,line,2,5,,measured pH,$R^{*}$,1.61,,,,,,,False
+4,b,inset 1,AFM4 | ratio_corrected | with dye | mean,line,2,6,,measured pH,$R^{*}$,1.83,,,,,,,False
+4,b,inset 1,AFM4 | ratio_corrected | with dye | mean,line,2,7,,measured pH,$R^{*}$,3.0,,,,,,,False
+4,b,inset 1,AFM4 | ratio_corrected | with dye | mean,line,2,8,,measured pH,$R^{*}$,3.79,-0.21359705109969923,,,,,,False
+4,b,inset 1,AFM4 | ratio_corrected | with dye | physical plate,point,3,8,media_plate_07,measured pH,$R^{*}$,3.79,-0.3422941024903319,,,,,,False
+4,b,inset 1,AFM4 | ratio_corrected | with dye | physical plate,point,3,12,media_plate_08,measured pH,$R^{*}$,1.39,1.6705202312138714,,,,,,True
+4,b,inset 1,AFM4 | ratio_corrected | with dye | physical plate,point,3,16,media_plate_08,measured pH,$R^{*}$,3.79,-0.2179339607522045,,,,,,False
+4,b,inset 1,AFM4 | ratio_corrected | with dye | physical plate,point,3,24,media_plate_09,measured pH,$R^{*}$,3.79,-0.08056309005656129,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,1,,measured pH,$R^{*}$,0.72,,6.464237561041365,7.160239384540205,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,2,,measured pH,$R^{*}$,1.0,,6.06232806798798,7.225691568553919,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,3,,measured pH,$R^{*}$,1.19,,5.0644930339093595,6.837599056847385,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,4,,measured pH,$R^{*}$,1.39,,2.7085902423110686,6.424779179890571,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,5,,measured pH,$R^{*}$,1.61,,2.2423493038327145,4.086194598631835,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,6,,measured pH,$R^{*}$,1.83,,1.7630973896522657,2.4127336848742664,,,,True
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,7,,measured pH,$R^{*}$,3.0,,1.0818744689553284,1.314365849808659,,,,True
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean ± pooled technical SD,interval band,4,8,,measured pH,$R^{*}$,3.79,,-0.03743015853110423,0.1235620312385727,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean,line,5,1,,measured pH,$R^{*}$,0.72,6.812238472790785,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean,line,5,2,,measured pH,$R^{*}$,1.0,6.644009818270949,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean,line,5,3,,measured pH,$R^{*}$,1.19,5.951046045378372,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean,line,5,4,,measured pH,$R^{*}$,1.39,4.5666847111008195,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean,line,5,5,,measured pH,$R^{*}$,1.61,3.1642719512322746,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean,line,5,6,,measured pH,$R^{*}$,1.83,2.087915537263266,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean,line,5,7,,measured pH,$R^{*}$,3.0,1.1981201593819937,,,,,,True
+4,b,inset 1,AFM5 | ratio_corrected | with dye | mean,line,5,8,,measured pH,$R^{*}$,3.79,0.04306593635373424,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,1,media_plate_07,measured pH,$R^{*}$,0.72,6.4772337150309625,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,2,media_plate_07,measured pH,$R^{*}$,1.0,6.982771033314511,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,3,media_plate_07,measured pH,$R^{*}$,1.19,5.6864236384299325,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,4,media_plate_07,measured pH,$R^{*}$,1.39,4.754133378185181,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,5,media_plate_07,measured pH,$R^{*}$,1.61,3.4659973684899263,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,6,media_plate_07,measured pH,$R^{*}$,1.83,2.362401231322529,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,7,media_plate_07,measured pH,$R^{*}$,3.0,1.098092209856916,,,,,,True
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,8,media_plate_07,measured pH,$R^{*}$,3.79,0.024070217053815197,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,9,media_plate_08,measured pH,$R^{*}$,0.72,6.85521748929457,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,10,media_plate_08,measured pH,$R^{*}$,1.0,6.68842827828806,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,11,media_plate_08,measured pH,$R^{*}$,1.19,6.674751388350768,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,12,media_plate_08,measured pH,$R^{*}$,1.39,3.4105449814656397,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,13,media_plate_08,measured pH,$R^{*}$,1.61,3.2309445054063084,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,14,media_plate_08,measured pH,$R^{*}$,1.83,2.032730067153102,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,15,media_plate_08,measured pH,$R^{*}$,3.0,1.3066690400158034,,,,,,True
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,16,media_plate_08,measured pH,$R^{*}$,3.79,0.016199918373831588,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,17,media_plate_09,measured pH,$R^{*}$,0.72,7.104264214046822,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,18,media_plate_09,measured pH,$R^{*}$,1.0,6.260830143210278,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,19,media_plate_09,measured pH,$R^{*}$,1.19,5.491963109354413,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,20,media_plate_09,measured pH,$R^{*}$,1.39,5.535375773651637,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,21,media_plate_09,measured pH,$R^{*}$,1.61,2.7958739798005894,,,,,,False
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,22,media_plate_09,measured pH,$R^{*}$,1.83,1.8686153133141679,,,,,,True
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,23,media_plate_09,measured pH,$R^{*}$,3.0,1.1895992282732617,,,,,,True
+4,b,inset 1,AFM5 | ratio_corrected | with dye | physical plate,point,6,24,media_plate_09,measured pH,$R^{*}$,3.79,0.08892767363355593,,,,,,False
+4,b,inset 1,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,1,,measured pH,$R^{*}$,0.7,,1.047959423934089,1.6900493753861092,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,2,,measured pH,$R^{*}$,0.97,,0.9319218832426794,1.6395431444625106,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,3,,measured pH,$R^{*}$,1.14,,0.713857169699828,1.7292269925525763,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,4,,measured pH,$R^{*}$,1.31,,0.7897097973808438,1.1341656909668885,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,5,,measured pH,$R^{*}$,1.49,,0.7747788533475339,1.0167626813748858,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,6,,measured pH,$R^{*}$,1.64,,0.7133075234043119,0.85070905599829,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,7,,measured pH,$R^{*}$,1.77,,0.6320836361129748,0.8107445393580551,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean ± pooled technical SD,interval band,7,8,,measured pH,$R^{*}$,2.1,,0.5796328079530325,0.6502527979871583,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean,line,8,1,,measured pH,$R^{*}$,0.7,1.3690043996600991,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean,line,8,2,,measured pH,$R^{*}$,0.97,1.285732513852595,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean,line,8,3,,measured pH,$R^{*}$,1.14,1.221542081126202,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean,line,8,4,,measured pH,$R^{*}$,1.31,0.9619377441738661,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean,line,8,5,,measured pH,$R^{*}$,1.49,0.8957707673612099,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean,line,8,6,,measured pH,$R^{*}$,1.64,0.782008289701301,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean,line,8,7,,measured pH,$R^{*}$,1.77,0.721414087735515,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | mean,line,8,8,,measured pH,$R^{*}$,2.1,0.6149428029700954,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,1,media_plate_01,measured pH,$R^{*}$,0.7,1.4808291790961465,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,2,media_plate_01,measured pH,$R^{*}$,0.97,1.0677826069232486,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,3,media_plate_01,measured pH,$R^{*}$,1.14,0.804557676425767,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,4,media_plate_01,measured pH,$R^{*}$,1.31,0.8402163235791305,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,5,media_plate_01,measured pH,$R^{*}$,1.49,0.9188121038559057,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,6,media_plate_01,measured pH,$R^{*}$,1.64,0.8161505907292902,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,7,media_plate_01,measured pH,$R^{*}$,1.77,0.7170271044858145,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,8,media_plate_01,measured pH,$R^{*}$,2.1,0.6244082184941648,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,9,media_plate_02,measured pH,$R^{*}$,0.7,1.441371586341245,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,10,media_plate_02,measured pH,$R^{*}$,0.97,1.471456074121426,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,11,media_plate_02,measured pH,$R^{*}$,1.14,1.529984109074227,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,12,media_plate_02,measured pH,$R^{*}$,1.31,0.9629965534273871,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,13,media_plate_02,measured pH,$R^{*}$,1.49,0.9813379210611609,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,14,media_plate_02,measured pH,$R^{*}$,1.64,0.7373394535109017,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,15,media_plate_02,measured pH,$R^{*}$,1.77,0.7150443421352412,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,16,media_plate_02,measured pH,$R^{*}$,2.1,0.5759579328017417,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,17,media_plate_03,measured pH,$R^{*}$,0.7,1.184812433542906,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,18,media_plate_03,measured pH,$R^{*}$,0.97,1.3179588605131107,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,19,media_plate_03,measured pH,$R^{*}$,1.14,1.3300844578786124,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,20,media_plate_03,measured pH,$R^{*}$,1.31,1.0826003555150807,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,21,media_plate_03,measured pH,$R^{*}$,1.49,0.7871622771665633,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,22,media_plate_03,measured pH,$R^{*}$,1.64,0.7925348248637111,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,23,media_plate_03,measured pH,$R^{*}$,1.77,0.7321708165854891,,,,,,True
+4,b,inset 1,F2S | ratio_corrected | with dye | physical plate,point,9,24,media_plate_03,measured pH,$R^{*}$,2.1,0.6444622576143799,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,1,,measured pH,$R^{*}$,0.72,,1.3525294168501183,1.4616716355971675,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,2,,measured pH,$R^{*}$,0.99,,1.1432490837696851,1.396394139799969,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,3,,measured pH,$R^{*}$,1.18,,1.0668033584173129,1.3056610262854211,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,4,,measured pH,$R^{*}$,1.37,,0.981335028996312,1.0965985003791117,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,5,,measured pH,$R^{*}$,1.58,,0.8029093096504041,0.9217965901252705,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,6,,measured pH,$R^{*}$,1.79,,0.7684167820188523,0.8367595632858227,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,7,,measured pH,$R^{*}$,1.97,,0.6922422081427325,0.7503639463528401,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean ± pooled technical SD,interval band,10,8,,measured pH,$R^{*}$,2.8,,0.5330827033420855,0.6550744402020285,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean,line,11,1,,measured pH,$R^{*}$,0.72,1.407100526223643,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean,line,11,2,,measured pH,$R^{*}$,0.99,1.269821611784827,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean,line,11,3,,measured pH,$R^{*}$,1.18,1.186232192351367,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean,line,11,4,,measured pH,$R^{*}$,1.37,1.0389667646877119,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean,line,11,5,,measured pH,$R^{*}$,1.58,0.8623529498878373,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean,line,11,6,,measured pH,$R^{*}$,1.79,0.8025881726523375,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean,line,11,7,,measured pH,$R^{*}$,1.97,0.7213030772477863,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | mean,line,11,8,,measured pH,$R^{*}$,2.8,0.594078571772057,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,1,media_plate_10,measured pH,$R^{*}$,0.72,1.4270613305424842,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,2,media_plate_10,measured pH,$R^{*}$,0.99,1.3839733415836664,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,3,media_plate_10,measured pH,$R^{*}$,1.18,1.103838923876934,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,4,media_plate_10,measured pH,$R^{*}$,1.37,1.0132009826549488,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,5,media_plate_10,measured pH,$R^{*}$,1.58,0.8832967349456308,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,6,media_plate_10,measured pH,$R^{*}$,1.79,0.8063769920599261,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,7,media_plate_10,measured pH,$R^{*}$,1.97,0.7503101066071598,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,8,media_plate_10,measured pH,$R^{*}$,2.8,0.6303721368745486,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,9,media_plate_11,measured pH,$R^{*}$,0.72,1.416801120715757,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,10,media_plate_11,measured pH,$R^{*}$,0.99,1.246564036905844,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,11,media_plate_11,measured pH,$R^{*}$,1.18,1.1945450369342117,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,12,media_plate_11,measured pH,$R^{*}$,1.37,1.00366084679653,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,13,media_plate_11,measured pH,$R^{*}$,1.58,0.8353228165668366,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,14,media_plate_11,measured pH,$R^{*}$,1.79,0.7959174404166148,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,15,media_plate_11,measured pH,$R^{*}$,1.97,0.7041232986100373,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,16,media_plate_11,measured pH,$R^{*}$,2.8,0.618933397220157,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,17,media_plate_12,measured pH,$R^{*}$,0.72,1.3774391274126874,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,18,media_plate_12,measured pH,$R^{*}$,0.99,1.1789274568649708,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,19,media_plate_12,measured pH,$R^{*}$,1.18,1.2603126162429559,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,20,media_plate_12,measured pH,$R^{*}$,1.37,1.100038464611657,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,21,media_plate_12,measured pH,$R^{*}$,1.58,0.8684392981510444,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,22,media_plate_12,measured pH,$R^{*}$,1.79,0.8054700854804716,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,23,media_plate_12,measured pH,$R^{*}$,1.97,0.7094758265261617,,,,,,True
+4,b,inset 1,Starkey_brown | ratio_corrected | with dye | physical plate,point,12,24,media_plate_12,measured pH,$R^{*}$,2.8,0.5329301812214653,,,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,1,,measured pH,$R^{*}$,0.72,,4.215288168500381,8.80737474886145,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,2,,measured pH,$R^{*}$,0.99,,0.4699831087251871,11.057595569117492,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,3,,measured pH,$R^{*}$,1.18,,-6.072926724977718,29.410577146736813,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,4,,measured pH,$R^{*}$,1.37,,-0.6570291786662086,21.338922601692694,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,5,,measured pH,$R^{*}$,1.58,,1.5465913874356991,3.4090481139735216,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,6,,measured pH,$R^{*}$,1.79,,1.7230959647569914,2.371806227856802,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,7,,measured pH,$R^{*}$,1.97,,0.880017216175602,1.9217628810400793,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean ± pooled technical SD,interval band,13,8,,measured pH,$R^{*}$,2.8,,-0.21454913743340143,0.7913940405333117,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,1,,measured pH,$R^{*}$,0.72,6.511331458680916,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,2,,measured pH,$R^{*}$,0.99,5.76378933892134,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,3,,measured pH,$R^{*}$,1.18,11.668825210879548,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,4,,measured pH,$R^{*}$,1.37,10.340946711513244,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,5,,measured pH,$R^{*}$,1.58,2.4778197507046102,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,6,,measured pH,$R^{*}$,1.79,2.047451096306897,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,7,,measured pH,$R^{*}$,1.97,1.4008900486078406,,,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | mean,line,14,8,,measured pH,$R^{*}$,2.8,0.28842245154995516,,,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,1,media_plate_10,measured pH,$R^{*}$,0.72,5.9578128650705855,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,2,media_plate_10,measured pH,$R^{*}$,0.99,7.620938102566825,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,3,media_plate_10,measured pH,$R^{*}$,1.18,19.729657366300913,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,4,media_plate_10,measured pH,$R^{*}$,1.37,17.995865412033147,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,5,media_plate_10,measured pH,$R^{*}$,1.58,2.2864566999686393,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,6,media_plate_10,measured pH,$R^{*}$,1.79,2.1624447839111536,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,7,media_plate_10,measured pH,$R^{*}$,1.97,1.369712050807457,,,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,8,media_plate_10,measured pH,$R^{*}$,2.8,-0.17116697703289843,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,9,media_plate_11,measured pH,$R^{*}$,0.72,6.04919674187574,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,10,media_plate_11,measured pH,$R^{*}$,0.99,5.223316461087359,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,11,media_plate_11,measured pH,$R^{*}$,1.18,6.253506970895725,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,12,media_plate_11,measured pH,$R^{*}$,1.37,4.012865497076023,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,13,media_plate_11,measured pH,$R^{*}$,1.58,2.5120502945920147,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,14,media_plate_11,measured pH,$R^{*}$,1.79,1.9891613118233202,,,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,15,media_plate_11,measured pH,$R^{*}$,1.97,1.4405442675603968,,,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,16,media_plate_11,measured pH,$R^{*}$,2.8,0.48150226839160615,,,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,17,media_plate_12,measured pH,$R^{*}$,0.72,7.526984769096422,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,18,media_plate_12,measured pH,$R^{*}$,0.99,3.7887755102040828,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,19,media_plate_12,measured pH,$R^{*}$,1.18,3.7322834645669265,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,20,media_plate_12,measured pH,$R^{*}$,1.37,11.565748792270531,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,21,media_plate_12,measured pH,$R^{*}$,1.58,2.5711645739745195,,,,,,False
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,22,media_plate_12,measured pH,$R^{*}$,1.79,1.9907471931862173,,,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,23,media_plate_12,measured pH,$R^{*}$,1.97,1.392413827455668,,,,,,True
+4,b,inset 1,Starkey_colloidal | ratio_corrected | with dye | physical plate,point,15,24,media_plate_12,measured pH,$R^{*}$,2.8,0.6283618581907092,,,,,,True
+4,c,main,AFM1 | A380 | no dye | mean ± pooled technical SD,interval band,1,1,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,,0.08800924637564873,0.09812408695768461,,,,True
+4,c,main,AFM1 | A380 | no dye | mean ± pooled technical SD,interval band,1,2,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,,0.1561719785186618,0.16858357703689378,,,,True
+4,c,main,AFM1 | A380 | no dye | mean ± pooled technical SD,interval band,1,3,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,,0.2628860970004869,0.32795834744395763,,,,True
+4,c,main,AFM1 | A380 | no dye | mean ± pooled technical SD,interval band,1,4,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,,0.4749862214151265,0.6160804452515402,,,,True
+4,c,main,AFM1 | A380 | no dye | mean ± pooled technical SD,interval band,1,5,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,,1.0337146022584267,1.1330187310749065,,,,True
+4,c,main,AFM1 | A380 | no dye | mean ± pooled technical SD,interval band,1,6,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,,1.7471984062660808,1.9483349270672523,,,,True
+4,c,main,AFM1 | A380 | no dye | mean ± pooled technical SD,interval band,1,7,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,,2.6932941689937064,2.768928053228515,,,,True
+4,c,main,AFM1 | A380 | no dye | mean,line,2,1,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.09306666666666667,,,,,,True
+4,c,main,AFM1 | A380 | no dye | mean,line,2,2,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.1623777777777778,,,,,,True
+4,c,main,AFM1 | A380 | no dye | mean,line,2,3,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.29542222222222225,,,,,,True
+4,c,main,AFM1 | A380 | no dye | mean,line,2,4,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5455333333333333,,,,,,True
+4,c,main,AFM1 | A380 | no dye | mean,line,2,5,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0833666666666666,,,,,,True
+4,c,main,AFM1 | A380 | no dye | mean,line,2,6,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.8477666666666666,,,,,,True
+4,c,main,AFM1 | A380 | no dye | mean,line,2,7,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.731111111111111,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,1,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.707933333333333,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,2,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.8638666666666666,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,3,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0618999999999998,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,4,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.49466666666666664,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,5,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.2725,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,6,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.1586,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,7,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.09306666666666667,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,8,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.7387333333333337,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,9,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.8521999999999998,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,10,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.1272333333333333,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,11,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.58,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,12,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.3141333333333333,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,13,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.16346666666666668,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,14,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.0961,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,15,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.7466666666666666,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,16,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.8272333333333333,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,17,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0609666666666666,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,18,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5619333333333333,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,19,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.29963333333333336,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,20,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.16506666666666667,,,,,,True
+4,c,main,AFM1 | A380 | no dye | physical plate,point,3,21,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.09003333333333334,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean ± pooled technical SD,interval band,4,1,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,,0.05566466210291257,0.06669089345264298,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean ± pooled technical SD,interval band,4,2,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,,0.12359615156968971,0.13587051509697698,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean ± pooled technical SD,interval band,4,3,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,,0.2291675220330543,0.2944769224113902,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean ± pooled technical SD,interval band,4,4,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,,0.44375115411771027,0.5832932903267342,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean ± pooled technical SD,interval band,4,5,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,,1.0013996447266316,1.0972225774955906,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean ± pooled technical SD,interval band,4,6,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,,1.71136329364165,1.9137255952472385,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean ± pooled technical SD,interval band,4,7,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,,2.5347143166330897,2.7838856833669103,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean,line,5,1,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.061177777777777775,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean,line,5,2,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.12973333333333334,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean,line,5,3,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.26182222222222223,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean,line,5,4,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5135222222222222,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean,line,5,5,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.049311111111111,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean,line,5,6,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.8125444444444443,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | mean,line,5,7,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.6593,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,1,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.5705666666666667,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,2,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.8286333333333333,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,3,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0282,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,4,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.4634333333333333,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,5,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.23723333333333332,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,6,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.12613333333333335,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,7,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.06166666666666667,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,8,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.6994666666666665,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,9,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.8167666666666669,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,10,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0921,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,11,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5474333333333333,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,12,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.2812666666666667,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,13,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.12986666666666666,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,14,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.06396666666666667,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,15,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.7078666666666664,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,16,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.7922333333333331,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,17,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0276333333333332,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,18,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5297,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,19,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.2669666666666667,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,20,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.13319999999999999,,,,,,True
+4,c,main,AFM1 | A380_corrected | no dye | physical plate,point,6,21,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.05790000000000001,,,,,,True
+4,c,main,AFM3 | A380 | no dye | mean ± pooled technical SD,interval band,7,1,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,,0.10796298921368,0.11083701078632,,,,True
+4,c,main,AFM3 | A380 | no dye | mean ± pooled technical SD,interval band,7,2,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,,0.1445744721523562,0.2002255278476438,,,,True
+4,c,main,AFM3 | A380 | no dye | mean ± pooled technical SD,interval band,7,3,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,,0.29331765491737066,0.3237045673048516,,,,True
+4,c,main,AFM3 | A380 | no dye | mean ± pooled technical SD,interval band,7,4,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,,0.5050705617565919,0.615018327132297,,,,True
+4,c,main,AFM3 | A380 | no dye | mean ± pooled technical SD,interval band,7,5,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,,1.0305802820397625,1.104464162404682,,,,True
+4,c,main,AFM3 | A380 | no dye | mean ± pooled technical SD,interval band,7,6,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,,1.9040236617060886,1.9894652271827997,,,,True
+4,c,main,AFM3 | A380 | no dye | mean ± pooled technical SD,interval band,7,7,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,,2.73169279675836,2.7959072032416405,,,,True
+4,c,main,AFM3 | A380 | no dye | mean,line,8,1,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.1094,,,,,,True
+4,c,main,AFM3 | A380 | no dye | mean,line,8,2,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.1724,,,,,,True
+4,c,main,AFM3 | A380 | no dye | mean,line,8,3,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.3085111111111111,,,,,,True
+4,c,main,AFM3 | A380 | no dye | mean,line,8,4,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5600444444444445,,,,,,True
+4,c,main,AFM3 | A380 | no dye | mean,line,8,5,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0675222222222223,,,,,,True
+4,c,main,AFM3 | A380 | no dye | mean,line,8,6,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.9467444444444442,,,,,,True
+4,c,main,AFM3 | A380 | no dye | mean,line,8,7,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.7638000000000003,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,1,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.736466666666667,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,2,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.9990666666666665,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,3,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0850666666666668,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,4,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5630333333333334,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,5,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.31716666666666665,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,6,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.17876666666666666,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,7,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.1089,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,8,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.7632333333333334,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,9,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.9319,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,10,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0609,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,11,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5721666666666666,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,12,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.3078666666666667,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,13,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.1858,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,14,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.10906666666666666,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,15,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.7917,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,16,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.9092666666666667,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,17,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0566000000000002,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,18,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5449333333333334,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,19,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.3005,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,20,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.15263333333333332,,,,,,True
+4,c,main,AFM3 | A380 | no dye | physical plate,point,9,21,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.11023333333333334,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean ± pooled technical SD,interval band,10,1,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,,0.06662267132973057,0.06957732867026942,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean ± pooled technical SD,interval band,10,2,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,,0.10205130066877577,0.15608203266455756,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean ± pooled technical SD,interval band,10,3,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,,0.25202349439982524,0.2821542833779526,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean ± pooled technical SD,interval band,10,4,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,,0.464221953387534,0.5739780466124662,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean ± pooled technical SD,interval band,10,5,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,,0.991114881692537,1.063929562751907,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean ± pooled technical SD,interval band,10,6,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,,1.859029980604085,1.9456589082848033,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean ± pooled technical SD,interval band,10,7,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,,2.6830782771101784,2.749277278445377,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean,line,11,1,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.0681,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean,line,11,2,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.12906666666666666,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean,line,11,3,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.26708888888888893,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean,line,11,4,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5191000000000001,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean,line,11,5,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.027522222222222,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean,line,11,6,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.9023444444444442,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | mean,line,11,7,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.716177777777778,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,1,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.6878333333333337,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,2,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.9555666666666667,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,3,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0447666666666666,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,4,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5215000000000001,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,5,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.2757,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,6,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.13686666666666666,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,7,media_plate_04,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.068,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,8,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.7154333333333334,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,9,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.8872666666666664,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,10,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0183333333333333,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,11,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5331333333333333,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,12,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.26633333333333337,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,13,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.13896666666666666,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,14,media_plate_05,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.06676666666666665,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,15,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.7452666666666663,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,16,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.8642,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,17,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.0194666666666665,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,18,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.5026666666666667,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,19,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.25923333333333337,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,20,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.11136666666666668,,,,,,True
+4,c,main,AFM3 | A380_corrected | no dye | physical plate,point,12,21,media_plate_06,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.06953333333333334,,,,,,True
+4,c,main,F2S | A380 | no dye | mean ± pooled technical SD,interval band,13,1,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,,1.2173100074967849,1.6794011036143264,,,,True
+4,c,main,F2S | A380 | no dye | mean ± pooled technical SD,interval band,13,2,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,,1.3313545661073052,1.8526898783371388,,,,True
+4,c,main,F2S | A380 | no dye | mean ± pooled technical SD,interval band,13,3,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,,1.4066778922495058,1.8849887744171607,,,,True
+4,c,main,F2S | A380 | no dye | mean ± pooled technical SD,interval band,13,4,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,,1.7297129779492484,2.262664799828529,,,,True
+4,c,main,F2S | A380 | no dye | mean ± pooled technical SD,interval band,13,5,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,,2.168610545129762,2.5646783437591267,,,,True
+4,c,main,F2S | A380 | no dye | mean ± pooled technical SD,interval band,13,6,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,,2.5945697722873167,2.8660080054904613,,,,True
+4,c,main,F2S | A380 | no dye | mean ± pooled technical SD,interval band,13,7,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,,2.960336188604779,3.061997144728554,,,,True
+4,c,main,F2S | A380 | no dye | mean,line,14,1,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,1.4483555555555556,,,,,,True
+4,c,main,F2S | A380 | no dye | mean,line,14,2,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,1.592022222222222,,,,,,True
+4,c,main,F2S | A380 | no dye | mean,line,14,3,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,1.6458333333333333,,,,,,True
+4,c,main,F2S | A380 | no dye | mean,line,14,4,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,1.9961888888888888,,,,,,True
+4,c,main,F2S | A380 | no dye | mean,line,14,5,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,2.3666444444444443,,,,,,True
+4,c,main,F2S | A380 | no dye | mean,line,14,6,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,2.730288888888889,,,,,,True
+4,c,main,F2S | A380 | no dye | mean,line,14,7,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,3.0111666666666665,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,1,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,3.0305,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,2,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,2.7266999999999997,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,3,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,2.4168666666666665,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,4,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,1.7074666666666667,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,5,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,1.3921666666666666,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,6,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,1.7766333333333335,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,7,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,1.4242666666666668,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,8,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,2.9799,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,9,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,2.7540999999999998,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,10,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,2.5079,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,11,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,2.2593666666666667,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,12,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,1.8202333333333334,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,13,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,1.6292666666666664,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,14,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,1.5925333333333336,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,15,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,3.0231,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,16,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,2.7100666666666666,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,17,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,2.1751666666666662,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,18,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,2.021733333333333,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,19,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,1.7251,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,20,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,1.3701666666666668,,,,,,True
+4,c,main,F2S | A380 | no dye | physical plate,point,15,21,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,1.3282666666666667,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean ± pooled technical SD,interval band,16,1,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,,0.26045253956141556,0.42561412710525104,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean ± pooled technical SD,interval band,16,2,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,,0.3411709645094574,0.5356512577127648,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean ± pooled technical SD,interval band,16,3,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,,0.46421759318003014,0.5882712957088587,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean ± pooled technical SD,interval band,16,4,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,,0.712151893597659,0.8946036619578965,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean ± pooled technical SD,interval band,16,5,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,,1.1160805356967778,1.2104972420809998,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean ± pooled technical SD,interval band,16,6,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,,1.482310460593287,1.7408895394067132,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean ± pooled technical SD,interval band,16,7,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,,1.6947962378688097,2.089514873242301,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean,line,17,1,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.3430333333333333,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean,line,17,2,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.4384111111111111,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean,line,17,3,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.5262444444444444,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean,line,17,4,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.8033777777777777,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean,line,17,5,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.1632888888888888,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean,line,17,6,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.6116000000000001,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | mean,line,17,7,,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,1.8921555555555554,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,1,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,1.8770999999999998,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,2,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.5617,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,3,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.1728999999999998,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,4,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.7103999999999999,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,5,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.463,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,6,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.5005333333333333,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,7,media_plate_01,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.33180000000000004,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,8,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,1.9109333333333334,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,9,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.5889666666666666,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,10,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.1936,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,11,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.9055666666666666,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,12,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.5676666666666667,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,13,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.43613333333333326,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,14,media_plate_02,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.38209999999999994,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,15,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.1047,1.8884333333333334,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,16,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.05235,1.6841333333333335,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,17,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.026175,1.1233666666666666,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,18,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0130875,0.7941666666666666,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,19,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.00654375,0.5480666666666666,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,20,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.003271875,0.37856666666666666,,,,,,True
+4,c,main,F2S | A380_corrected | no dye | physical plate,point,18,21,media_plate_03,added $[\mathrm{Fe}]_{\mathrm{total}}$ (M),$[\mathrm{Fe}^{3+}]_{\mathrm{app.}}$ indicator (AU),0.0016359375,0.3152,,,,,,True
+4,d,main,AFM1 | A380 | physical-microplate log2(Q*/Q),point,1,1,media_plate_04,,$\Delta\log_{2}(Q)$,-0.09,-0.6482217596457444,,,AFM1,,,True
+4,d,main,AFM1 | A380 | physical-microplate log2(Q*/Q),point,1,2,media_plate_05,,$\Delta\log_{2}(Q)$,0.09,0.01575700510088893,,,AFM1,,,True
+4,d,main,AFM1 | A380 | physical-microplate log2(Q*/Q),point,1,3,media_plate_06,,$\Delta\log_{2}(Q)$,0.0,-0.015204423961723529,,,AFM1,,,True
+4,d,main,AFM1 | A380 | quartiles log2(Q*/Q),lower quartile,5,1,,,$\Delta\log_{2}(Q)$,0.0,-0.331713091803734,,,AFM1,,,True
+4,d,main,AFM1 | A380 | quartiles log2(Q*/Q),upper quartile,5,2,,,$\Delta\log_{2}(Q)$,0.0,0.00027629056958270067,,,AFM1,,,True
+4,d,main,AFM1 | A380 | median log2(Q*/Q),median,6,1,,,$\Delta\log_{2}(Q)$,0.0,-0.015204423961723529,,,AFM1,,,True
+4,d,main,AFM3 | A380 | physical-microplate log2(Q*/Q),point,7,1,media_plate_04,,$\Delta\log_{2}(Q)$,0.91,0.12398529897520064,,,AFM3,,,True
+4,d,main,AFM3 | A380 | physical-microplate log2(Q*/Q),point,7,2,media_plate_05,,$\Delta\log_{2}(Q)$,1.09,0.0022100040946888095,,,AFM3,,,True
+4,d,main,AFM3 | A380 | physical-microplate log2(Q*/Q),point,7,3,media_plate_06,,$\Delta\log_{2}(Q)$,1.0,-0.005163001459834344,,,AFM3,,,True
+4,d,main,AFM3 | A380 | quartiles log2(Q*/Q),lower quartile,11,1,,,$\Delta\log_{2}(Q)$,1.0,-0.001476498682572767,,,AFM3,,,True
+4,d,main,AFM3 | A380 | quartiles log2(Q*/Q),upper quartile,11,2,,,$\Delta\log_{2}(Q)$,1.0,0.06309765153494473,,,AFM3,,,True
+4,d,main,AFM3 | A380 | median log2(Q*/Q),median,12,1,,,$\Delta\log_{2}(Q)$,1.0,0.0022100040946888095,,,AFM3,,,True
+4,d,main,F2S | A380 | physical-microplate log2(Q*/Q),point,13,1,media_plate_01,,$\Delta\log_{2}(Q)$,1.766,0.5242140181967159,,,F2S,,,True
+4,d,main,F2S | A380 | physical-microplate log2(Q*/Q),point,13,2,media_plate_02,,$\Delta\log_{2}(Q)$,1.874,0.2630639724347041,,,F2S,,,True
+4,d,main,F2S | A380 | physical-microplate log2(Q*/Q),point,13,3,media_plate_03,,$\Delta\log_{2}(Q)$,1.82,1.108588995379296,,,F2S,,,True
+4,d,main,F2S | A380 | quartiles log2(Q*/Q),lower quartile,17,1,,,$\Delta\log_{2}(Q)$,1.82,0.39363899531571,,,F2S,,,True
+4,d,main,F2S | A380 | quartiles log2(Q*/Q),upper quartile,17,2,,,$\Delta\log_{2}(Q)$,1.82,0.8164015067880059,,,F2S,,,True
+4,d,main,F2S | A380 | median log2(Q*/Q),median,18,1,,,$\Delta\log_{2}(Q)$,1.82,0.5242140181967159,,,F2S,,,True
+4,d,main,F2S | ratio_raw | physical-microplate log2(Q*/Q),point,19,1,media_plate_01,,$\Delta\log_{2}(Q)$,2.1260000000000003,0.25331323601219335,,,F2S,,,True
+4,d,main,F2S | ratio_raw | physical-microplate log2(Q*/Q),point,19,2,media_plate_02,,$\Delta\log_{2}(Q)$,2.234,-0.1802979585563007,,,F2S,,,True
+4,d,main,F2S | ratio_raw | physical-microplate log2(Q*/Q),point,19,3,media_plate_03,,$\Delta\log_{2}(Q)$,2.18,-0.19995603418861516,,,F2S,,,True
+4,d,main,F2S | ratio_raw | quartiles log2(Q*/Q),lower quartile,23,1,,,$\Delta\log_{2}(Q)$,2.18,-0.19012699637245795,,,F2S,,,True
+4,d,main,F2S | ratio_raw | quartiles log2(Q*/Q),upper quartile,23,2,,,$\Delta\log_{2}(Q)$,2.18,0.03650763872794632,,,F2S,,,True
+4,d,main,F2S | ratio_raw | median log2(Q*/Q),median,24,1,,,$\Delta\log_{2}(Q)$,2.18,-0.1802979585563007,,,F2S,,,True
+4,d,main,Starkey_brown | ratio_raw | physical-microplate log2(Q*/Q),point,25,1,media_plate_10,,$\Delta\log_{2}(Q)$,2.91,-0.2499866739277501,,,St-BS,,,True
+4,d,main,Starkey_brown | ratio_raw | physical-microplate log2(Q*/Q),point,25,2,media_plate_11,,$\Delta\log_{2}(Q)$,3.09,0.08283115341077399,,,St-BS,,,True
+4,d,main,Starkey_brown | ratio_raw | physical-microplate log2(Q*/Q),point,25,3,media_plate_12,,$\Delta\log_{2}(Q)$,3.0,0.12106037976992942,,,St-BS,,,True
+4,d,main,Starkey_brown | ratio_raw | quartiles log2(Q*/Q),lower quartile,29,1,,,$\Delta\log_{2}(Q)$,3.0,-0.08357776025848804,,,St-BS,,,True
+4,d,main,Starkey_brown | ratio_raw | quartiles log2(Q*/Q),upper quartile,29,2,,,$\Delta\log_{2}(Q)$,3.0,0.1019457665903517,,,St-BS,,,True
+4,d,main,Starkey_brown | ratio_raw | median log2(Q*/Q),median,30,1,,,$\Delta\log_{2}(Q)$,3.0,0.08283115341077399,,,St-BS,,,True
+4,d,main,Starkey_colloidal | ratio_raw | physical-microplate log2(Q*/Q),point,31,1,media_plate_10,,$\Delta\log_{2}(Q)$,3.91,-1.1145329715817267,,,St-YS,,,True
+4,d,main,Starkey_colloidal | ratio_raw | physical-microplate log2(Q*/Q),point,31,2,media_plate_11,,$\Delta\log_{2}(Q)$,4.09,-0.04925859372833531,,,St-YS,,,True
+4,d,main,Starkey_colloidal | ratio_raw | physical-microplate log2(Q*/Q),point,31,3,media_plate_12,,$\Delta\log_{2}(Q)$,4.0,-0.9369832289998121,,,St-YS,,,True
+4,d,main,Starkey_colloidal | ratio_raw | quartiles log2(Q*/Q),lower quartile,35,1,,,$\Delta\log_{2}(Q)$,4.0,-1.0257581002907694,,,St-YS,,,True
+4,d,main,Starkey_colloidal | ratio_raw | quartiles log2(Q*/Q),upper quartile,35,2,,,$\Delta\log_{2}(Q)$,4.0,-0.4931209113640737,,,St-YS,,,True
+4,d,main,Starkey_colloidal | ratio_raw | median log2(Q*/Q),median,36,1,,,$\Delta\log_{2}(Q)$,4.0,-0.9369832289998121,,,St-YS,,,True
+4,d,main,AFM4 | ratio_raw | physical-microplate log2(Q*/Q),point,37,1,media_plate_08,,$\Delta\log_{2}(Q)$,5.09,-0.596584096121474,,,AFM4,,,True
+4,d,main,AFM5 | ratio_raw | physical-microplate log2(Q*/Q),point,38,1,media_plate_07,,$\Delta\log_{2}(Q)$,5.91,-1.1743059268843241,,,AFM5,,,True
+4,d,main,AFM5 | ratio_raw | physical-microplate log2(Q*/Q),point,38,2,media_plate_08,,$\Delta\log_{2}(Q)$,6.09,-0.10712882043332506,,,AFM5,,,True
+4,d,main,AFM5 | ratio_raw | physical-microplate log2(Q*/Q),point,38,3,media_plate_09,,$\Delta\log_{2}(Q)$,6.0,-0.784510467397473,,,AFM5,,,True
+4,d,main,AFM5 | ratio_raw | quartiles log2(Q*/Q),lower quartile,42,1,,,$\Delta\log_{2}(Q)$,6.0,-0.9794081971408986,,,AFM5,,,True
+4,d,main,AFM5 | ratio_raw | quartiles log2(Q*/Q),upper quartile,42,2,,,$\Delta\log_{2}(Q)$,6.0,-0.445819643915399,,,AFM5,,,True
+4,d,main,AFM5 | ratio_raw | median log2(Q*/Q),median,43,1,,,$\Delta\log_{2}(Q)$,6.0,-0.784510467397473,,,AFM5,,,True
+4,d,main,,horizontal reference,48,,,,$\Delta\log_{2}(Q)$,,0.0,,,,,,True

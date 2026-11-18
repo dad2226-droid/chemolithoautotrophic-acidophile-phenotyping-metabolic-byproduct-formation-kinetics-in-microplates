@@ -1,0 +1,114 @@
+{
+  "purpose": "All AFM4 no-addition control sets plus the recorded AF/AT soluble-sulfur reference formulations. Preserve distinct plates, shared cultures and pre-dye versus final-well concentrations.",
+  "references": [
+    {
+      "reference_id": "af_ts_aluminum_sulfate_0p1",
+      "experiment_id": "AF_AFM4_aluminum_sulfate_OD0p1",
+      "group_id": "AF_AFM4_aluminum_sulfate_OD0p1_G01",
+      "column": 2,
+      "source_panel": "a",
+      "legend_label": "OD 0.1",
+      "selection_basis": "all compatible AFM4 no-addition controls at prepared OD600 0.001, 0.01 or 0.1; selection independent of observed response"
+    },
+    {
+      "reference_id": "af_ts_cobalt_ii_sulfate_0p1",
+      "experiment_id": "AF_AFM4_cobalt_ii_sulfate_OD0p1",
+      "group_id": "AF_AFM4_cobalt_ii_sulfate_OD0p1_G01",
+      "column": 2,
+      "source_panel": "a",
+      "legend_label": "OD 0.1",
+      "selection_basis": "all compatible AFM4 no-addition controls at prepared OD600 0.001, 0.01 or 0.1; selection independent of observed response"
+    },
+    {
+      "reference_id": "af_ts_copper_ii_sulfate_0p1",
+      "experiment_id": "AF_AFM4_copper_ii_sulfate_OD0p1",
+      "group_id": "AF_AFM4_copper_ii_sulfate_OD0p1_G01",
+      "column": 2,
+      "source_panel": "a",
+      "legend_label": "OD 0.1",
+      "selection_basis": "all compatible AFM4 no-addition controls at prepared OD600 0.001, 0.01 or 0.1; selection independent of observed response"
+    },
+    {
+      "reference_id": "af_ts_gallium_sulfate_0p1",
+      "experiment_id": "AF_AFM4_gallium_sulfate_OD0p1",
+      "group_id": "AF_AFM4_gallium_sulfate_OD0p1_G01",
+      "column": 2,
+      "source_panel": "a",
+      "legend_label": "OD 0.1",
+      "selection_basis": "all compatible AFM4 no-addition controls at prepared OD600 0.001, 0.01 or 0.1; selection independent of observed response"
+    },
+    {
+      "reference_id": "af_ts_potassium_sulfate_0p1",
+      "experiment_id": "AF_AFM4_potassium_sulfate_OD0p1",
+      "group_id": "AF_AFM4_potassium_sulfate_OD0p1_G01",
+      "column": 2,
+      "source_panel": "a",
+      "legend_label": "OD 0.1",
+      "selection_basis": "all compatible AFM4 no-addition controls at prepared OD600 0.001, 0.01 or 0.1; selection independent of observed response"
+    },
+    {
+      "reference_id": "af_ts_zinc_sulfate_0p1",
+      "experiment_id": "AF_AFM4_zinc_sulfate_OD0p1",
+      "group_id": "AF_AFM4_zinc_sulfate_OD0p1_G01",
+      "column": 2,
+      "source_panel": "a",
+      "legend_label": "OD 0.1",
+      "selection_basis": "all compatible AFM4 no-addition controls at prepared OD600 0.001, 0.01 or 0.1; selection independent of observed response"
+    },
+    {
+      "reference_id": "af_ts_potassium_sulfate_0p01",
+      "experiment_id": "AF_AFM4_potassium_sulfate_OD0p01",
+      "group_id": "AF_AFM4_potassium_sulfate_OD0p01_G01",
+      "column": 2,
+      "source_panel": "a",
+      "legend_label": "OD 0.01",
+      "selection_basis": "all compatible AFM4 no-addition controls at prepared OD600 0.001, 0.01 or 0.1; selection independent of observed response"
+    },
+    {
+      "reference_id": "af_ts_potassium_sulfate_0p001",
+      "experiment_id": "AF_AFM4_potassium_sulfate_OD0p001",
+      "group_id": "AF_AFM4_potassium_sulfate_OD0p001_G01",
+      "column": 2,
+      "source_panel": "a",
+      "legend_label": "OD 0.001",
+      "selection_basis": "all compatible AFM4 no-addition controls at prepared OD600 0.001, 0.01 or 0.1; selection independent of observed response"
+    },
+    {
+      "reference_id": "af_tt_5",
+      "experiment_id": "AF_SM4_BS_potassium_tetrathionate_OD0p001",
+      "group_id": "AF_SM4_BS_potassium_tetrathionate_OD0p001_G01",
+      "column": 5,
+      "source_panel": "b",
+      "legend_label": "5 mM TT",
+      "selection_basis": "5 mM soluble tetrathionate in the 200 uL preparation"
+    },
+    {
+      "reference_id": "af_tt_15",
+      "experiment_id": "AF_SM4_BS_potassium_tetrathionate_OD0p001",
+      "group_id": "AF_SM4_BS_potassium_tetrathionate_OD0p001_G01",
+      "column": 6,
+      "source_panel": "b",
+      "legend_label": "15 mM TT",
+      "selection_basis": "15 mM soluble tetrathionate in the 200 uL preparation"
+    },
+    {
+      "reference_id": "at_tt",
+      "experiment_id": "AT_SM4_BS_sulfuric_acid_OD0p001_tetrathionate",
+      "group_id": "AT_SM4_BS_sulfuric_acid_OD0p001_tetrathionate_G01",
+      "column": 11,
+      "source_panel": "c",
+      "legend_label": "20 mM TT",
+      "selection_basis": "lowest recorded acid addition (0.01 mM preparation), fixed 20 mM tetrathionate; not zero acid"
+    },
+    {
+      "reference_id": "at_ts",
+      "experiment_id": "AT_SM4_BS_sulfuric_acid_OD0p001_thiosulfate",
+      "group_id": "AT_SM4_BS_sulfuric_acid_OD0p001_thiosulfate_G01",
+      "column": 11,
+      "source_panel": "c",
+      "legend_label": "20 mM TS",
+      "selection_basis": "lowest recorded acid addition (0.01 mM preparation), fixed 20 mM thiosulfate; not zero acid"
+    }
+  ]
+}
+
