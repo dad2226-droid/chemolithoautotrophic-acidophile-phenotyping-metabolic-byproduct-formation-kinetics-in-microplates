@@ -10,7 +10,7 @@ This repository contains the experimental data, analysis code, and figures and t
 | Dataset creators, in citation order | [Daniel A. Dailey](https://orcid.org/0000-0003-1908-7196); [Wei Wang](https://orcid.org/0009-0002-5905-2318); [Scott Banta](https://orcid.org/0000-0001-7885-0150) |
 | Corresponding contacts | [Scott Banta](https://orcid.org/0000-0001-7885-0150); [Daniel A. Dailey](https://orcid.org/0000-0003-1908-7196) |
 | Contact emails, in the same order | sbanta@columbia.edu; dad2226@columbia.edu |
-| Data and documentation license | [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) (accessed 2026-09-12). SPDX identifier `CC-BY-4.0`. |
+| Repository license | [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) (accessed 2026-09-12). SPDX identifier `CC-BY-4.0`. |
 | Funders | U.S. National Science Foundation (NSF) |
 | Grants and awards | U.S. National Science Foundation: DGE-2437839 |
 
