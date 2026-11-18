@@ -1,0 +1,2 @@
+# chemolithoautotrophic-acidophile-phenotyping-metabolic-byproduct-formation-kinetics-in-microplates
+Data and code for a 96-well assay of metabolic byproduct formation in chemolithoautotrophic acidophiles. Absorbance at 380 nm tracks apparent Fe³⁺ formation, and the thymol blue absorbance ratio tracks acidification. Includes abiotic calibrations, raw microplate time courses, flask and tube validation data, and scripts for figures and tables.
